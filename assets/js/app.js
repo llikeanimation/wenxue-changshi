@@ -52,15 +52,8 @@
   }
 
   function normalizeConfig(config) {
-    const requestedChoice = Math.max(0, toInteger(config.choiceCount, 6));
-    const requestedFill = Math.max(0, toInteger(config.fillCount, 4));
-    const fallbackTotal = Math.max(1, requestedChoice + requestedFill);
-    const total = clamp(toInteger(config.total, fallbackTotal), 1, 50);
-    const choiceCount = Math.min(requestedChoice, total);
     return {
-      total: total,
-      choiceCount: choiceCount,
-      fillCount: total - choiceCount
+      total: clamp(toInteger(config.total, 10), 1, 50)
     };
   }
 
@@ -183,37 +176,7 @@
 
   function drawRound() {
     if (!BANK.length) return [];
-
-    const choiceBank = BANK.filter(function (item) { return item.type === "choice"; });
-    const fillBank = BANK.filter(function (item) { return item.type === "fill"; });
-    const picked = [];
-    const pickedSet = new Set();
-
-    const wantedChoice = Math.min(CONFIG.choiceCount, choiceBank.length, CONFIG.total);
-    const wantedFill = Math.min(
-      CONFIG.fillCount,
-      fillBank.length,
-      CONFIG.total - wantedChoice
-    );
-
-    shuffle(choiceBank).slice(0, wantedChoice).forEach(function (item) {
-      picked.push(item);
-      pickedSet.add(item);
-    });
-
-    shuffle(fillBank).slice(0, wantedFill).forEach(function (item) {
-      picked.push(item);
-      pickedSet.add(item);
-    });
-
-    if (picked.length < CONFIG.total) {
-      const remaining = shuffle(BANK.filter(function (item) { return !pickedSet.has(item); }));
-      remaining.slice(0, CONFIG.total - picked.length).forEach(function (item) {
-        picked.push(item);
-      });
-    }
-
-    return shuffle(picked).slice(0, CONFIG.total);
+    return shuffle(BANK).slice(0, Math.min(CONFIG.total, BANK.length));
   }
 
   function getCategories() {
@@ -391,9 +354,6 @@
         " 处格式提示，部分题目可能已跳过。可在浏览器控制台查看详情。</p>"
       : "";
 
-    const choiceShare = CONFIG.choiceCount || 0;
-    const fillShare = CONFIG.fillCount || 0;
-
     app.innerHTML =
       '<main class="screen screen--home">' +
       '<span class="hero-mark" aria-hidden="true">文</span>' +
@@ -410,37 +370,30 @@
       '<h1 id="home-title">' +
       escapeHTML(titleLead) +
       '，<br><em>把文常</em>过一遍。</h1>' +
-      '<p class="hero-lead">从题库里随机抽题，选择题与填空题混排。答完立刻核对，错题自动展开。</p>' +
+      '<p class="hero-lead">从题库里随机抽题，选择题和填空题都可能出现。答完立刻核对，错题自动展开。</p>' +
       "</section>" +
 
       '<section class="start-card" aria-label="开始答题">' +
       '<div class="start-card__head">' +
-      '<div><p class="micro-label">本轮构成</p>' +
+      '<div><p class="micro-label">本轮题量</p>' +
       '<p class="mix-copy"><strong>' +
-      CONFIG.choiceCount +
-      "</strong> 道选择 <span>+</span> <strong>" +
-      CONFIG.fillCount +
-      "</strong> 道填空</p></div>" +
+      roundSize +
+      '</strong> 道题<span class="mix-tag">选择 / 填空随机</span></p></div>' +
       '<div class="bank-total"><strong>' +
       BANK.length +
       "</strong><span>题题库</span></div>" +
       "</div>" +
 
-      '<div class="mix-bar" aria-hidden="true">' +
-      (choiceShare
-        ? '<span class="mix-bar__choice" style="flex:' + choiceShare + '">选择</span>'
-        : "") +
-      (fillShare
-        ? '<span class="mix-bar__fill" style="flex:' + fillShare + '">填空</span>'
-        : "") +
-      "</div>" +
+      '<p class="random-note">从 <b>' +
+      BANK.length +
+      "</b> 道题中随机抽取，<b>题型不设固定比例</b>。</p>" +
 
       '<div class="quick-facts">' +
       '<span><b>' + roundSize + "</b> 题 / 轮</span>" +
       '<span class="dot" aria-hidden="true"></span>' +
       '<span><b>' + categories.length + "</b> 个板块</span>" +
       '<span class="dot" aria-hidden="true"></span>' +
-      '<span>随机洗牌</span>' +
+      '<span>同轮不重复</span>' +
       "</div>" +
 
       '<button class="primary-button primary-button--start" type="button" data-action="start"' +
@@ -451,7 +404,7 @@
       (hasBank ? roundSize + " 题 <i>→</i>" : "请先编辑 questions.js") +
       "</span></button>" +
 
-      '<p class="start-note">每次重新抽取 · 同一轮不重复 · 提交后立即看解析</p>' +
+      '<p class="start-note">每次重新抽取 · 同一轮题目不重复 · 提交后立即看解析</p>' +
       shortageNote +
       issueNote +
       "</section>" +
@@ -488,6 +441,7 @@
     const actionLabel = submitted ? (isLast ? "查看成绩" : "下一题") : "确认答案";
     const action = submitted ? "next" : "confirm";
     const disabled = !submitted && question.type === "choice" && state.selected == null;
+    const useBlankSheet = question.type === "fill" && question.blanks.length >= 3;
 
     setTitle(
       pad2(state.index + 1) +
@@ -537,7 +491,9 @@
       '<p class="answer-hint">' +
       (question.type === "choice"
         ? "选出唯一正确的一项"
-        : "在横线处填写答案") +
+        : useBlankSheet
+          ? "按序号在下方填写答案"
+          : "在横线处填写答案") +
       "</p>" +
       '<div class="answer-area" id="answer-area"></div>' +
       '<div id="feedback-slot"></div>' +
@@ -568,8 +524,8 @@
       "</dialog>" +
       "</main>";
 
-    renderStem(question, record);
-    mountAnswerArea(question, record);
+    renderStem(question, record, useBlankSheet);
+    mountAnswerArea(question, record, useBlankSheet);
 
     if (record) {
       const slot = $("#feedback-slot");
@@ -592,7 +548,7 @@
     }
   }
 
-  function renderStem(question, record) {
+  function renderStem(question, record, useBlankSheet) {
     const stem = $("#question-title");
     if (!stem) return;
     stem.replaceChildren();
@@ -606,12 +562,20 @@
     parts.forEach(function (part, index) {
       if (part) stem.append(document.createTextNode(part));
       if (index < question.blanks.length) {
-        stem.append(createBlankInput(question, index, record));
+        if (useBlankSheet) {
+          const marker = document.createElement("span");
+          marker.className = "blank-marker";
+          marker.textContent = String(index + 1);
+          marker.setAttribute("aria-label", "第 " + (index + 1) + " 空");
+          stem.append(marker);
+        } else {
+          stem.append(createBlankInput(question, index, record));
+        }
       }
     });
   }
 
-  function createBlankInput(question, index, record) {
+  function createBlankInput(question, index, record, sheet) {
     const input = document.createElement("input");
     const accepted = question.blanks[index] || [];
     const longest = accepted.reduce(function (length, answer) {
@@ -620,7 +584,7 @@
     const blankRecord = record && record.blankResults ? record.blankResults[index] : null;
 
     input.type = "text";
-    input.className = "blank-input";
+    input.className = sheet ? "blank-input blank-input--sheet" : "blank-input";
     input.dataset.blankIndex = String(index);
     input.id = "blank-" + index;
     input.value = state.fillValues[index] || "";
@@ -630,7 +594,9 @@
     input.setAttribute("autocapitalize", "off");
     input.setAttribute("spellcheck", "false");
     input.setAttribute("enterkeyhint", "done");
-    input.style.setProperty("--blank-chars", String(Math.min(Math.max(longest, 2), 9)));
+    if (!sheet) {
+      input.style.setProperty("--blank-chars", String(Math.min(Math.max(longest, 2), 9)));
+    }
 
     if (record) {
       input.disabled = true;
@@ -643,22 +609,42 @@
     return input;
   }
 
-  function mountAnswerArea(question, record) {
+  function mountAnswerArea(question, record, useBlankSheet) {
     const area = $("#answer-area");
     if (!area) return;
     area.replaceChildren();
 
     if (question.type === "choice") {
       mountChoices(area, question, record);
-    } else {
-      const hint = document.createElement("p");
-      hint.className = "fill-tip";
-      hint.textContent =
-        question.blanks.length > 1
-          ? "共 " + question.blanks.length + " 个空，全部答对才算本题正确。"
-          : "答案会自动忽略空格、标点和书名号。";
-      area.append(hint);
+      return;
     }
+
+    if (useBlankSheet) {
+      const sheet = document.createElement("div");
+      sheet.className = "blank-sheet";
+      question.blanks.forEach(function (_, index) {
+        const row = document.createElement("label");
+        row.className = "blank-row";
+
+        const number = document.createElement("span");
+        number.className = "blank-number";
+        number.setAttribute("aria-hidden", "true");
+        number.textContent = String(index + 1);
+
+        row.append(number, createBlankInput(question, index, record, true));
+        sheet.append(row);
+      });
+      area.append(sheet);
+    }
+
+    const hint = document.createElement("p");
+    hint.className = "fill-tip";
+    hint.textContent = useBlankSheet
+      ? "共 " + question.blanks.length + " 个空，按序号填写，全部答对才算本题正确。"
+      : question.blanks.length > 1
+        ? "共 " + question.blanks.length + " 个空，全部答对才算本题正确。"
+        : "答案会自动忽略空格、标点和书名号。";
+    area.append(hint);
   }
 
   function mountChoices(area, question, record) {

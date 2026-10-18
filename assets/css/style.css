@@ -327,10 +327,20 @@ summary:focus-visible {
   font-weight: 600;
 }
 
-.mix-copy span {
-  margin: 0 4px;
-  color: var(--muted);
-  font-size: 13px;
+.mix-tag {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 4px 8px;
+  vertical-align: middle;
+  border: 1px solid rgba(69, 107, 86, 0.2);
+  border-radius: 999px;
+  color: var(--green);
+  background: var(--green-soft);
+  font-family: var(--sans);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 .bank-total {
@@ -357,28 +367,18 @@ summary:focus-visible {
   letter-spacing: 0.09em;
 }
 
-.mix-bar {
-  display: flex;
-  gap: 4px;
-  height: 7px;
-  margin: 20px 0 15px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(32, 36, 31, 0.07);
+.random-note {
+  margin: 17px 0 15px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+  color: var(--muted);
+  font-size: 10.5px;
+  line-height: 1.75;
 }
 
-.mix-bar > span {
-  min-width: 8px;
-  border-radius: 999px;
-  font-size: 0;
-}
-
-.mix-bar__choice {
-  background: linear-gradient(90deg, #9e3b2d, #bb6650);
-}
-
-.mix-bar__fill {
-  background: linear-gradient(90deg, #a98044, #c7a668);
+.random-note b {
+  color: var(--ink-soft);
+  font-weight: 600;
 }
 
 .quick-facts {
@@ -815,6 +815,98 @@ summary:focus-visible {
   opacity: 1;
   cursor: default;
   -webkit-text-fill-color: currentColor;
+}
+
+.blank-marker {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.55em;
+  height: 1.55em;
+  margin: 0 0.12em;
+  padding: 0 0.18em;
+  vertical-align: middle;
+  border: 1px solid rgba(158, 59, 45, 0.32);
+  border-radius: 999px;
+  color: var(--red);
+  background: var(--red-soft);
+  font-family: var(--sans);
+  font-size: 0.56em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.blank-sheet {
+  display: grid;
+  gap: 9px;
+  margin-top: 3px;
+}
+
+.blank-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 50px;
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: rgba(255, 255, 255, 0.42);
+  cursor: text;
+  transition:
+    border-color 0.18s ease,
+    background 0.18s ease;
+}
+
+.blank-row:focus-within {
+  border-color: rgba(158, 59, 45, 0.4);
+  background: rgba(255, 253, 247, 0.9);
+}
+
+.blank-number {
+  display: grid;
+  place-items: center;
+  width: 23px;
+  height: 23px;
+  flex: none;
+  border-radius: 50%;
+  color: var(--red);
+  background: var(--red-soft);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.blank-row .blank-input {
+  flex: 1;
+  width: auto;
+  max-width: none;
+  min-width: 0;
+  margin: 0;
+  padding: 5px 2px;
+  border: 0;
+  border-bottom: 1.5px solid rgba(158, 59, 45, 0.3);
+  border-radius: 0;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.blank-row .blank-input:focus {
+  border-color: var(--red);
+  background: transparent;
+}
+
+.blank-row .blank-input.is-correct {
+  border-color: var(--green);
+  background: transparent;
+}
+
+.blank-row .blank-input.is-wrong {
+  border-color: var(--red);
+  background: transparent;
+}
+
+.blank-sheet + .fill-tip {
+  margin-top: 11px;
 }
 
 .fill-tip {
