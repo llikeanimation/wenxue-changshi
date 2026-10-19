@@ -497,24 +497,35 @@ summary:focus-visible {
   line-height: 1.7;
 }
 
+.bank-note[hidden] {
+  display: none;
+}
+
 .bank-note--warn {
   color: #8a4c3e;
   background: rgba(158, 59, 45, 0.065);
 }
 
 .coverage {
-  margin-top: 25px;
+  margin: 0 0 18px;
 }
 
 .coverage-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 12px;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--line);
   color: var(--muted);
   font-size: 9.5px;
   letter-spacing: 0.13em;
+}
+
+.coverage-head > span:last-child {
+  flex: none;
+  text-align: right;
+  white-space: nowrap;
 }
 
 .chips {
@@ -544,6 +555,78 @@ summary:focus-visible {
   color: var(--muted);
   font-size: 8.5px;
   font-style: normal;
+}
+
+.chip--filter {
+  cursor: pointer;
+  user-select: none;
+  transition:
+    border-color 0.18s ease,
+    background 0.18s ease,
+    opacity 0.18s ease;
+}
+
+.chip--filter input {
+  width: 15px;
+  height: 15px;
+  flex: none;
+  margin: 0;
+  accent-color: var(--red);
+  cursor: pointer;
+}
+
+.chip--filter.is-checked {
+  border-color: rgba(158, 59, 45, 0.28);
+  background: rgba(158, 59, 45, 0.055);
+}
+
+.chip--filter:not(.is-checked) {
+  opacity: 0.62;
+}
+
+.chip--filter:focus-within {
+  outline: 2px solid var(--red);
+  outline-offset: 2px;
+}
+
+.chip--filter:hover {
+  border-color: rgba(158, 59, 45, 0.3);
+}
+
+.coverage-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--line);
+  color: var(--muted);
+  font-size: 9.5px;
+  line-height: 1.6;
+}
+
+.coverage-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.coverage-actions button {
+  min-height: 28px;
+  padding: 0;
+  border: 0;
+  color: var(--red);
+  background: transparent;
+  font-size: 10px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.coverage-actions button:hover {
+  color: var(--red-deep);
 }
 
 .site-footer {

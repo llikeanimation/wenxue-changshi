@@ -28,7 +28,8 @@
     submitted: false,
     startedAt: 0,
     finishedAt: 0,
-    timerId: null
+    timerId: null,
+    selectedCategories: new Set()
   };
 
   if (bankIssues.length) {
@@ -176,7 +177,10 @@
 
   function drawRound() {
     if (!BANK.length) return [];
-    return shuffle(BANK).slice(0, Math.min(CONFIG.total, BANK.length));
+    const pool = BANK.filter(function (item) {
+      return state.selectedCategories.has(item.category);
+    });
+    return shuffle(pool).slice(0, Math.min(CONFIG.total, pool.length));
   }
 
   function getCategories() {
@@ -187,6 +191,29 @@
     return Array.from(counts, function (entry) {
       return { name: entry[0], count: entry[1] };
     });
+  }
+
+  function getFilterState() {
+    const categories = getCategories();
+    const validNames = new Set(categories.map(function (item) { return item.name; }));
+    state.selectedCategories.forEach(function (name) {
+      if (!validNames.has(name)) state.selectedCategories.delete(name);
+    });
+
+    const selected = categories.filter(function (item) {
+      return state.selectedCategories.has(item.name);
+    });
+    const filteredBank = BANK.filter(function (item) {
+      return state.selectedCategories.has(item.category);
+    });
+
+    return {
+      categories: categories,
+      selected: selected,
+      selectedCount: selected.length,
+      filteredBank: filteredBank,
+      roundSize: Math.min(CONFIG.total, filteredBank.length)
+    };
   }
 
   function currentQuestion() {
@@ -323,35 +350,103 @@
   function renderHome() {
     stopTimer();
     setTitle("文学常识 · 十题测 | 山东专升本");
-    const categories = getCategories();
-    const roundSize = Math.min(CONFIG.total, BANK.length);
+    const filterState = getFilterState();
+    const categories = filterState.categories;
+    const roundSize = filterState.roundSize;
     const hasBank = BANK.length > 0;
-    const titleLead = CONFIG.total === 10 ? "十题一局" : CONFIG.total + " 题一局";
+    const hasSelection = filterState.selectedCount > 0;
+    const canStart = hasBank && hasSelection;
+    const displayRound = roundSize || CONFIG.total;
+    const titleLead = displayRound === 10 ? "十题一局" : displayRound + " 题一局";
+
     const categoryChips = categories
       .map(function (item) {
+        const checked = state.selectedCategories.has(item.name);
         return (
-          '<span class="chip">' +
+          '<label class="chip chip--filter' +
+          (checked ? " is-checked" : "") +
+          '"><input type="checkbox" class="category-checkbox" value="' +
           escapeHTML(item.name) +
-          "<i>" +
+          '"' +
+          (checked ? " checked" : "") +
+          "><span>" +
+          escapeHTML(item.name) +
+          "</span><i>" +
           item.count +
-          "</i></span>"
+          "</i></label>"
         );
       })
       .join("");
 
-    const shortageNote =
-      hasBank && BANK.length < CONFIG.total
-        ? '<p class="bank-note">当前题库不足 ' +
-          CONFIG.total +
-          " 题，本轮会抽取全部 " +
-          BANK.length +
-          " 题。</p>"
-        : "";
+    const selectionSummary =
+      "已选 " +
+      filterState.selectedCount +
+      "/" +
+      categories.length +
+      " · " +
+      filterState.filteredBank.length +
+      " 题";
+
+    const randomNote = hasSelection
+      ? "从 <b>" +
+        filterState.filteredBank.length +
+        "</b> 道题中随机抽取，<b>题型不设固定比例</b>。"
+      : "先勾选至少一个板块，再从选中的题里随机抽取。";
+
+    const filterNote = !hasBank
+      ? ""
+      : !hasSelection
+        ? "至少勾选一个板块，才能开始。"
+        : filterState.filteredBank.length < CONFIG.total
+          ? "当前筛选只有 " +
+            filterState.filteredBank.length +
+            " 题，本轮会抽取全部 " +
+            filterState.filteredBank.length +
+            " 题。"
+          : "";
+
+    const quickFacts =
+      '<span><b>' +
+      roundSize +
+      "</b> 题 / 轮</span>" +
+      '<span class="dot" aria-hidden="true"></span>' +
+      "<span><b>" +
+      filterState.selectedCount +
+      "</b> 个板块</span>" +
+      '<span class="dot" aria-hidden="true"></span>' +
+      "<span>同轮不重复</span>";
+
+    const startLabel = !hasBank
+      ? "题库还没有题目"
+      : !hasSelection
+        ? "请先勾选板块"
+        : "开始随机抽题";
+    const startTail = !hasBank
+      ? "请先编辑 questions.js"
+      : !hasSelection
+        ? "至少选一个板块"
+        : roundSize + " 题 <i>→</i>";
 
     const issueNote = bankIssues.length
       ? '<p class="bank-note bank-note--warn">题库自检：有 ' +
         bankIssues.length +
         " 处格式提示，部分题目可能已跳过。可在浏览器控制台查看详情。</p>"
+      : "";
+
+    const coverageHTML = categories.length
+      ? '<section class="coverage" aria-label="题库覆盖范围">' +
+        '<div class="coverage-head"><span>题库覆盖</span><span id="selection-summary">' +
+        selectionSummary +
+        "</span></div>" +
+        '<div class="chips">' +
+        categoryChips +
+        "</div>" +
+        '<div class="coverage-footer"><span>可多选，只从勾选板块抽题</span>' +
+        '<span class="coverage-actions">' +
+        '<button type="button" data-action="select-all-categories">全选</button>' +
+        '<button type="button" data-action="select-none-categories">清空</button>' +
+        "</span></div>" +
+        "</section>"
       : "";
 
     app.innerHTML =
@@ -367,16 +462,18 @@
 
       '<section class="hero" aria-labelledby="home-title">' +
       '<p class="eyebrow"><span aria-hidden="true"></span>SHANDONG · 文学常识</p>' +
-      '<h1 id="home-title">' +
+      '<h1 id="home-title"><span id="round-title-lead">' +
       escapeHTML(titleLead) +
-      '，<br><em>把文常</em>过一遍。</h1>' +
-      '<p class="hero-lead">从题库里随机抽题，选择题和填空题都可能出现。答完立刻核对，错题自动展开。</p>' +
+      '</span>，<br><em>把文常</em>过一遍。</h1>' +
+      '<p class="hero-lead">先勾选要练的板块，再从选中的题里随机抽题。选择题和填空题都可能出现，答完立刻核对。</p>' +
       "</section>" +
+
+      coverageHTML +
 
       '<section class="start-card" aria-label="开始答题">' +
       '<div class="start-card__head">' +
       '<div><p class="micro-label">本轮题量</p>' +
-      '<p class="mix-copy"><strong>' +
+      '<p class="mix-copy"><strong id="round-size">' +
       roundSize +
       '</strong> 道题<span class="mix-tag">选择 / 填空随机</span></p></div>' +
       '<div class="bank-total"><strong>' +
@@ -384,43 +481,139 @@
       "</strong><span>题题库</span></div>" +
       "</div>" +
 
-      '<p class="random-note">从 <b>' +
-      BANK.length +
-      "</b> 道题中随机抽取，<b>题型不设固定比例</b>。</p>" +
+      '<p class="random-note" id="random-note">' +
+      randomNote +
+      "</p>" +
 
-      '<div class="quick-facts">' +
-      '<span><b>' + roundSize + "</b> 题 / 轮</span>" +
-      '<span class="dot" aria-hidden="true"></span>' +
-      '<span><b>' + categories.length + "</b> 个板块</span>" +
-      '<span class="dot" aria-hidden="true"></span>' +
-      '<span>同轮不重复</span>' +
+      '<div class="quick-facts" id="quick-facts">' +
+      quickFacts +
       "</div>" +
 
-      '<button class="primary-button primary-button--start" type="button" data-action="start"' +
-      (hasBank ? "" : " disabled") +
-      '><span>' +
-      (hasBank ? "开始随机抽题" : "题库还没有题目") +
-      '</span><span class="button-tail" aria-hidden="true">' +
-      (hasBank ? roundSize + " 题 <i>→</i>" : "请先编辑 questions.js") +
+      '<button class="primary-button primary-button--start" type="button" data-action="start" id="start-button"' +
+      (canStart ? "" : " disabled") +
+      '><span id="start-label">' +
+      startLabel +
+      '</span><span class="button-tail" id="start-tail" aria-hidden="true">' +
+      startTail +
       "</span></button>" +
 
-      '<p class="start-note">每次重新抽取 · 同一轮题目不重复 · 提交后立即看解析</p>' +
-      shortageNote +
+      '<p class="start-note">只从勾选板块抽题 · 同一轮题目不重复 · 提交后立即看解析</p>' +
+      '<p class="bank-note" id="filter-note"' +
+      (filterNote ? "" : " hidden") +
+      ">" +
+      filterNote +
+      "</p>" +
       issueNote +
       "</section>" +
-
-      (categories.length
-        ? '<section class="coverage" aria-label="题库覆盖范围">' +
-          '<div class="coverage-head"><span>题库覆盖</span><span>' + BANK.length + " 题</span></div>" +
-          '<div class="chips">' + categoryChips + "</div>" +
-          "</section>"
-        : "") +
 
       '<footer class="site-footer">' +
       "<span>文以载道，温故知新</span>" +
       '<span class="footer-mark" aria-hidden="true">鲁</span>' +
       "</footer>" +
       "</main>";
+  }
+
+  function updateHomeSelectionUI() {
+    if (!$(".screen--home")) return;
+    const filterState = getFilterState();
+    const hasSelection = filterState.selectedCount > 0;
+    const hasBank = BANK.length > 0;
+
+    const summary = $("#selection-summary");
+    if (summary) {
+      summary.textContent =
+        "已选 " +
+        filterState.selectedCount +
+        "/" +
+        filterState.categories.length +
+        " · " +
+        filterState.filteredBank.length +
+        " 题";
+    }
+
+    const roundSize = $("#round-size");
+    if (roundSize) roundSize.textContent = String(filterState.roundSize);
+
+    const randomNote = $("#random-note");
+    if (randomNote) {
+      randomNote.innerHTML = hasSelection
+        ? "从 <b>" +
+          filterState.filteredBank.length +
+          "</b> 道题中随机抽取，<b>题型不设固定比例</b>。"
+        : "先勾选至少一个板块，再从选中的题里随机抽取。";
+    }
+
+    const facts = $("#quick-facts");
+    if (facts) {
+      facts.innerHTML =
+        "<span><b>" +
+        filterState.roundSize +
+        "</b> 题 / 轮</span>" +
+        '<span class="dot" aria-hidden="true"></span>' +
+        "<span><b>" +
+        filterState.selectedCount +
+        "</b> 个板块</span>" +
+        '<span class="dot" aria-hidden="true"></span>' +
+        "<span>同轮不重复</span>";
+    }
+
+    const startButton = $("#start-button");
+    if (startButton) startButton.disabled = !(hasBank && hasSelection);
+
+    const startLabel = $("#start-label");
+    if (startLabel) {
+      startLabel.textContent = !hasBank
+        ? "题库还没有题目"
+        : !hasSelection
+          ? "请先勾选板块"
+          : "开始随机抽题";
+    }
+
+    const startTail = $("#start-tail");
+    if (startTail) {
+      startTail.innerHTML = !hasBank
+        ? "请先编辑 questions.js"
+        : !hasSelection
+          ? "至少选一个板块"
+          : filterState.roundSize + " 题 <i>→</i>";
+    }
+
+    const filterNote = $("#filter-note");
+    if (filterNote) {
+      const note = !hasBank
+        ? ""
+        : !hasSelection
+          ? "至少勾选一个板块，才能开始。"
+          : filterState.filteredBank.length < CONFIG.total
+            ? "当前筛选只有 " +
+              filterState.filteredBank.length +
+              " 题，本轮会抽取全部 " +
+              filterState.filteredBank.length +
+              " 题。"
+            : "";
+      filterNote.hidden = !note;
+      filterNote.textContent = note;
+    }
+
+    const lead = $("#round-title-lead");
+    if (lead) {
+      const displayRound = filterState.roundSize || CONFIG.total;
+      lead.textContent =
+        displayRound === 10 ? "十题一局" : displayRound + " 题一局";
+    }
+  }
+
+  function setAllCategories(checked) {
+    const categories = getCategories();
+    state.selectedCategories = new Set(
+      checked ? categories.map(function (item) { return item.name; }) : []
+    );
+    $$(".category-checkbox").forEach(function (input) {
+      input.checked = checked;
+      const chip = input.closest(".chip");
+      if (chip) chip.classList.toggle("is-checked", checked);
+    });
+    updateHomeSelectionUI();
   }
 
   /* ----------------------------- 答题 ----------------------------- */
@@ -1003,6 +1196,10 @@
 
     if (action === "start") {
       startRound();
+    } else if (action === "select-all-categories") {
+      setAllCategories(true);
+    } else if (action === "select-none-categories") {
+      setAllCategories(false);
     } else if (action === "quit") {
       const dialog = $("#quit-dialog");
       if (dialog && typeof dialog.showModal === "function") {
@@ -1030,6 +1227,19 @@
 
   app.addEventListener("change", function (event) {
     const input = event.target;
+
+    if (input.classList.contains("category-checkbox")) {
+      if (input.checked) {
+        state.selectedCategories.add(input.value);
+      } else {
+        state.selectedCategories.delete(input.value);
+      }
+      const chip = input.closest(".chip");
+      if (chip) chip.classList.toggle("is-checked", input.checked);
+      updateHomeSelectionUI();
+      return;
+    }
+
     if (!input.matches('input[name="choice"]') || state.submitted) return;
 
     state.selected = Number(input.value);
@@ -1065,5 +1275,8 @@
 
   /* ----------------------------- 启动 ----------------------------- */
 
+  state.selectedCategories = new Set(
+    getCategories().map(function (item) { return item.name; })
+  );
   renderHome();
 })();
