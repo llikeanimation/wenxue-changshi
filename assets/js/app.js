@@ -1276,7 +1276,9 @@
   /* ----------------------------- 启动 ----------------------------- */
 
   state.selectedCategories = new Set(
-    getCategories().map(function (item) { return item.name; })
+    getCategories()
+      .filter(function (item) { return item.name !== "外国文学"; })
+      .map(function (item) { return item.name; })
   );
   renderHome();
 })();
