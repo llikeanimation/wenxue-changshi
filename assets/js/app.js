@@ -6,6 +6,11 @@
   "use strict";
 
   const CHOICE_LETTERS = "ABCDEF";
+  const LEVELS = [
+    { value: 1, label: "必备基础", hint: "简单" },
+    { value: 2, label: "稍偏中等", hint: "中等" },
+    { value: 3, label: "其余困难", hint: "困难" }
+  ];
   const app = document.getElementById("app");
   const rawConfig = window.QUIZ_CONFIG || {};
   const rawBank = Array.isArray(window.QUESTION_BANK) ? window.QUESTION_BANK : [];
@@ -29,7 +34,8 @@
     startedAt: 0,
     finishedAt: 0,
     timerId: null,
-    selectedCategories: new Set()
+    selectedCategories: new Set(),
+    selectedLevels: new Set([1])
   };
 
   if (bankIssues.length) {
@@ -72,6 +78,7 @@
     const type = cleanText(raw.type).toLowerCase();
     const question = cleanText(raw.question);
     const category = cleanText(raw.category) || "未分类";
+    const level = clamp(toInteger(raw.level, 2), 1, 3);
     const explanation = cleanText(raw.explanation);
     const id = cleanText(raw.id) || "q-" + (index + 1);
 
@@ -119,6 +126,7 @@
         id: id,
         type: type,
         category: category,
+        level: level,
         question: question,
         options: options,
         answerIndex: answerIndex,
@@ -158,6 +166,7 @@
       id: id,
       type: type,
       category: category,
+      level: level,
       question: question,
       blanks: blanks,
       explanation: explanation
@@ -178,7 +187,10 @@
   function drawRound() {
     if (!BANK.length) return [];
     const pool = BANK.filter(function (item) {
-      return state.selectedCategories.has(item.category);
+      return (
+        state.selectedCategories.has(item.category) &&
+        state.selectedLevels.has(item.level)
+      );
     });
     return shuffle(pool).slice(0, Math.min(CONFIG.total, pool.length));
   }
@@ -193,6 +205,19 @@
     });
   }
 
+  function getLevels() {
+    return LEVELS.map(function (item) {
+      return {
+        value: item.value,
+        label: item.label,
+        hint: item.hint,
+        count: BANK.filter(function (question) {
+          return question.level === item.value;
+        }).length
+      };
+    });
+  }
+
   function getFilterState() {
     const categories = getCategories();
     const validNames = new Set(categories.map(function (item) { return item.name; }));
@@ -200,17 +225,32 @@
       if (!validNames.has(name)) state.selectedCategories.delete(name);
     });
 
+    const levels = getLevels();
+    const validLevels = new Set(levels.map(function (item) { return item.value; }));
+    state.selectedLevels.forEach(function (level) {
+      if (!validLevels.has(level)) state.selectedLevels.delete(level);
+    });
+
     const selected = categories.filter(function (item) {
       return state.selectedCategories.has(item.name);
     });
+    const selectedLevels = levels.filter(function (item) {
+      return state.selectedLevels.has(item.value);
+    });
     const filteredBank = BANK.filter(function (item) {
-      return state.selectedCategories.has(item.category);
+      return (
+        state.selectedCategories.has(item.category) &&
+        state.selectedLevels.has(item.level)
+      );
     });
 
     return {
       categories: categories,
       selected: selected,
       selectedCount: selected.length,
+      levels: levels,
+      selectedLevels: selectedLevels,
+      selectedLevelCount: selectedLevels.length,
       filteredBank: filteredBank,
       roundSize: Math.min(CONFIG.total, filteredBank.length)
     };
@@ -354,7 +394,9 @@
     const categories = filterState.categories;
     const roundSize = filterState.roundSize;
     const hasBank = BANK.length > 0;
-    const hasSelection = filterState.selectedCount > 0;
+    const hasCategories = filterState.selectedCount > 0;
+    const hasLevels = filterState.selectedLevelCount > 0;
+    const hasSelection = hasCategories && hasLevels;
     const canStart = hasBank && hasSelection;
     const displayRound = roundSize || CONFIG.total;
     const titleLead = displayRound === 10 ? "十题一局" : displayRound + " 题一局";
@@ -378,8 +420,27 @@
       })
       .join("");
 
+    const levelChips = filterState.levels
+      .map(function (item) {
+        const checked = state.selectedLevels.has(item.value);
+        return (
+          '<label class="chip chip--filter level-chip' +
+          (checked ? " is-checked" : "") +
+          '"><input type="checkbox" class="level-checkbox" value="' +
+          item.value +
+          '"' +
+          (checked ? " checked" : "") +
+          "><span>" +
+          escapeHTML(item.label) +
+          "</span><i>" +
+          item.count +
+          "</i></label>"
+        );
+      })
+      .join("");
+
     const selectionSummary =
-      "已选 " +
+      "板块 " +
       filterState.selectedCount +
       "/" +
       categories.length +
@@ -387,23 +448,34 @@
       filterState.filteredBank.length +
       " 题";
 
+    const levelSummary =
+      "难度 " +
+      filterState.selectedLevelCount +
+      "/3 · " +
+      filterState.filteredBank.length +
+      " 题";
+
     const randomNote = hasSelection
       ? "从 <b>" +
         filterState.filteredBank.length +
         "</b> 道题中随机抽取，<b>题型不设固定比例</b>。"
-      : "先勾选至少一个板块，再从选中的题里随机抽取。";
+      : !hasCategories
+        ? "先勾选至少一个板块，再从选中的题里随机抽取。"
+        : "先勾选至少一个难度，再从选中的题里随机抽取。";
 
     const filterNote = !hasBank
       ? ""
-      : !hasSelection
+      : !hasCategories
         ? "至少勾选一个板块，才能开始。"
-        : filterState.filteredBank.length < CONFIG.total
-          ? "当前筛选只有 " +
-            filterState.filteredBank.length +
-            " 题，本轮会抽取全部 " +
-            filterState.filteredBank.length +
-            " 题。"
-          : "";
+        : !hasLevels
+          ? "至少勾选一个难度，才能开始。"
+          : filterState.filteredBank.length < CONFIG.total
+            ? "当前筛选只有 " +
+              filterState.filteredBank.length +
+              " 题，本轮会抽取全部 " +
+              filterState.filteredBank.length +
+              " 题。"
+            : "";
 
     const quickFacts =
       '<span><b>' +
@@ -414,18 +486,26 @@
       filterState.selectedCount +
       "</b> 个板块</span>" +
       '<span class="dot" aria-hidden="true"></span>' +
+      "<span>难度 <b>" +
+      filterState.selectedLevelCount +
+      "/3</b></span>" +
+      '<span class="dot" aria-hidden="true"></span>' +
       "<span>同轮不重复</span>";
 
     const startLabel = !hasBank
       ? "题库还没有题目"
-      : !hasSelection
+      : !hasCategories
         ? "请先勾选板块"
-        : "开始随机抽题";
+        : !hasLevels
+          ? "请先勾选难度"
+          : "开始随机抽题";
     const startTail = !hasBank
       ? "请先编辑 questions.js"
-      : !hasSelection
+      : !hasCategories
         ? "至少选一个板块"
-        : roundSize + " 题 <i>→</i>";
+        : !hasLevels
+          ? "至少选一个难度"
+          : roundSize + " 题 <i>→</i>";
 
     const issueNote = bankIssues.length
       ? '<p class="bank-note bank-note--warn">题库自检：有 ' +
@@ -449,6 +529,22 @@
         "</section>"
       : "";
 
+    const levelFilterHTML = filterState.levels.length
+      ? '<section class="coverage coverage--level" aria-label="难度筛选">' +
+        '<div class="coverage-head"><span>难度</span><span id="level-summary">' +
+        levelSummary +
+        "</span></div>" +
+        '<div class="chips">' +
+        levelChips +
+        "</div>" +
+        '<div class="coverage-footer"><span>默认只选必备基础，可多选</span>' +
+        '<span class="coverage-actions">' +
+        '<button type="button" data-action="select-all-levels">全选</button>' +
+        '<button type="button" data-action="select-none-levels">清空</button>' +
+        "</span></div>" +
+        "</section>"
+      : "";
+
     app.innerHTML =
       '<main class="screen screen--home">' +
       '<span class="hero-mark" aria-hidden="true">文</span>' +
@@ -465,10 +561,11 @@
       '<h1 id="home-title"><span id="round-title-lead">' +
       escapeHTML(titleLead) +
       '</span>，<br><em>把文常</em>过一遍。</h1>' +
-      '<p class="hero-lead">先勾选要练的板块，再从选中的题里随机抽题。选择题和填空题都可能出现，答完立刻核对。</p>' +
+      '<p class="hero-lead">先勾选要练的板块和难度，再从选中的题里随机抽题。选择题和填空题都可能出现，答完立刻核对。</p>' +
       "</section>" +
 
       coverageHTML +
+      levelFilterHTML +
 
       '<section class="start-card" aria-label="开始答题">' +
       '<div class="start-card__head">' +
@@ -497,7 +594,7 @@
       startTail +
       "</span></button>" +
 
-      '<p class="start-note">只从勾选板块抽题 · 同一轮题目不重复 · 提交后立即看解析</p>' +
+      '<p class="start-note">只从勾选板块和难度抽题 · 同一轮题目不重复 · 提交后立即看解析</p>' +
       '<p class="bank-note" id="filter-note"' +
       (filterNote ? "" : " hidden") +
       ">" +
@@ -516,17 +613,29 @@
   function updateHomeSelectionUI() {
     if (!$(".screen--home")) return;
     const filterState = getFilterState();
-    const hasSelection = filterState.selectedCount > 0;
     const hasBank = BANK.length > 0;
+    const hasCategories = filterState.selectedCount > 0;
+    const hasLevels = filterState.selectedLevelCount > 0;
+    const hasSelection = hasCategories && hasLevels;
 
     const summary = $("#selection-summary");
     if (summary) {
       summary.textContent =
-        "已选 " +
+        "板块 " +
         filterState.selectedCount +
         "/" +
         filterState.categories.length +
         " · " +
+        filterState.filteredBank.length +
+        " 题";
+    }
+
+    const levelSummary = $("#level-summary");
+    if (levelSummary) {
+      levelSummary.textContent =
+        "难度 " +
+        filterState.selectedLevelCount +
+        "/3 · " +
         filterState.filteredBank.length +
         " 题";
     }
@@ -540,7 +649,9 @@
         ? "从 <b>" +
           filterState.filteredBank.length +
           "</b> 道题中随机抽取，<b>题型不设固定比例</b>。"
-        : "先勾选至少一个板块，再从选中的题里随机抽取。";
+        : !hasCategories
+          ? "先勾选至少一个板块，再从选中的题里随机抽取。"
+          : "先勾选至少一个难度，再从选中的题里随机抽取。";
     }
 
     const facts = $("#quick-facts");
@@ -554,6 +665,10 @@
         filterState.selectedCount +
         "</b> 个板块</span>" +
         '<span class="dot" aria-hidden="true"></span>' +
+        "<span>难度 <b>" +
+        filterState.selectedLevelCount +
+        "/3</b></span>" +
+        '<span class="dot" aria-hidden="true"></span>' +
         "<span>同轮不重复</span>";
     }
 
@@ -564,33 +679,39 @@
     if (startLabel) {
       startLabel.textContent = !hasBank
         ? "题库还没有题目"
-        : !hasSelection
+        : !hasCategories
           ? "请先勾选板块"
-          : "开始随机抽题";
+          : !hasLevels
+            ? "请先勾选难度"
+            : "开始随机抽题";
     }
 
     const startTail = $("#start-tail");
     if (startTail) {
       startTail.innerHTML = !hasBank
         ? "请先编辑 questions.js"
-        : !hasSelection
+        : !hasCategories
           ? "至少选一个板块"
-          : filterState.roundSize + " 题 <i>→</i>";
+          : !hasLevels
+            ? "至少选一个难度"
+            : filterState.roundSize + " 题 <i>→</i>";
     }
 
     const filterNote = $("#filter-note");
     if (filterNote) {
       const note = !hasBank
         ? ""
-        : !hasSelection
+        : !hasCategories
           ? "至少勾选一个板块，才能开始。"
-          : filterState.filteredBank.length < CONFIG.total
-            ? "当前筛选只有 " +
-              filterState.filteredBank.length +
-              " 题，本轮会抽取全部 " +
-              filterState.filteredBank.length +
-              " 题。"
-            : "";
+          : !hasLevels
+            ? "至少勾选一个难度，才能开始。"
+            : filterState.filteredBank.length < CONFIG.total
+              ? "当前筛选只有 " +
+                filterState.filteredBank.length +
+                " 题，本轮会抽取全部 " +
+                filterState.filteredBank.length +
+                " 题。"
+              : "";
       filterNote.hidden = !note;
       filterNote.textContent = note;
     }
@@ -609,6 +730,19 @@
       checked ? categories.map(function (item) { return item.name; }) : []
     );
     $$(".category-checkbox").forEach(function (input) {
+      input.checked = checked;
+      const chip = input.closest(".chip");
+      if (chip) chip.classList.toggle("is-checked", checked);
+    });
+    updateHomeSelectionUI();
+  }
+
+  function setAllLevels(checked) {
+    const levels = getLevels();
+    state.selectedLevels = new Set(
+      checked ? levels.map(function (item) { return item.value; }) : []
+    );
+    $$(".level-checkbox").forEach(function (input) {
       input.checked = checked;
       const chip = input.closest(".chip");
       if (chip) chip.classList.toggle("is-checked", checked);
@@ -1200,6 +1334,10 @@
       setAllCategories(true);
     } else if (action === "select-none-categories") {
       setAllCategories(false);
+    } else if (action === "select-all-levels") {
+      setAllLevels(true);
+    } else if (action === "select-none-levels") {
+      setAllLevels(false);
     } else if (action === "quit") {
       const dialog = $("#quit-dialog");
       if (dialog && typeof dialog.showModal === "function") {
@@ -1233,6 +1371,19 @@
         state.selectedCategories.add(input.value);
       } else {
         state.selectedCategories.delete(input.value);
+      }
+      const chip = input.closest(".chip");
+      if (chip) chip.classList.toggle("is-checked", input.checked);
+      updateHomeSelectionUI();
+      return;
+    }
+
+    if (input.classList.contains("level-checkbox")) {
+      const level = Number(input.value);
+      if (input.checked) {
+        state.selectedLevels.add(level);
+      } else {
+        state.selectedLevels.delete(level);
       }
       const chip = input.closest(".chip");
       if (chip) chip.classList.toggle("is-checked", input.checked);
@@ -1276,9 +1427,8 @@
   /* ----------------------------- 启动 ----------------------------- */
 
   state.selectedCategories = new Set(
-    getCategories()
-      .filter(function (item) { return item.name !== "外国文学"; })
-      .map(function (item) { return item.name; })
+    getCategories().map(function (item) { return item.name; })
   );
+  state.selectedLevels = new Set([1]);
   renderHome();
 })();
