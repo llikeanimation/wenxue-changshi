@@ -16744,5 +16744,3238 @@ window.QUESTION_BANK = [
     question: "《____》是爱尔兰作家詹姆斯·乔伊斯创作的长篇小说，被誉为意识流小说的开山之作。",
     blanks: [["尤利西斯"]],
     explanation: "《尤利西斯》以都柏林一天的生活对应荷马史诗《奥德赛》，大量运用内心独白与意识流手法。"
+  },
+
+  {
+    id: "c534",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅的哪部作品塑造了 “中国脊梁” 式的人物大禹（）",
+    options: ["奔月","非攻","出关","理水"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c535",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列鲁迅作品，成功塑造了受压迫与受封建思想毒害的底层妇女形象的是（）",
+    options: ["《祝福》","《药》","《伤逝》","《为了忘却的记念》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c536",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "“孔乙己的长衫”“孔乙己文学” 曾一度成为近年的网络热词，鲁迅所作的《孔乙己》出自他的作品（）。",
+    options: ["《朝花夕拾》","《呐喊》","《彷徨》","《故事新编》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c537",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅所说的 “有真意，去粉饰，少做作，勿卖弄” 的描写方法是（）",
+    options: ["白描","渲染","彩绘","曲笔"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c538",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下面不属于鲁迅《呐喊》的作品是（）",
+    options: ["《狂人日记》","《伤逝》","《孔乙己》","《社戏》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c539",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品中，属于鲁迅的历史小说的是（）",
+    options: ["《狂人日记》","《铸剑》","《孔乙己》","《伤逝》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c540",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品属于鲁迅的散文诗集的是（）",
+    options: ["《野草》","《呐喊》","《准风月谈》","《故事新编》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c541",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品属于鲁迅杂文集的是（）",
+    options: ["《朝花夕拾》","《呐喊》","《热风》","《故事新编》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c542",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列哪部作品是鲁迅先生唯一的中篇小说（）",
+    options: ["《阿 Q 正传》","《风波》","《祝福》","《狂人日记》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c543",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "以 “表现的深切和格式的特别” 引起反响的鲁迅小说是（）",
+    options: ["《狂人日记》","《明天》","《在酒楼上》","《伤逝》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c544",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅收入《野草》一集中，为纪念 “三・一八” 惨案而作的文章是（）",
+    options: ["《淡淡的血痕中》","《记念刘和珍君》","《为了忘却的记念》","《铸剑》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c545",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列人物出自鲁迅小说《药》的是（）",
+    options: ["赵老太爷","魏连殳","华老栓","夏瑜"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c546",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅的哪部是最早被介绍到世界的中国现代小说（）",
+    options: ["《阿 Q 正传》","《狂人日记》","《祝福》","《孔乙己》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c547",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在下列各组作品中，全都属于鲁迅小说集的是（）",
+    options: ["《呐喊》《故事新编》《彷徨》","《准风月谈》《彷徨》《呐喊》","《彷徨》《朝花夕拾》《呐喊》","《彷徨》《呐喊》《野草》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c548",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在《故事新编》中，最能体现鲁迅的 “复仇” 情结的是（）",
+    options: ["《补天》","《铸剑》","《采薇》","《起死》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c549",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅的《为了忘却的记念》属于（）文体。",
+    options: ["自传","杂文","随笔","自由体"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c550",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列选项中，不属于鲁迅小说创作的人物形象是（）",
+    options: ["杨二嫂","祥林嫂","长妈妈","七斤嫂"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c551",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列属于鲁迅先生一生写照的诗句是（）",
+    options: ["忍看朋辈成新鬼，怒向刀丛觅小诗","无情未必真豪杰，怜子如何不丈夫","横眉冷对千夫指，俯首甘为孺子牛","寄意寒星荃不察，我以我血荐轩辕"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c552",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "周树人以 “鲁迅” 为笔名发表的第一篇白话文小说是（）",
+    options: ["《阿 Q 正传》","《狂人日记》","《药》","《孔乙己》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c553",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅《娜拉走后怎样》中的 “娜拉” 形象，出自挪威作家易卜生的社会问题剧（）",
+    options: ["《社会支柱》","《玩偶之家》","《群鬼》","《人民公敌》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c554",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品属于鲁迅散文集的是（）",
+    options: ["《呐喊》","《彷徨》","《朝花夕拾》","《野草》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c555",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列选项与鲁迅诗句 “寄意寒星荃不察，我以我血荐轩辕” 意蕴相同的是（）",
+    options: ["长风破浪会有时，直挂云帆济沧海。","千磨万击还坚劲，任尔东西南北风。","人生自古谁无死，留取丹心照汗青。","九死南荒吾不恨，兹游奇绝冠平生。"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c556",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列鲁迅作品，成功塑造了农民形象的是（）",
+    options: ["《铸剑》","《一件小事》","《故乡》","《藤野先生》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c557",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "1935 年，萧红在鲁迅的支持下发表了自己的成名作（）",
+    options: ["《呼兰河传》","《生死场》","《马伯乐》","《小城三月》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c558",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“人必生活着，爱才有所附丽” 该句出自鲁迅的作品（）",
+    options: ["《伤逝》","《秋夜》","《故乡》","《朝花夕拾》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c559",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“世上本无路，只是走的人多了，也就成了路” 该句出自鲁迅的作品（）",
+    options: ["《伤逝》","《彷徨》","《故乡》","《狗・猫・鼠》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c560",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列作品是鲁迅散文诗集的是（）",
+    options: ["《坟》","《故事新编》","《彷徨》","《野草》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c561",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅小说《风波》中七斤的主要性格特征是（）",
+    options: ["见多识广","憎恨复辟","愚昧落后","伺机复辟"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c562",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列作品中，属于鲁迅先生的散文集的是（）",
+    options: ["《朝花夕拾》","《野草》","《呐喊》","《而已集》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c563",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "被鲁迅称为 “中国最杰出的抒情诗人” 是谁（）",
+    options: ["徐志摩","闻一多","冯至","郭沫若"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c564",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅《灯下漫笔》中所谓的 “第三样时代” 是（）。",
+    options: ["汉族发达时期","人民当家作主的时代","想做奴隶而不得的时代","暂时坐稳了奴隶的时代"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c565",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅小说《风波》的线索是（）。",
+    options: ["辫子事件","赵七爷的竹布长衫","九斤老太的唠叨","张勋复辟"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c566",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "在鲁迅小说中，以农民为写作对象的作品是（）。",
+    options: ["《孔乙己》","《伤逝》","《风波》","《狂人日记》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c567",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列鲁迅文集中，属于短篇小说集的是（）。",
+    options: ["《热风》","《坟》","《朝花夕拾》","《呐喊》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c568",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅《风波》的历史背景是（）。",
+    options: ["张勋复辟","辛亥革命","五四运动","二次革命"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c569",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅哪篇小说具有 “出走 — 返乡 — 再出走” 的深层结构（）。",
+    options: ["《狂人日记》","《阿 Q 正传》","《故乡》","《药》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c570",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅的《复仇》选自（）",
+    options: ["《野草》","《呐喊》","《彷徨》","《坟》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c571",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "九斤老太的形象出自鲁迅的（）。",
+    options: ["《阿 Q 正传》","《灯下漫笔》","《故乡》","《风波》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c572",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅笔下封建遗老赵七爷形象出自（）",
+    options: ["《风波》","《故乡》","《狂人日记》","《阿 Q 正传》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c573",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅先生称道 “结构工巧文采斐然” 的近代谴责小说指的是（）",
+    options: ["《官场现形记》","《孽海花》","《二十年目睹之怪现状》","《老残游记》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c574",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "被鲁迅评价为 “晚周诸子之作，莫之能先也” 的作品是（）",
+    options: ["《孟子》","《庄子》","《论语》","《荀子》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c575",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "被鲁迅誉为 “史家之绝唱，无韵之离骚” 的史学著作是（）",
+    options: ["《左传》","《国语》","《史记》","《汉书》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c576",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列属于周作人散文集的是（）",
+    options: ["《文化苦旅》","《谈虎集》","《闲书》","《野草》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c577",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "胡适的新诗集（）是现代文学史上第一本白话诗集。",
+    options: ["《北方》","《尝试集》","《女神》","《野草》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c578",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "胡适在哪篇文章中提出了 “国语的文学、文学的国语” 的口号（）",
+    options: ["《文学改良刍议》","《建设的文学革命论》","《尝试集》","《终身大事》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c579",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "主张 “为艺术而艺术”，非常强调文学是作家的自我表现，极力反对文艺的社会功用的中国现当代文学流派是（），代表作品有郭沫若的诗集《前茅》、郁达夫的《茑萝行》、《春风沉醉的晚上》等。",
+    options: ["论语派","创造社","文学研究会","语丝社"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c580",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列作品集属于郭沫若的是（）",
+    options: ["《女神》","《繁星》","《灾难的岁月》","《红烛》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c581",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列关于郭沫若及其作品的说法正确的一项是（）",
+    options: ["郭沫若与郁达夫等人在东京成立了 “新月社”。","写有历史剧《棠棣之花》《蔡文姬》《龙须沟》《雷雨》。","《炉中煤》选自《女神》，表达了诗人对新生祖国的热爱和对祖国的奉献之情。","《炉中煤》既是一首抒情诗，也是一首咏史诗。"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c582",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "属于郭沫若的历史剧的是（）",
+    options: ["《女神》","《星空》","《百花齐放》","《棠棣之花》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c583",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列作品集出自郭沫若的是（）。",
+    options: ["《红烛》","《繁星》","《灾难的岁月》","《女神》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c584",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "郭沫若 “五四” 时期具有 “狂飙突进” 风格的作品是（）。",
+    options: ["《屈原》","《蔡文姬》","《瓶》","《女神》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c585",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "郭沫若《炉中煤》中的 “年青的女郎” 指的是（）。",
+    options: ["1949 年以后的新中国","1840 年以前的中国","1919 年 “五四” 以后的新中国","1840 至 1919 年间的中国"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c586",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "郭沫若的历史剧为曹操平反的是（）。",
+    options: ["《武则天》","《蔡文姬》","《卓文君》","《屈原》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c587",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "郭沫若在《炉中煤》：“啊，我年青的女郎！我不辜负你的殷勤”，这里的 “年青的女郎” 指的什么（）",
+    options: ["心中的恋人","年轻的女子","热爱的祖国","高尚的理想"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c588",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“五四运动” 前后，郭沫若与成仿吾、郁达夫等组成新的文学团体是（）。",
+    options: ["文学研究会","新文化社团","新现代派","创造社"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c589",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“写鬼写妖高人一等，刺贪刺虐入木三分” 是郭沫若对（）的高度评价",
+    options: ["《聊斋志异》","《水浒传》","《西游记》","《儒林外史》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c590",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "我国第一部现代短篇小说集是郁达夫的（）",
+    options: ["《沉沦》","《两个家庭》","《沉香屑》","《山乡巨变》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c591",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "郁达夫的小说多采用（）",
+    options: ["第三人称叙述方式","第二人称叙述方法","第一人称、第二人称混合叙述方式","“自叙传” 和第一人称叙述方式"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c592",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列小说属于郁达夫创作的是（）。",
+    options: ["《林家铺子》","《菉竹山房》","《沉沦》","《边城》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c593",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“天色还未断黑，那漾漾的柔波是这样恬静，委婉，使我们一面有水阔天空之想，一面又憧憬着纸醉金迷之境了。” 出自朱自清的哪篇散文（）",
+    options: ["《桨声灯影里的秦淮河》","《航船中的文明》","《荷塘月色》","《旅行杂记》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c594",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列不属于朱自清作品的是（）。",
+    options: ["《桨声灯影里的秦淮河》","《荷塘月色》","《背影》","《故都的秋》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c595",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "徐志摩凭借《再别康桥》闻名海内外，其中 “那河畔的金柳，是夕阳中的新娘” 所用的修辞手法是（）。",
+    options: ["比喻","拟人","拟物","象征"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c596",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "“轻轻的我走了，正如我轻轻的来” 出自徐志摩的（）",
+    options: ["《再别康桥》","《一句话》","《炉中煤》","《神女峰》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c597",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "现代诗歌流派中，代表作家为闻一多和徐志摩的是（）",
+    options: ["新月诗派","象征诗派","七月诗派","九叶诗派"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c598",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "茅盾作品中，艺术成就最高的一部革命现实主义巨著是（）",
+    options: ["《林家铺子》","《春蚕》","《子夜》","《腐蚀》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c599",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "莫言凭借作品（）获得 2011 年茅盾文学奖",
+    options: ["《红高粱》","《丰乳肥臀》","《蛙》","《檀香刑》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c600",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列有关 “茅盾文学奖” 的说法，有误的一项是（）",
+    options: ["根据茅盾先生的遗愿设立","主要奖励优秀的长篇小说作品","属于中国当代四大文学奖之一","是中国第一个以个人名字命名的文学奖，奖项每五年评选一次"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c601",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "茅盾的作品不包括（）",
+    options: ["《家》","《子夜》","《白杨礼赞》","《春蚕》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c602",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "茅盾描写浓郁江南水乡风土人情味的风俗画作品是（）",
+    options: ["《水藻行》","《林家铺子》","《子夜》","《春蚕》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c603",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "以下不是茅盾 “农村三部曲” 的作品是（）",
+    options: ["《春蚕》","《秋收》","《残冬》","《幻灭》"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c604",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "下列作品中，不属于茅盾创作的是（）",
+    options: ["《腐蚀》","《动摇》","《灭亡》","《子夜》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c605",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "茅盾倡导并组织成立的文学社团是（）",
+    options: ["新月社","创造社","文学研究会","语丝社"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c606",
+    type: "choice",
+    category: "现当代文学",
+    level: 2,
+    question: "茅盾创作的 “蚀三部曲” 包括（）",
+    options: ["《童年》《在人间》《母亲》","《幻灭》《动摇》《追求》","《雾》《雨》《电》","《春蚕》《秋收》《残冬》"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "f1090",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "1918 年 5 月，《新青年》发表____的《____》，标志着中国现代小说的开端。",
+    blanks: [["鲁迅"],["狂人日记"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1091",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "____是现代文学史上第一个文学团体，于 1921 年在北京中山公园成立，其宗旨是 “研究介绍世界文学，整理中国旧文学，创造新文学”，宣扬 “为____而艺术”。",
+    blanks: [["文学研究会"],["人生"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1092",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "主张 “为____而艺术” 的是郭沫若、成仿吾、郁达夫、田汉等人发起的____。",
+    blanks: [["艺术"],["创造社"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1093",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "《____》是现代文学史上最早以散文创作为主的刊物。",
+    blanks: [["《语丝》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1094",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅前期的小说创作收集在《____》《____》中，这两部作品集标志着中国现代小说的开端与成熟。",
+    blanks: [["《呐喊》"],["《彷徨》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1095",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅的历史小说都收录在《____》，具有强烈的现代意识与斗争精神。",
+    blanks: [["《故事新编》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1096",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "《祝福》通过描写____的悲惨命运，表现了男尊女卑的社会对妇女的束缚。",
+    blanks: [["祥林嫂"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1097",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "____是 “问题小说” 的最早写作者之一，是 “繁星体” 诗歌的开创者。",
+    blanks: [["冰心"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1098",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "主张 “文学作品是作家的自叙传”，小说集《____》是现代文学史上第一部白话小说集，使自叙传小说成为潮流。",
+    blanks: [["《沉沦》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1099",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "《故都的秋》的作者是____，“故都”指的是现在的____。",
+    blanks: [["郁达夫"],["北京（北平）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1100",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "闻一多主张新格律诗，追求诗的“三美”：____、____、____。",
+    blanks: [["音乐美"],["绘画美"],["建筑美"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1101",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "鲁迅褒扬____是 “中国最为杰出的抒情诗人”。",
+    blanks: [["冯至"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1102",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "巴金小说《____》中的主要人物有高觉新、高觉慧、高觉民。",
+    blanks: [["《家》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1103",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "被誉为 “20 世纪中国文学的良心” 是巴金的《____》。",
+    blanks: [["《随想录》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1104",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "《____》代表了老舍的最高艺术成就，小说展现了北京人力车夫的悲剧人生，表达作者对中下层劳动大众的深切同情。",
+    blanks: [["《骆驼祥子》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1105",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "《____》是老舍创作的话剧，展现了戊戌变法、军阀混战和新中国成立前夕的社会风云变幻，书中主人公叫王利发。",
+    blanks: [["《茶馆》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1106",
+    type: "fill",
+    category: "现当代文学",
+    level: 2,
+    question: "“乡土文学之父” 是____。",
+    blanks: [["沈从文"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1107",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "我国古代地理名著，也是我国目前保存神话资料最多的著作是____。",
+    blanks: [["《山海经》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1108",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "《山海经》现存____篇。",
+    blanks: [["18篇"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1109",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "《山海经》按内容大致可分为____、____、____三部分。",
+    blanks: [["《山经》"],["《海经》"],["《大荒经》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1110",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《诗经》又称____。",
+    blanks: [["《诗》","《诗三百》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1111",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《诗经》是我国第一部____。",
+    blanks: [["诗歌总集"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1112",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《诗经》收录的是____的作品。",
+    blanks: [["西周至春秋中期"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1113",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《诗经》共收录诗歌____篇。",
+    blanks: [["305篇"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1114",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "《诗经》是按照____的不同分为“风”“雅”“颂”三大类的。",
+    blanks: [["音乐性质的不同"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1115",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《诗经》六义是____、____、____、____、____、____。",
+    blanks: [["风"],["雅"],["颂"],["赋"],["比"],["兴"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1116",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "开创我国诗歌浪漫主义传统的作品是____。",
+    blanks: [["《楚辞》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1117",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "中国文学史上第一位伟大的浪漫主义爱国诗人是____。",
+    blanks: [["屈原"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1118",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "中国古代文学史上最长的一首浪漫主义抒情诗是____。",
+    blanks: [["《离骚》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1119",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "我国第一部编年体史书是____。",
+    blanks: [["《春秋》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1120",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "中国第一部叙事详尽完备的编年体史书是____。",
+    blanks: [["《左传》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1121",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "我国第一部国别体史书是____。",
+    blanks: [["《国语》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1122",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "“四书”指____、____、____、____。",
+    blanks: [["《论语》"],["《孟子》"],["《大学》"],["《中庸》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1123",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "“五经”指____、____、____、____、____。",
+    blanks: [["《诗经》"],["《尚书》"],["《礼记》"],["《周易》"],["《春秋》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1124",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "周朝贵族教育体系中的“六艺”指____、____、____、____、____、____六种基本才能。",
+    blanks: [["礼"],["乐"],["射"],["御"],["书"],["数"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1125",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "我国第一部词典，被称为“辞书之祖”的著作是____。",
+    blanks: [["《尔雅》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1126",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "孟子被后人尊称为“____”。",
+    blanks: [["亚圣"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1127",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "孟子提出的核心人性主张是____。",
+    blanks: [["性善论"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1128",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "与孟子“性善论”相对的是荀子提出的____。",
+    blanks: [["性恶论"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1129",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "被誉为“万经之王”的道家著作是____。",
+    blanks: [["《道德经》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1130",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "庄子及其弟子合著的作品是____。",
+    blanks: [["《庄子》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1131",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "《庄子》又名____。",
+    blanks: [["《南华经》","《南华真经》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1132",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "我国第一部军事理论著作是____。",
+    blanks: [["《孙子兵法》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1133",
+    type: "fill",
+    category: "先秦文学",
+    level: 1,
+    question: "《孙子兵法》的作者是____。",
+    blanks: [["孙武"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1134",
+    type: "fill",
+    category: "先秦文学",
+    level: 2,
+    question: "《孙子兵法》又称____。",
+    blanks: [["《孙武兵法》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1135",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "《史记》的作者是西汉的____。",
+    blanks: [["司马迁"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1136",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "《史记》是我国第一部____。",
+    blanks: [["纪传体通史"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1137",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《史记》全书由____、____、____、____、____五部分组成。",
+    blanks: [["十二本纪"],["十表"],["八书"],["三十世家"],["七十列传"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1138",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "鲁迅在《汉文学史纲要》中称《史记》为“____”。",
+    blanks: [["史家之绝唱，无韵之《离骚》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1139",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "史学界的“班马”指____、____两位史学家。",
+    blanks: [["班固"],["司马迁"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1140",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "我国第一部纪传体断代史是____。",
+    blanks: [["《汉书》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1141",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "《汉书》的作者是____。",
+    blanks: [["班固"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1142",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《战国策》又称____。",
+    blanks: [["《国策》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1143",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "《战国策》属于____史书。",
+    blanks: [["国别体"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1144",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《战国策》的整理者是西汉的____。",
+    blanks: [["刘向"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1145",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "“汉赋四大家”指____、____、____、____。",
+    blanks: [["司马相如"],["扬雄"],["班固"],["张衡"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1146",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 3,
+    question: "辞采华美、气势壮观，标志着汉代散体大赋正式形成的作品是____。",
+    blanks: [["《七发》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1147",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "“汉初三杰”指____、____、____。",
+    blanks: [["张良"],["萧何"],["韩信"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1148",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "我国文学史上第一首长篇叙事诗是____。",
+    blanks: [["《孔雀东南飞》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1149",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "《孔雀东南飞》与北朝民歌____并称“乐府双璧”。",
+    blanks: [["《木兰诗》","《木兰辞》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1150",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "被刘勰《文心雕龙》称为“五言之冠冕”的作品是____。",
+    blanks: [["《古诗十九首》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1151",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "我国第一部按部首编排的字典是____。",
+    blanks: [["《说文解字》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1152",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《说文解字》的作者是东汉的____。",
+    blanks: [["许慎"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1153",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "“三曹”指____、____、____。",
+    blanks: [["曹操"],["曹丕"],["曹植"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1154",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "“建安七子”指____、____、____、____、____、____、____。",
+    blanks: [["孔融"],["陈琳"],["王粲"],["徐干"],["阮瑀"],["应玚"],["刘桢"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1155",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "“竹林七贤”指____、____、____、____、____、____、____。",
+    blanks: [["嵇康"],["阮籍"],["山涛"],["向秀"],["刘伶"],["王戎"],["阮咸"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1156",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 3,
+    question: "我国诗歌史上最早的、完整的文人七言体作品是____。",
+    blanks: [["《燕歌行》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1157",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "左思的____问世后，豪贵竞相传写，衍生出成语“洛阳纸贵”。",
+    blanks: [["《三都赋》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1158",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "田园诗派的开创者是____。",
+    blanks: [["陶渊明"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1159",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "陶渊明是____的诗人。",
+    blanks: [["东晋"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1160",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 1,
+    question: "陶渊明又名____。",
+    blanks: [["潜"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1161",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "陶渊明的字是____。",
+    blanks: [["元亮"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1162",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "陶渊明的号是____。",
+    blanks: [["五柳先生"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1163",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "“大小谢”指____、____两位诗人。",
+    blanks: [["谢灵运"],["谢朓"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1164",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "山水诗派的开创者是____。",
+    blanks: [["谢灵运"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1165",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "“鞠躬尽瘁，死而后已”形容的是____。",
+    blanks: [["诸葛亮"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1166",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《三国志》的作者是____。",
+    blanks: [["陈寿"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1167",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《三国志》的作者陈寿是____人。",
+    blanks: [["西晋"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1168",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《后汉书》的作者是____。",
+    blanks: [["范晔"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1169",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《后汉书》的作者范晔是____人。",
+    blanks: [["南朝宋（刘宋）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1170",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "我国第一部文言志怪小说集是____。",
+    blanks: [["《搜神记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1171",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《搜神记》的作者是____。",
+    blanks: [["干宝"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1172",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《搜神记》的作者干宝是____人。",
+    blanks: [["东晋"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1173",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "我国现存最早的笔记小说集是____。",
+    blanks: [["《世说新语》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1174",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《世说新语》的编者是南朝宋的____。",
+    blanks: [["刘义庆"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1175",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 3,
+    question: "我国第一部系统评论诗歌创作的专著是____。",
+    blanks: [["《诗品》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1176",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 3,
+    question: "《诗品》的作者是____。",
+    blanks: [["钟嵘"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1177",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 3,
+    question: "《诗品》的作者钟嵘是____人。",
+    blanks: [["南朝梁"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1178",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“初唐四杰”指____、____、____、____。",
+    blanks: [["王勃"],["杨炯"],["卢照邻"],["骆宾王"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1179",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "有“孤篇盖全唐”之誉的诗篇是____。",
+    blanks: [["《春江花月夜》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1180",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "《春江花月夜》的作者是____。",
+    blanks: [["张若虚"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1181",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“吴中四士”指____、____、____、____。",
+    blanks: [["张若虚"],["贺知章"],["张旭"],["包融"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1182",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "唐代山水田园诗派的代表人物是____、____。",
+    blanks: [["王维"],["孟浩然"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1183",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "唐代山水田园诗派的代表人物中，字摩诘的是____。",
+    blanks: [["王维"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1184",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "苏轼评价____的作品“诗中有画，画中有诗”。",
+    blanks: [["王维"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1185",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "唐代边塞诗派的代表人物有____、____、____。",
+    blanks: [["高适"],["岑参"],["王昌龄"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1186",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "被称为“七绝圣手”的诗人是____。",
+    blanks: [["王昌龄"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1187",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "李白的字是____。",
+    blanks: [["太白"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1188",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "李白的号是____。",
+    blanks: [["青莲居士"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1189",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "李白的诗风可以概括为____。",
+    blanks: [["豪放飘逸"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1190",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "被贺知章称为“谪仙人”的诗人是____。",
+    blanks: [["李白"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1191",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "以“沉郁顿挫”为风格特点的诗人是____。",
+    blanks: [["杜甫"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1192",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "杜甫的字是____。",
+    blanks: [["子美"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1193",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "杜甫自号____。",
+    blanks: [["少陵野老"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1194",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "杜甫的诗被后人誉为“____”。",
+    blanks: [["诗史"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1195",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "杜甫的“三吏”指____、____、____。",
+    blanks: [["《潼关吏》"],["《石壕吏》"],["《新安吏》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1196",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "杜甫的“三别”指____、____、____。",
+    blanks: [["《无家别》"],["《新婚别》"],["《垂老别》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1197",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "新乐府运动的核心主张是____。",
+    blanks: [["以创作新题乐府、反映现实为中心，提倡“即事名篇”，恢复采诗制度，发挥诗歌补察时政、泄导人情的社会功能"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1198",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "新乐府运动的代表人物是____、____。",
+    blanks: [["白居易"],["元稹"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1199",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“文章合为时而著，歌诗合为事而作”是____提出的文学主张。",
+    blanks: [["白居易"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1200",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“元白”指____、____两位诗人。",
+    blanks: [["白居易"],["元稹"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1201",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "唐传奇《莺莺传》的作者是____。",
+    blanks: [["元稹"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1202",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "《莺莺传》是元代杂剧____的故事来源。",
+    blanks: [["《西厢记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1203",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "“唐宋八大家”指____、____、____、____、____、____、____、____。",
+    blanks: [["韩愈"],["柳宗元"],["欧阳修"],["王安石"],["曾巩"],["苏洵"],["苏轼"],["苏辙"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1204",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“唐宋八大家”中的唐代作家是____、____。",
+    blanks: [["韩愈"],["柳宗元"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1205",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“唐宋八大家”中的宋代作家是____、____、____、____、____、____。",
+    blanks: [["欧阳修"],["王安石"],["曾巩"],["苏洵"],["苏轼"],["苏辙"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1206",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“唐宋八大家”是____的代表。",
+    blanks: [["古文运动"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1207",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“文起八代之衰，道济天下之溺”是苏轼对____的赞誉。",
+    blanks: [["韩愈"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1208",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "韩愈提出的散文写作理论有____、____、____、____。",
+    blanks: [["“文道合一”"],["“气盛言宜”"],["“务去陈言”"],["“文从字顺”"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1209",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“郊寒岛瘦”指____、____两位诗人。",
+    blanks: [["孟郊"],["贾岛"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1210",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "被称为“苦吟诗人”的是____。",
+    blanks: [["贾岛"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1211",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "代表晚唐诗歌最高成就的诗人是____。",
+    blanks: [["李商隐"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1212",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "李商隐诗歌的题材特点是____。",
+    blanks: [["大多以男女爱情相思为题材，语言富丽华艳，饱含无奈和悲哀"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1213",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "花间词派的鼻祖是____。",
+    blanks: [["温庭筠"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1214",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "我国第一部文人词总集是____。",
+    blanks: [["《花间集》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1215",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“乐府三绝”指____、____、____。",
+    blanks: [["《孔雀东南飞》"],["《木兰诗》"],["《秦妇吟》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1216",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "五代时期最著名的词人是____。",
+    blanks: [["李煜"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1217",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "李煜的词作前期____，后期____。",
+    blanks: [["多写帝王享乐，风格柔靡"],["抒发故国之思、亡国之痛"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1218",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“诗佛”指的是唐代诗人____。",
+    blanks: [["王维"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1219",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“诗仙”指的是唐代诗人____。",
+    blanks: [["李白"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1220",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“诗圣”指的是唐代诗人____。",
+    blanks: [["杜甫"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1221",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“诗鬼”指的是唐代诗人____。",
+    blanks: [["李贺"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1222",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "“诗豪”指的是唐代诗人____。",
+    blanks: [["刘禹锡"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1223",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“大李杜”指____、____两位诗人。",
+    blanks: [["李白"],["杜甫"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1224",
+    type: "fill",
+    category: "隋唐文学",
+    level: 1,
+    question: "“小李杜”指____、____两位诗人。",
+    blanks: [["李商隐"],["杜牧"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1225",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "“先天下之忧而忧，后天下之乐而乐”出自____。",
+    blanks: [["《岳阳楼记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1226",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "《岳阳楼记》的作者是____。",
+    blanks: [["范仲淹"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1227",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "北宋第一位致力于写词的作家是____。",
+    blanks: [["柳永"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1228",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "柳永是____词派的代表作家。",
+    blanks: [["婉约"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1229",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“大晏”指词人____。",
+    blanks: [["晏殊"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1230",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“小晏”指词人____。",
+    blanks: [["晏几道"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1231",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“六一居士”是____的号。",
+    blanks: [["欧阳修"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1232",
+    type: "fill",
+    category: "宋代文学",
+    level: 3,
+    question: "欧阳修提出的文学主张是____。",
+    blanks: [["“文”“道”并重，“道”先“文”后"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1233",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“临川先生”指的是____。",
+    blanks: [["王安石"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1234",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "王安石的代表作品有____、____、____、____。",
+    blanks: [["《读孟尝君传》"],["《伤仲永》"],["《游褒禅山记》"],["《泊船瓜洲》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1235",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "苏轼号____。",
+    blanks: [["东坡居士"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1236",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "苏轼开创了____。",
+    blanks: [["豪放词派"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1237",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "“三苏”指____、____、____。",
+    blanks: [["苏洵"],["苏轼"],["苏辙"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1238",
+    type: "fill",
+    category: "文化常识",
+    level: 1,
+    question: "被称为“天下第一行书”的作品是____。",
+    blanks: [["《兰亭集序》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1239",
+    type: "fill",
+    category: "文化常识",
+    level: 1,
+    question: "《兰亭集序》的作者是____。",
+    blanks: [["王羲之"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1240",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "被称为“天下第二行书”的作品是____。",
+    blanks: [["《祭侄文稿》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1241",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "《祭侄文稿》的作者是____。",
+    blanks: [["颜真卿"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1242",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "被称为“天下第三行书”的作品是____。",
+    blanks: [["《寒食帖》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1243",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "《寒食帖》的作者是____。",
+    blanks: [["苏轼"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1244",
+    type: "fill",
+    category: "宋代文学",
+    level: 3,
+    question: "被称为“婉约之宗”的词人是____。",
+    blanks: [["秦观"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1245",
+    type: "fill",
+    category: "宋代文学",
+    level: 3,
+    question: "秦观的代表作是____。",
+    blanks: [["《鹊桥仙·纤云弄巧》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1246",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "江西诗派的开山之祖是____。",
+    blanks: [["黄庭坚"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1247",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "“苏黄”指____、____两位文学家。",
+    blanks: [["苏轼"],["黄庭坚"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1248",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "书法“宋四家”指____、____、____、____。",
+    blanks: [["苏轼"],["黄庭坚"],["米芾"],["蔡襄"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1249",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "我国最大的编年体通史是____。",
+    blanks: [["《资治通鉴》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1250",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "《资治通鉴》的主编是____。",
+    blanks: [["司马光"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1251",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "《资治通鉴》与____并称“史学双璧”。",
+    blanks: [["《史记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1252",
+    type: "fill",
+    category: "宋代文学",
+    level: 3,
+    question: "被称为北宋词集大成者的是____。",
+    blanks: [["周邦彦"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1253",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "我国文学史上第一位女词人是____。",
+    blanks: [["李清照"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1254",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "李清照号____。",
+    blanks: [["易安居士"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1255",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "李清照是____词派的代表词人。",
+    blanks: [["婉约"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1256",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "中国文学史上创作最丰富的诗人是____。",
+    blanks: [["陆游"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1257",
+    type: "fill",
+    category: "宋代文学",
+    level: 3,
+    question: "陆游的代表作有____、____。",
+    blanks: [["《卜算子·咏梅》"],["《书愤》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1258",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "辛弃疾的字是____。",
+    blanks: [["幼安"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1259",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "辛弃疾的号是____。",
+    blanks: [["稼轩"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1260",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "辛弃疾是____词派的代表词人。",
+    blanks: [["豪放"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1261",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "辛弃疾与____并称“苏辛”。",
+    blanks: [["苏轼"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1262",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "词史上的“二安”指____、____两位词人。",
+    blanks: [["李清照"],["辛弃疾"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1263",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "“元曲四大家”指____、____、____、____。",
+    blanks: [["关汉卿"],["白朴"],["马致远"],["郑光祖"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1264",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "被称为“秋思之祖”的作家是____。",
+    blanks: [["马致远"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1265",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "马致远的杂剧《汉宫秋》讲述的是____。",
+    blanks: [["王昭君出塞和亲的故事"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1266",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《梧桐雨》的作者是____。",
+    blanks: [["白朴"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1267",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《梧桐雨》的故事取材于____和____的爱情故事。",
+    blanks: [["唐玄宗（李隆基）"],["杨玉环（杨贵妃）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1268",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "《西厢记》的作者是____。",
+    blanks: [["王实甫"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1269",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《西厢记》在元杂剧中被誉为“____”。",
+    blanks: [["天下夺魁"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1270",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "元杂剧“四大爱情剧”指____、____、____、____。",
+    blanks: [["《西厢记》"],["《拜月亭》"],["《墙头马上》"],["《倩女离魂》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1271",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "元杂剧“四大悲剧”指____、____、____、____。",
+    blanks: [["《窦娥冤》"],["《汉宫秋》"],["《梧桐雨》"],["《赵氏孤儿》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1272",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "我国第一部传入欧洲的戏剧作品是____。",
+    blanks: [["《赵氏孤儿》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1273",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《赵氏孤儿》的作者是____。",
+    blanks: [["纪君祥"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1274",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "最早把《赵氏孤儿》译成法文的是____。",
+    blanks: [["马若瑟"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1275",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "把《赵氏孤儿》改编并介绍给欧洲观众的是法国启蒙思想家____。",
+    blanks: [["伏尔泰"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1276",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "称纪君祥之词“如雪里梅花”的元曲评语出自____。",
+    blanks: [["明初朱权《太和正音谱》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1277",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "“四大南戏”（四大传奇）指____、____、____、____。",
+    blanks: [["《荆钗记》"],["《白兔记》"],["《拜月亭记》"],["《杀狗记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1278",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "我国第一部长篇章回体小说是____。",
+    blanks: [["《三国演义》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1279",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "《三国演义》的作者是____。",
+    blanks: [["罗贯中"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1280",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《三国演义》的语体特点是____。",
+    blanks: [["文白相间，“文不甚深，言不甚俗”"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1281",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "我国第一部用白话文写成的英雄传奇小说是____。",
+    blanks: [["《水浒传》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1282",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "我国第一部长篇神怪小说是____。",
+    blanks: [["《西游记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1283",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "中国文学史上第一部文人独立创作、写家庭生活的长篇世情小说是____。",
+    blanks: [["《金瓶梅》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1284",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《金瓶梅》的作者署名是____。",
+    blanks: [["兰陵笑笑生"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1285",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "明代“四大奇书”指____、____、____、____。",
+    blanks: [["《三国演义》"],["《水浒传》"],["《西游记》"],["《金瓶梅》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1286",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "“三言”的编纂者是____。",
+    blanks: [["冯梦龙"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1287",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "“三言”指____、____、____。",
+    blanks: [["《喻世明言》"],["《警世通言》"],["《醒世恒言》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1288",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "“二拍”的编著者是____。",
+    blanks: [["凌濛初"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1289",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "“二拍”指____、____。",
+    blanks: [["《初刻拍案惊奇》"],["《二刻拍案惊奇》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1290",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "明代中期“三大传奇”指____、____、____。",
+    blanks: [["《宝剑记》"],["《浣纱记》"],["《鸣凤记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1291",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "“临川四梦”指____、____、____、____。",
+    blanks: [["《牡丹亭》"],["《南柯记》"],["《邯郸记》"],["《紫钗记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1292",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "“临川四梦”的作者是____。",
+    blanks: [["汤显祖"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1293",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "明代前后七子的文学主张是“____”。",
+    blanks: [["文必秦汉，诗必盛唐"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1294",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "归有光的字是____。",
+    blanks: [["熙甫（又字开甫）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1295",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "归有光的号是____。",
+    blanks: [["震川（又号项脊生）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1296",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "归有光世称____。",
+    blanks: [["震川先生"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1297",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "公安派的首领是____。",
+    blanks: [["袁宏道"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1298",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "公安派的文学主张是“____”。",
+    blanks: [["独抒性灵，不拘格套"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1299",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《徐霞客游记》的作者是____。",
+    blanks: [["徐弘祖（徐霞客）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1300",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《徐霞客游记》被誉为“____”。",
+    blanks: [["古今记游第一"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1301",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "15世纪初世界上第一部百科全书是____。",
+    blanks: [["《永乐大典》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1302",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "《永乐大典》编纂于____。",
+    blanks: [["明朝"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1303",
+    type: "fill",
+    category: "文化常识",
+    level: 3,
+    question: "《永乐大典》的总编是____。",
+    blanks: [["解缙"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1304",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "《红楼梦》又名____。",
+    blanks: [["《石头记》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1305",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "《红楼梦》主要写了____、____的爱情悲剧。",
+    blanks: [["贾宝玉"],["林黛玉"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1306",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "与《红楼梦》并称古典小说“双璧”的是____。",
+    blanks: [["《金瓶梅》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1307",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "“可叹停机德，堪怜咏絮才。玉带林中挂，金簪雪里埋。”这首判词写的是____、____。",
+    blanks: [["林黛玉"],["薛宝钗"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1308",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "我国文学史上第一部长篇讽刺小说是____。",
+    blanks: [["《儒林外史》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1309",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《儒林外史》的作者是____。",
+    blanks: [["吴敬梓"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1310",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "晚清“四大谴责小说”指____、____、____、____。",
+    blanks: [["《官场现形记》"],["《二十年目睹之怪现状》"],["《老残游记》"],["《孽海花》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1311",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "被称为“中国文言短篇小说之王”的是____。",
+    blanks: [["蒲松龄"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1312",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "蒲松龄的代表作是____。",
+    blanks: [["《聊斋志异》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1313",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "中国现存最大的官修丛书是____。",
+    blanks: [["《四库全书》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1314",
+    type: "fill",
+    category: "文化常识",
+    level: 2,
+    question: "《四库全书》按____、____、____、____四部分类。",
+    blanks: [["经"],["史"],["子"],["集"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1315",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "明末清初散文三大家指____、____、____。",
+    blanks: [["魏禧"],["侯方域"],["汪琬"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1316",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "清代最大的散文流派是____。",
+    blanks: [["桐城派"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1317",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "桐城派的开创者是____。",
+    blanks: [["方苞"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1318",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "桐城派除方苞外的代表人物还有____、____。",
+    blanks: [["刘大櫆"],["姚鼐"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1319",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《长生殿》的作者是____。",
+    blanks: [["洪昇"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1320",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《长生殿》取材于____和____。",
+    blanks: [["白居易《长恨歌》"],["白朴《梧桐雨》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1321",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "《桃花扇》的作者是____。",
+    blanks: [["孔尚任"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1322",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "《桃花扇》的主旨可以概括为“____”。",
+    blanks: [["借离合之情，写兴亡之感"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1323",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "被后人誉为“清朝第一词人”的是____。",
+    blanks: [["纳兰性德"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1324",
+    type: "fill",
+    category: "元明清文学",
+    level: 3,
+    question: "纳兰性德的词风可以概括为____。",
+    blanks: [["清丽婉约、哀感顽艳、格高韵远"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1325",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "刘兰芝、焦仲卿这两个人物出自____。",
+    blanks: [["《孔雀东南飞》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1326",
+    type: "fill",
+    category: "秦汉魏晋文学",
+    level: 2,
+    question: "《孔雀东南飞》产生于____。",
+    blanks: [["汉（东汉）"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1327",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "柳毅、洞庭龙女这两个人物出自____。",
+    blanks: [["《柳毅传》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1328",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "《柳毅传》产生于____。",
+    blanks: [["唐"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1329",
+    type: "fill",
+    category: "隋唐文学",
+    level: 3,
+    question: "《柳毅传》的作者是____。",
+    blanks: [["李朝威"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1330",
+    type: "fill",
+    category: "隋唐文学",
+    level: 2,
+    question: "张生、崔莺莺、红娘最早出自____。",
+    blanks: [["唐元稹《莺莺传》"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1331",
+    type: "fill",
+    category: "元明清文学",
+    level: 2,
+    question: "元代把《莺莺传》改编为杂剧的是____。",
+    blanks: [["王实甫"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1332",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "王实甫据《莺莺传》改编的杂剧是____。",
+    blanks: [["《西厢记》"]],
+    explanation: "—"
   }
 ];
