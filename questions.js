@@ -19977,5 +19977,401 @@ window.QUESTION_BANK = [
     question: "王实甫据《莺莺传》改编的杂剧是____。",
     blanks: [["《西厢记》"]],
     explanation: "—"
+  },
+
+  {
+    id: "c607",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "南宋“中兴四大诗人”中，以田园诗和使金纪行诗著称的是",
+    options: ["陆游","杨万里","范成大","尤袤"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c608",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "被称为“眉山出三苏，草木为之枯”，其中“三苏”不包括",
+    options: ["苏洵","苏轼","苏辙","苏耽"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c609",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "苏轼的谥号是",
+    options: ["文忠","文正","文恭","文和"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c610",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "绘画方面，苏轼开创了",
+    options: ["湖州画派","吴门画派","松江画派","新安画派"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c611",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "书法方面，“宋四家”包括苏轼、黄庭坚、米芾和",
+    options: ["蔡襄","蔡京","蔡邕","蔡文姬"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c612",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "苏轼词的创作特点是",
+    options: ["以诗为词","以文为词","别是一家","自成一家"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c613",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "李清照词主张是",
+    options: ["以诗为词","以文为词","别是一家","自成一家"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c614",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "被称为“天下第三大行书”的是苏轼的",
+    options: ["《黄州寒食帖》","《兰亭集序》","《祭侄文稿》","《洞庭春色赋》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c615",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "以下属于苏轼文学主张的是",
+    options: ["胸有成竹，心手相应","文以载道","性灵说","肌理说"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c616",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "苏洵的号是",
+    options: ["东坡居士","老泉","六一居士","半山"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c617",
+    type: "choice",
+    category: "宋代文学",
+    level: 2,
+    question: "苏洵著有",
+    options: ["《六国论》","《前赤壁赋》","《后赤壁赋》","《黄州寒食帖》"],
+    answer: "A",
+    explanation: "—"
+  },
+
+  {
+    id: "c618",
+    type: "choice",
+    category: "宋代文学",
+    level: 2,
+    question: "辛弃疾的词主张是",
+    options: ["自是一家","别是一家","以诗为词","以文为词"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c619",
+    type: "choice",
+    category: "宋代文学",
+    level: 2,
+    question: "下列不是南宋“中兴四大诗人”的是",
+    options: ["陆游","杨慎","范成大","尤袤"],
+    answer: "B",
+    explanation: "—"
+  },
+
+  {
+    id: "c620",
+    type: "choice",
+    category: "宋代文学",
+    level: 2,
+    question: "下列词人中，不属于“豪放派”代表人物的是",
+    options: ["苏轼","辛弃疾","晏几道","张孝祥"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c621",
+    type: "choice",
+    category: "宋代文学",
+    level: 2,
+    question: "下列作品中，不属于宋代“婉约词”典范的是",
+    options: ["柳永《雨霖铃·寒蝉凄切》","李清照《声声慢·寻寻觅觅》","苏轼《念奴娇·赤壁怀古》","秦观《鹊桥仙·纤云弄巧》"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "f1333",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "中国古代科举制度中，殿试第一名称为______。",
+    blanks: [["状元"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1334",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "十二地支配十二生肖纪年的“午马”，其后一年是“______”。",
+    blanks: [["未羊"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1335",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "文房四宝指的是笔、墨、纸和______。",
+    blanks: [["砚"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1336",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "“岁寒三友”指的是松、竹、______。",
+    blanks: [["梅"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1337",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "中国传统戏曲中的四种艺术手段是唱、____、做、打。",
+    blanks: [["念"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1338",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "中唐诗人______与元稹共同倡导“新乐府运动”。",
+    blanks: [["白居易"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1339",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "宋代自称“奉旨填词”的著名词人是______。",
+    blanks: [["柳永"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1340",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "宋代词人______被称为“词中之龙”，与苏轼并称“苏辛”。",
+    blanks: [["辛弃疾"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1341",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "大河百代，众浪齐奔淘尽万古英雄汉；词苑千载，群芳竞秀盛开一枝女儿花。此人是______。",
+    blanks: [["李清照"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1342",
+    type: "fill",
+    category: "宋代文学",
+    level: 1,
+    question: "铁板铜琶继东坡高唱大江东去，美芹悲黍冀南宋莫随鸿雁南飞。此人是______。",
+    blanks: [["辛弃疾"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1343",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "黄庭坚《登快阁》：落木千山天远大，______。",
+    blanks: [["澄江一道月分明"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1344",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "秦观《鹊桥仙·纤云弄巧》：银汉迢迢暗度，金风玉露一相逢，______。",
+    blanks: [["便胜却人间无数"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1345",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "周邦彦《苏幕遮·燎沉香》：叶上初阳干宿雨，水面清圆，______。",
+    blanks: [["一一风荷举"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1346",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "陆游《书愤五首·其一》：楼船夜雪瓜洲渡，______。",
+    blanks: [["铁马秋风大散关"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1347",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "陆游《临安春雨初霁》：______，深巷明朝卖杏花。",
+    blanks: [["小楼一夜听春雨"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1348",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "辛弃疾《永遇乐·京口北固亭怀古》：想当年，金戈铁马，______。",
+    blanks: [["气吞万里如虎"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1349",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "辛弃疾《菩萨蛮·书江西造口壁》：江晚正愁余，______。",
+    blanks: [["山深闻鹧鸪"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1350",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "辛弃疾《青玉案·元夕》：______，蓦然回首，那人却在，灯火阑珊处。",
+    blanks: [["众里寻他千百度"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1351",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "王实甫《长亭送别》：晓来谁染霜林醉？______。",
+    blanks: [["总是离人泪"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1352",
+    type: "fill",
+    category: "宋代文学",
+    level: 2,
+    question: "古代写诗最多（现存9千余首）的爱国诗人是南宋的______。",
+    blanks: [["陆游"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f1353",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "小说《____》以1348年佛罗伦萨爆发黑死病为背景，通过十名青年男女在一所乡村别墅里避难时讲故事。",
+    blanks: [["《十日谈》"]],
+    explanation: "这是意大利文艺复兴时期作家薄伽丘的代表作。小说以黑死病为背景，讲述了 10 名青年在 10 天内每人每天讲一个故事，共 100 个故事，讽刺了教会的腐败和封建道德。"
+  },
+
+  {
+    id: "f1354",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被誉为“戏剧艺术的荷马”。",
+    blanks: [["索福克勒斯"]],
+    explanation: "索福克勒斯是古希腊三大悲剧诗人之一，他的悲剧创作标志着古希腊悲剧的成熟，亚里士多德称他为“戏剧艺术的荷马”。"
+  },
+
+  {
+    id: "c622",
+    type: "choice",
+    category: "元明清文学",
+    level: 1,
+    question: "《红楼梦》中涉及的四大家族分别是？",
+    options: ["贾、史、王、薛","贾、史、薛、赵","贾、史、薛、李","贾、史、薛、张"],
+    answer: "A",
+    explanation: "《红楼梦》第四回“护官符”中明确提到四大家族为：贾不假，白玉为堂金作马（贾家）；阿房宫，三百里，住不下金陵一个史（史家）；东海缺少白玉床，龙王来请金陵王（王家）；丰年好大雪，珍珠如土金如铁（薛家）。"
   }
 ];
