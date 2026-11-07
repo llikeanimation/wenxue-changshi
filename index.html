@@ -86,10 +86,14 @@
   .option.wrong { border-color: rgba(158, 59, 45, .3); background: var(--red-soft); color: var(--red); }
   .option.wrong .letter { border-color: var(--red); color: var(--red); }
   .option.dim { opacity: .55; }
-  .fill-input { width: 100%; padding: 15px 16px; border: 1px solid var(--line); border-radius: 12px; background: #fffefa; color: var(--ink); outline: none; font-size: 16px; }
-  .fill-input:focus { border-color: rgba(158, 59, 45, .45); box-shadow: 0 0 0 3px rgba(158, 59, 45, .06); }
-  .fill-input.correct { border-color: rgba(69, 107, 86, .4); background: var(--green-soft); color: var(--green); }
-  .fill-input.wrong { border-color: rgba(158, 59, 45, .3); background: var(--red-soft); color: var(--red); }
+  .fill-input, .blank-input { width: 100%; padding: 15px 16px; border: 1px solid var(--line); border-radius: 12px; background: #fffefa; color: var(--ink); outline: none; font-size: 16px; }
+  .fill-input:focus, .blank-input:focus { border-color: rgba(158, 59, 45, .45); box-shadow: 0 0 0 3px rgba(158, 59, 45, .06); }
+  .fill-input.correct, .blank-input.correct { border-color: rgba(69, 107, 86, .4); background: var(--green-soft); color: var(--green); }
+  .fill-input.wrong, .blank-input.wrong { border-color: rgba(158, 59, 45, .3); background: var(--red-soft); color: var(--red); }
+  .blank-sheet { display: grid; gap: 10px; }
+  .blank-row { display: flex; align-items: center; gap: 9px; }
+  .blank-number { width: 22px; height: 22px; flex: none; border: 1px solid var(--line); border-radius: 50%; display: grid; place-items: center; color: var(--muted); font-size: 10px; }
+  .blank-row .blank-input { flex: 1; }
   .feedback { margin-top: 18px; padding: 16px 16px; border-radius: 13px; background: rgba(244, 238, 227, .58); font-size: 13px; line-height: 1.8; color: var(--ink-soft); }
   .feedback strong { display: block; margin-bottom: 6px; color: var(--ink); font-family: var(--serif); font-size: 17px; }
   .feedback .answer { color: var(--green); font-weight: 600; }
@@ -140,6 +144,56 @@
     .result { padding: 26px 16px 18px; }
     .result .big { font-size: 54px; }
   }
+  @media (max-width: 430px) {
+    body { padding: max(12px, env(safe-area-inset-top)) 12px 32px; }
+    .top { margin-bottom: 20px; }
+    .seal { width: 34px; height: 34px; font-size: 18px; }
+    .brand strong { font-size: 17px; }
+    .brand small { font-size: 9px; }
+    .pill { padding: 5px 8px; font-size: 9px; }
+    h1 { font-size: 29px; line-height: 1.28; }
+    .eyebrow { font-size: 9px; }
+    .lead { font-size: 12px; line-height: 1.7; }
+    .note { margin-bottom: 16px; padding: 9px 10px; font-size: 10px; line-height: 1.6; }
+    .section-title strong { font-size: 17px; }
+    .section-title span { font-size: 10px; }
+    .grid, .groups { gap: 8px; }
+    .category { min-height: 98px; padding: 13px 11px; border-radius: 12px; }
+    .category strong { font-size: 15px; }
+    .category span { margin-top: 7px; font-size: 10px; }
+    .category em { margin-top: 10px; font-size: 10px; }
+    .type-card { padding: 22px 18px; border-radius: 14px; }
+    .type-card strong { font-size: 24px; }
+    .type-card span { font-size: 11px; }
+    .type-card em { margin-top: 15px; font-size: 12px; }
+    .group { padding: 13px 11px; border-radius: 11px; }
+    .group strong { font-size: 15px; }
+    .group span { font-size: 10px; }
+    .group em { margin-top: 8px; font-size: 10px; }
+    .quiz { padding-bottom: 86px; }
+    .quiz-head { margin-bottom: 18px; }
+    .card { padding: 18px 14px 16px; border-radius: 14px; }
+    .meta { margin-bottom: 13px; }
+    .tag { padding: 5px 8px; font-size: 10px; }
+    .serial { font-size: 10px; }
+    .stem { font-size: 21px; line-height: 1.6; }
+    .hint { margin-bottom: 15px; font-size: 11px; }
+    .option { padding: 12px 11px; font-size: 13.5px; border-radius: 10px; }
+    .option .letter { width: 25px; height: 25px; font-size: 11px; }
+    .fill-input, .blank-input { padding: 13px 12px; font-size: 16px; }
+    .blank-row { gap: 7px; }
+    .blank-number { width: 20px; height: 20px; font-size: 9px; }
+    .feedback { padding: 12px; font-size: 12px; }
+    .action { width: calc(100% - 24px); bottom: max(10px, env(safe-area-inset-bottom)); padding: 14px 12px; border-radius: 12px; font-size: 14px; }
+    .result { padding: 20px 14px 16px; border-radius: 14px; }
+    .result .big { font-size: 48px; }
+    .result h2 { font-size: 22px; }
+    .review-item summary { padding: 11px 10px; }
+    .review-title { font-size: 12px; }
+    .review-body { padding: 0 10px 11px; }
+    .review-stem { font-size: 13px; }
+    .review-option { font-size: 11px; }
+  }
 </style>
 </head>
 <body>
@@ -150,10 +204,10 @@
   "use strict";
   var bank = Array.isArray(window.QUESTION_BANK) ? window.QUESTION_BANK : [];
   var PER_GROUP = 10;
-  var STORAGE_KEY = "wenxue-sequence-groups-v2";
+  var STORAGE_KEY = "wenxue-sequence-groups-v3";
   var storageOk = true;
   var store = loadStore();
-  var state = { screen: "home", category: "", type: "", group: 0, items: [], index: 0, selected: null, fill: "", record: null, score: 0, done: false };
+  var state = { screen: "home", category: "", type: "", group: 0, items: [], index: 0, selected: null, fillValues: [], record: null, score: 0, done: false };
   var app = document.getElementById("app");
 
   function loadStore() {
@@ -174,7 +228,7 @@
   function key(category, type, group) { return category + "||" + type + "||" + group; }
   function progressFor(category, type, group) {
     var k = key(category, type, group);
-    if (!store.groups[k]) store.groups[k] = { answers: {}, index: 0, score: 0, completed: false, draftSelected: null, draftFill: "" };
+    if (!store.groups[k]) store.groups[k] = { answers: {}, index: 0, score: 0, completed: false, draftSelected: null, draftFill: [] };
     return store.groups[k];
   }
   function esc(value) {
@@ -272,7 +326,7 @@
     state.score = progress.score;
     state.record = progress.answers[state.index] || null;
     state.selected = progress.draftSelected;
-    state.fill = progress.draftFill || "";
+    state.fillValues = Array.isArray(progress.draftFill) ? progress.draftFill.slice() : progress.draftFill ? [progress.draftFill] : [];
     state.screen = "quiz";
     renderQuiz();
   }
@@ -280,7 +334,7 @@
   function saveDraft() {
     var progress = progressFor(state.category, state.type, state.group);
     progress.draftSelected = state.selected;
-    progress.draftFill = state.fill;
+    progress.draftFill = state.fillValues.slice();
     saveStore();
   }
 
@@ -299,7 +353,29 @@
       } else if (i === state.selected) classes.push("selected");
       return '<button class="' + classes.join(" ") + '" type="button" data-option="' + i + '"' + (answered ? " disabled" : "") + '><span class="letter">' + "ABCDEF"[i] + '</span><span>' + esc(option) + '</span><span class="mark">' + (answered && i === correctIndex ? "✓" : "") + '</span></button>';
     }).join("") : "";
-    var answerText = isChoice ? "ABCDEF"[correctIndex] + ". " + q.options[correctIndex] : q.blanks[0][0];
+    var answerText = isChoice ? "ABCDEF"[correctIndex] + ". " + q.options[correctIndex] : q.blanks.map(function (b) { return b[0]; }).join("；");
+    var fillHTML = "";
+    if (!isChoice) {
+      var multi = q.blanks.length > 1;
+      fillHTML = '<div class="' + (multi ? "blank-sheet" : "fill-wrap") + '">' +
+        q.blanks.map(function (accepted, i) {
+          var value = state.fillValues[i] || "";
+          var cls = multi ? "blank-input" : "fill-input";
+          var ok = false, bad = false;
+          if (answered) {
+            if (state.record.blankResults) {
+              ok = Boolean(state.record.blankResults[i] && state.record.blankResults[i].correct);
+              bad = !ok;
+            } else {
+              ok = state.record.correct; bad = !ok;
+            }
+          }
+          if (answered) cls += ok ? " correct" : " wrong";
+          var input = '<input class="' + cls + '"' + (multi ? ' data-blank="' + i + '"' : ' id="fill-input"') + ' value="' + esc(value) + '"' + (answered ? " disabled" : "") + ' placeholder="' + (multi ? "第 " + (i + 1) + " 空" : "输入答案") + '">';
+          return multi ? '<label class="blank-row"><span class="blank-number">' + (i + 1) + '</span>' + input + '</label>' : input;
+        }).join("") +
+        '</div>';
+    }
     app.innerHTML =
       '<div class="quiz">' +
       '<header class="quiz-head"><button class="back" type="button" data-action="groups">← 第 ' + (state.group + 1) + ' 组</button><span class="counter">第 <b>' + (state.index + 1) + '</b> / ' + state.items.length + '</span></header>' +
@@ -307,15 +383,22 @@
       '<div class="meta"><span class="tag">' + esc(q.category) + '</span><span class="serial">顺序 ' + pad(state.index + 1) + '</span></div>' +
       '<span class="tag ' + (isChoice ? "" : "red") + '">' + (isChoice ? "选择题" : "填空题") + '</span>' +
       '<h2 class="stem">' + esc(q.question) + '</h2>' +
-      '<p class="hint">' + (isChoice ? "选出唯一正确的一项。" : "在横线处填写答案，只保留一个空。") + '</p>' +
-      (isChoice ? '<div class="options">' + options + '</div>' : '<div class="fill-wrap"><input class="fill-input' + (answered ? (state.record.correct ? " correct" : " wrong") : "") + '" id="fill-input" value="' + esc(state.fill) + '"' + (answered ? " disabled" : "") + ' placeholder="输入答案"></div>') +
+      '<p class="hint">' + (isChoice ? "选出唯一正确的一项。" : q.blanks.length > 1 ? "共 " + q.blanks.length + " 个空，全部答对才算正确。" : "在横线处填写答案。") + '</p>' +
+      (isChoice ? '<div class="options">' + options + '</div>' : fillHTML) +
       (answered ? '<div class="feedback"><strong>' + (state.record.correct ? "答对了" : "再记一遍") + '</strong><div>正确答案：<span class="answer">' + esc(answerText) + '</span></div>' + (q.explanation ? '<div class="explain">' + esc(q.explanation) + '</div>' : "") + '</div>' : "") +
       '</div>' +
       '<button class="action" id="action" type="button"' + (!answered && isChoice && state.selected == null ? " disabled" : "") + '>' + (answered ? (state.index === state.items.length - 1 ? "查看本组结果" : "下一题 →") : "确认答案") + '</button>' +
       '</div>';
     if (!isChoice && !answered) {
-      var input = document.getElementById("fill-input");
-      if (input) input.addEventListener("input", function () { state.fill = input.value; saveDraft(); });
+      var inputs = app.querySelectorAll("#fill-input, .blank-input");
+      Array.prototype.forEach.call(inputs, function (input) {
+        input.addEventListener("input", function () {
+          var idx = input.hasAttribute("data-blank") ? Number(input.getAttribute("data-blank")) : 0;
+          state.fillValues[idx] = input.value;
+          saveDraft();
+        });
+      });
+      if (inputs.length === 1) inputs[0].focus();
     }
   }
 
@@ -324,16 +407,20 @@
     if (!q || state.record) return;
     var isChoice = q.type === "choice";
     if (isChoice && state.selected == null) return;
+    var fillValues = isChoice ? [] : q.blanks.map(function (_, i) { return state.fillValues[i] || ""; });
+    var blankResults = isChoice ? [] : q.blanks.map(function (accepted, i) {
+      return { value: fillValues[i], correct: accepted.some(function (value) { return normalize(value) === normalize(fillValues[i]); }) };
+    });
     var correct = isChoice
       ? state.selected === "ABCDEF".indexOf(q.answer)
-      : q.blanks[0].some(function (accepted) { return normalize(accepted) === normalize(state.fill); });
+      : blankResults.every(function (item) { return item.correct; });
     var progress = progressFor(state.category, state.type, state.group);
-    state.record = { selected: state.selected, fill: state.fill, correct: correct };
+    state.record = { selected: state.selected, fillValues: fillValues, blankResults: blankResults, correct: correct };
     progress.answers[state.index] = state.record;
     progress.index = state.index + 1;
     progress.score += correct ? 1 : 0;
     progress.draftSelected = null;
-    progress.draftFill = "";
+    progress.draftFill = [];
     progress.completed = progress.index >= state.items.length;
     state.score = progress.score;
     saveStore();
@@ -345,7 +432,7 @@
     if (progress.completed) { renderResult(); return; }
     state.index = progress.index;
     state.selected = progress.draftSelected;
-    state.fill = progress.draftFill || "";
+    state.fillValues = Array.isArray(progress.draftFill) ? progress.draftFill.slice() : progress.draftFill ? [progress.draftFill] : [];
     state.record = progress.answers[state.index] || null;
     renderQuiz();
   }
@@ -367,8 +454,8 @@
         else cls += " dim";
         return '<div class="' + cls + '"><span class="rl">' + "ABCDEF"[i] + '</span><span>' + esc(option) + '</span><span class="rm">' + (i === correctIndex ? "✓" : record && record.selected === i ? "✕" : "") + '</span></div>';
       }).join("") : "";
-      var user = !record ? "未作答" : isChoice ? "ABCDEF"[record.selected] + ". " + q.options[record.selected] : record.fill || "未填写";
-      var right = isChoice ? "ABCDEF"[correctIndex] + ". " + q.options[correctIndex] : q.blanks[0][0];
+      var user = !record ? "未作答" : isChoice ? "ABCDEF"[record.selected] + ". " + q.options[record.selected] : (record.fillValues || []).join("；") || "未填写";
+      var right = isChoice ? "ABCDEF"[correctIndex] + ". " + q.options[correctIndex] : q.blanks.map(function (b) { return b[0]; }).join("；");
       return '<details class="review-item' + (correct ? "" : " wrong") + '"' + (correct ? "" : " open") + '><summary><span class="review-mark">' + (correct ? "✓" : "✕") + '</span><span class="review-title"><strong>' + (index + 1) + '. ' + esc(q.question) + '</strong><small>' + esc(q.category) + ' · ' + (isChoice ? "选择题" : "填空题") + '</small></span></summary><div class="review-body"><div class="review-stem">' + esc(q.question) + '</div>' + opts + '<div class="review-answers">你的答案：' + esc(user) + '<br>正确答案：<b>' + esc(right) + '</b></div>' + (q.explanation ? '<div class="review-explain">' + esc(q.explanation) + '</div>' : "") + '</div></details>';
     }).join("");
     state.done = true;
@@ -379,7 +466,7 @@
 
   function restartGroup() {
     var k = key(state.category, state.type, state.group);
-    store.groups[k] = { answers: {}, index: 0, score: 0, completed: false, draftSelected: null, draftFill: "" };
+    store.groups[k] = { answers: {}, index: 0, score: 0, completed: false, draftSelected: null, draftFill: [] };
     saveStore();
     startGroup(state.group);
   }
@@ -409,7 +496,7 @@
 
   app.addEventListener("keydown", function (event) {
     if (event.key !== "Enter" || event.isComposing) return;
-    if (event.target.id === "fill-input" && !state.record) { event.preventDefault(); confirm(); }
+    if ((event.target.id === "fill-input" || event.target.classList.contains("blank-input")) && !state.record) { event.preventDefault(); confirm(); }
   });
 
   renderHome();
