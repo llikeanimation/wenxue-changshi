@@ -66,56 +66,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f153",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，与子成说。执子之手，____。",
-    blanks: [["死生契阔"],["与子偕老"]],
-    explanation: "《诗经·邶风·击鼓》写战士对誓言的追忆。"
-  },
-
-  {
-    id: "f154",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，于我如浮云。",
-    blanks: [["不义而富且贵"]],
-    explanation: "《论语·述而》表明孔子对不义富贵的态度。"
-  },
-
-  {
-    id: "f155",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，吾将上下而求索。",
-    blanks: [["路漫漫其修远兮"]],
-    explanation: "《离骚》名句，写追求理想的执着。"
-  },
-
-  {
-    id: "f156",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，哀民生之多艰。",
-    blanks: [["长太息以掩涕兮"]],
-    explanation: "《离骚》名句，写诗人对民生艰难的悲叹。"
-  },
-
-  {
-    id: "f157",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，小人长戚戚。",
-    blanks: [["君子坦荡荡"]],
-    explanation: "《论语·述而》以胸怀宽窄区分君子与小人。"
-  },
-
-  {
     id: "f158",
     type: "fill",
     category: "先秦文学",
@@ -206,16 +156,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f167",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "____，见不贤而内自省也。",
-    blanks: [["见贤思齐焉"]],
-    explanation: "《论语·里仁》主张以贤者为榜样、以不贤者为鉴戒。"
-  },
-
-  {
     id: "f168",
     type: "fill",
     category: "先秦文学",
@@ -233,16 +173,6 @@ window.QUESTION_BANK = [
     question: "儒家的创始人是____，代表人物为____、____。",
     blanks: [["孔子"],["孟子"],["荀子"]],
     explanation: "孔、孟、荀是先秦儒家的主要代表。"
-  },
-
-  {
-    id: "f170",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "儒道两家都曾用行路来论述积累的重要性。《老子》中说“九层之台，起于累土；千里之行，始于足下”，荀子在《劝学》中说“____”。",
-    blanks: [["故不积跬步，无以至千里"]],
-    explanation: "二句以行路为喻，强调积累的必要。"
   },
 
   {
@@ -273,16 +203,6 @@ window.QUESTION_BANK = [
     question: "删定《诗经》篇目的学者是____。",
     blanks: [["孔子"]],
     explanation: "司马迁有“孔子删诗”之说，定为305篇。"
-  },
-
-  {
-    id: "f1508",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "《劝学》中“____，____”，通过“木”与“金”的变化说明客观事物经过人工改造，可以改变原来的状况。",
-    blanks: [["故木受绳则直"],["金就砺则利"]],
-    explanation: "以木受绳、金就砺为喻，说明学习可以改造人。"
   },
 
   {
@@ -355,16 +275,6 @@ window.QUESTION_BANK = [
     question: "孟子被尊称为“____”，主张____，与荀子的性恶论相对，其思想核心是“____”，主张“民贵君轻”。",
     blanks: [["亚圣"],["性善论"],["仁政"]],
     explanation: "孟子继承孔子，主性善、行仁政，被尊为“亚圣”。"
-  },
-
-  {
-    id: "f180",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "学而不思则罔，____。",
-    blanks: [["思而不学则殆"]],
-    explanation: "《论语·为政》论学与思须相辅而行。"
   },
 
   {
@@ -541,26 +451,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f195",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "知之者不如好之者，____。",
-    blanks: [["好之者不如乐之者"]],
-    explanation: "《论语·雍也》论学习的三重境界。"
-  },
-
-  {
-    id: "f196",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "知者乐水，____。",
-    blanks: [["仁者乐山"]],
-    explanation: "《论语·雍也》以山水比拟知者与仁者的性情。"
-  },
-
-  {
     id: "c189",
     type: "choice",
     category: "先秦文学",
@@ -720,16 +610,6 @@ window.QUESTION_BANK = [
     question: "《____》《____》《____》并称“春秋三传”。",
     blanks: [["左传"],["公羊传"],["谷梁传"]],
     explanation: "三书均为解说《春秋》的著作，合称“春秋三传”。"
-  },
-
-  {
-    id: "f211",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "____，不为尧存，不为桀亡。",
-    blanks: [["天行有常"]],
-    explanation: "《荀子·天论》认为自然规律不因人事善恶而改变。"
   },
 
   {
@@ -976,16 +856,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f231",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "合抱之木，生于毫末；____；千里之行，始于足下。",
-    blanks: [["九层之台，起于累土"]],
-    explanation: "《老子》第六十四章以积微成大喻修身行事。"
-  },
-
-  {
     id: "c194",
     type: "choice",
     category: "先秦文学",
@@ -994,16 +864,6 @@ window.QUESTION_BANK = [
     options: ["法家","道家","墨家","纵横家"],
     answer: "B",
     explanation: "《吕氏春秋》为秦相吕不韦门客集体编撰，属杂家，“兼儒墨，合名法”，而以儒、道为主。"
-  },
-
-  {
-    id: "f232",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "君子之交淡如水，____。",
-    blanks: [["小人之交甘若醴"]],
-    explanation: "语出《庄子·山木》，以水与醴喻君子、小人之交。"
   },
 
   {
@@ -1319,16 +1179,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f249",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "庄子在《逍遥游》中提出“无所待”才是真正的逍遥，并列举三类人的句子是“____，____，____”。",
-    blanks: [["至人无己"],["神人无功"],["圣人无名"]],
-    explanation: "庄子以“无己”“无功”“无名”概括理想人格的境界。"
-  },
-
-  {
     id: "f1576",
     type: "fill",
     category: "先秦文学",
@@ -1346,26 +1196,6 @@ window.QUESTION_BANK = [
     question: "庄子的主张是____、____。",
     blanks: [["逍遥游"],["顺应自然"]],
     explanation: "庄子追求精神的绝对自由，主张顺应自然、齐同物我。"
-  },
-
-  {
-    id: "f1579",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "《庄子·逍遥游》中写宋荣子看淡世间荣辱，不会因外界评价而更加奋勉或沮丧的句子是“____，____”。",
-    blanks: [["且举世誉之而不加劝"],["举世非之而不加沮"]],
-    explanation: "二句写宋荣子不为毁誉所动，但仍未达“无所待”之境。"
-  },
-
-  {
-    id: "f253",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "惟草木之零落兮，____。",
-    blanks: [["恐美人之迟暮"]],
-    explanation: "《离骚》句，由草木零落联想到年华易逝、理想难成。"
   },
 
   {
@@ -1556,16 +1386,6 @@ window.QUESTION_BANK = [
     question: "相传古诗原有三千余首，经孔子删定为305首，《____》中也有“诗三百，一言以蔽之，曰‘思无邪’”的记载。",
     blanks: [["论语"]],
     explanation: "语出《论语·为政》，是“诗三百”一称的早期出处。"
-  },
-
-  {
-    id: "f267",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "知我者，谓我心忧；____。",
-    blanks: [["不知我者，谓我何求"]],
-    explanation: "《诗经·王风·黍离》写故都荒芜、无人理解的忧思。"
   },
 
   {
@@ -2212,16 +2032,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1356",
-    type: "fill",
-    category: "先秦文学",
-    level: 2,
-    question: "《论语·先进》中“浴乎沂，____，咏而归”，体现了曾皙的理想人生境界。",
-    blanks: [["风乎舞雩"]],
-    explanation: "语出《论语·先进》，曾皙描述春日沂水边的情景。"
-  },
-
-  {
     id: "f1360",
     type: "fill",
     category: "先秦文学",
@@ -2303,16 +2113,6 @@ window.QUESTION_BANK = [
     question: "“四书”是指《论语》《中庸》《____》《孟子》。",
     blanks: [["大学"]],
     explanation: "四书是《大学》《中庸》《论语》《孟子》；口诀：大中论孟。"
-  },
-
-  {
-    id: "f1408",
-    type: "fill",
-    category: "先秦文学",
-    level: 1,
-    question: "屈原《离骚》：长太息以掩涕兮，____。",
-    blanks: [["哀民生之多艰"]],
-    explanation: "答案：哀民生之多艰。"
   },
 
   {
@@ -2412,17 +2212,6 @@ window.QUESTION_BANK = [
     options: ["160","105","40","305"],
     answer: "B",
     explanation: "《诗经》共有诗歌305篇，其中\"风\"有十五国风，共160篇；\"雅\"分《大雅》《小雅》，共105篇；\"颂\"有《周颂》《鲁颂》《商颂》，共40篇。"
-  },
-
-  {
-    id: "c905",
-    type: "choice",
-    category: "先秦文学",
-    level: 1,
-    question: "《氓》中运用\"赋\"这一表现手法的诗句是（　）",
-    options: ["桑之未落，其叶沃若","淇则有岸，隰则有泮","总角之宴，言笑晏晏","于嗟鸠兮，无食桑葚"],
-    answer: "C",
-    explanation: "\"总角之宴，言笑晏晏\"两句运用了\"赋\"的表现手法，直观地描写了女主人公和\"氓\"年少时谈笑的欢乐场景。"
   },
 
   {
@@ -3617,16 +3406,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f292",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "____，志在千里；烈士暮年，____。",
-    blanks: [["老骥伏枥"],["壮心不已"]],
-    explanation: "曹操《龟虽寿》以老马自比，写老而弥坚的壮志。"
-  },
-
-  {
     id: "f293",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -3707,16 +3486,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f304",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "____，洪波涌起。",
-    blanks: [["秋风萧瑟"]],
-    explanation: "曹操《观沧海》写秋风中海浪翻涌的壮阔景象。"
-  },
-
-  {
     id: "f1628",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -3724,26 +3493,6 @@ window.QUESTION_BANK = [
     question: "《____》由东晋史学家____撰写，是魏晋志怪小说的集大成之作，也是我国第一部文言志怪小说集。",
     blanks: [["搜神记"],["干宝"]],
     explanation: "干宝《搜神记》为志怪小说代表，保存了大量神话传说。"
-  },
-
-  {
-    id: "f306",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "____，视死忽如归。",
-    blanks: [["捐躯赴国难"]],
-    explanation: "曹植《白马篇》写游侠儿赴难报国的豪情。"
-  },
-
-  {
-    id: "f307",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "____，非宁静无以致远。",
-    blanks: [["非淡泊无以明志"]],
-    explanation: "诸葛亮《诫子书》名句，强调修身须淡泊宁静。"
   },
 
   {
@@ -4046,16 +3795,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1651",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "《史记》由西汉史学家司马迁撰写，是我国第一部纪传体通史，包括十二本纪、十表、八书、三十世家、七十列传五部分；鲁迅称它是“____，无韵之《离骚》”。",
-    blanks: [["史家之绝唱"]],
-    explanation: "全书一百三十篇，记事上起黄帝、下至汉武帝。"
-  },
-
-  {
     id: "c207",
     type: "choice",
     category: "秦汉魏晋文学",
@@ -4146,26 +3885,6 @@ window.QUESTION_BANK = [
     options: ["卓文君","张衡","班固","司马相如"],
     answer: "D",
     explanation: "《子虚赋》《上林赋》是司马相如献给汉武帝的名作。"
-  },
-
-  {
-    id: "f331",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "对酒当歌，人生几何！____。",
-    blanks: [["譬如朝露，去日苦多"]],
-    explanation: "曹操《短歌行》开篇慨叹人生短促，引出求贤之思。"
-  },
-
-  {
-    id: "f332",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "山气日夕佳，____。",
-    blanks: [["飞鸟相与还"]],
-    explanation: "陶渊明《饮酒·其五》写傍晚山气与归鸟，见归隐之乐。"
   },
 
   {
@@ -4283,26 +4002,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f339",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "暧暧远人村，____。",
-    blanks: [["依依墟里烟"]],
-    explanation: "陶渊明《归园田居·其一》写远村朦胧、炊烟轻柔的田园晚景。"
-  },
-
-  {
-    id: "f340",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "曹操《短歌行》中化用周公“一沐三握发，一饭三吐哺”典故的诗句是：“____，____。”",
-    blanks: [["周公吐哺"],["天下归心"]],
-    explanation: "曹操以周公自比，表达招纳贤才、一统天下的心愿。"
-  },
-
-  {
     id: "f341",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -4362,16 +4061,6 @@ window.QUESTION_BANK = [
     question: "李白《梦游天姥吟留别》中“脚著谢公屐，身登青云梯”，“谢公”指的是____。",
     blanks: [["谢灵运"]],
     explanation: "谢灵运好游山水，特制登山木屐，故称“谢公屐”。"
-  },
-
-  {
-    id: "f345",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "此中有真意，____。",
-    blanks: [["欲辨已忘言"]],
-    explanation: "陶渊明《饮酒·其五》结句，写领会自然真趣而难以言传的心境。"
   },
 
   {
@@ -4511,26 +4200,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f353",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "羁鸟恋旧林，____。",
-    blanks: [["池鱼思故渊"]],
-    explanation: "出自陶渊明《归园田居·其一》，以“羁鸟”“池鱼”自比，写归隐后对田园自由的眷恋。"
-  },
-
-  {
-    id: "f354",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "群贤毕至，____。",
-    blanks: [["少长咸集"]],
-    explanation: "《兰亭集序》开篇写兰亭雅集，贤者毕至、长幼咸集。"
-  },
-
-  {
     id: "c223",
     type: "choice",
     category: "秦汉魏晋文学",
@@ -4623,26 +4292,6 @@ window.QUESTION_BANK = [
     question: "《过秦论》的作者是____。",
     blanks: [["贾谊"]],
     explanation: "贾谊作《过秦论》。"
-  },
-
-  {
-    id: "f360",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "郦道元笔下的三峡，山水俱美。尤其是春冬之时的水，作者用“____，____”两句，从色彩、情态等方面写出了水之秀美。",
-    blanks: [["素湍绿潭"],["回清倒影"]],
-    explanation: "语出《水经注·三峡》，“素湍绿潭，回清倒影”写春冬之水清澈秀美。"
-  },
-
-  {
-    id: "f361",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "采菊东篱下，____。",
-    blanks: [["悠然见南山"]],
-    explanation: "陶渊明《饮酒·其五》名句，写闲适自得之境。"
   },
 
   {
@@ -4890,17 +4539,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c232",
-    type: "choice",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "下列诗句出自《古诗十九首》的是（）",
-    options: ["相去万余里，各在天一涯。","中庭生旅谷，井上生旅葵。","青青河畔草，绵绵思远道。","上言加餐食，下言长相忆。"],
-    answer: "A",
-    explanation: "A句出自《古诗十九首·行行重行行》；B句出自汉乐府《十五从军征》，C、D两句出自汉乐府《饮马长城窟行》。"
-  },
-
-  {
     id: "c233",
     type: "choice",
     category: "秦汉魏晋文学",
@@ -4930,16 +4568,6 @@ window.QUESTION_BANK = [
     options: ["郭子仪","刘禹锡","郭茂倩","苏轼"],
     answer: "C",
     explanation: "宋人郭茂倩编《乐府诗集》，收录汉至唐的乐府诗。"
-  },
-
-  {
-    id: "f384",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "“亦欲以____，____，成一家之言。”",
-    blanks: [["究天人之际"],["通古今之变"]],
-    explanation: "出自司马迁《报任安书》。"
   },
 
   {
@@ -5144,16 +4772,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f398",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "南风知我意，____。",
-    blanks: [["吹梦到西洲"]],
-    explanation: "南朝民歌《西洲曲》结句，写相思入梦。"
-  },
-
-  {
     id: "f399",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -5252,16 +4870,6 @@ window.QUESTION_BANK = [
     question: "“大小谢”指____、____，其中“大谢”是我国____诗派的开创者。",
     blanks: [["谢灵运"],["谢朓"],["山水"]],
     explanation: "谢灵运开山水诗一派，谢朓继之，二人并称“大小谢”。"
-  },
-
-  {
-    id: "f409",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "奇文共欣赏，____。",
-    blanks: [["疑义相与析"]],
-    explanation: "陶渊明《移居·其一》写与邻人共赏文章、辨析疑义之乐。"
   },
 
   {
@@ -5569,16 +5177,6 @@ window.QUESTION_BANK = [
     question: "《水经注》是对《____》的注解，《水经注疏》是研究《水经注》的古典著作。",
     blanks: [["水经"]],
     explanation: "郦道元以《水经》为纲，详加补充，成《水经注》。"
-  },
-
-  {
-    id: "f434",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "水至清则无鱼，____。",
-    blanks: [["人至察则无徒"]],
-    explanation: "语出《汉书·东方朔传》，喻待人理事不可求全责备。"
   },
 
   {
@@ -6081,16 +5679,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1750",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 3,
-    question: "司马迁在《屈原列传（节选）》中，认为屈原《离骚》所写内容虽为平常事物却含义重大，所举事例虽近在眼前但意义深远的两句是“____，____”。",
-    blanks: [["其称文小而其指极大"],["举类迩而见义远"]],
-    explanation: "二句概括《离骚》以小见大、即近见远的写法。"
-  },
-
-  {
     id: "c253",
     type: "choice",
     category: "秦汉魏晋文学",
@@ -6352,16 +5940,6 @@ window.QUESTION_BANK = [
     question: "《史记》全书由十二本纪、十表、八书、三十世家、____五部分组成。",
     blanks: [["七十列传"]],
     explanation: "答案：七十列传。"
-  },
-
-  {
-    id: "f1138",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "鲁迅在《汉文学史纲要》中称《史记》为“____”。",
-    blanks: [["史家之绝唱，无韵之《离骚》"]],
-    explanation: "答案：史家之绝唱，无韵之《离骚》。"
   },
 
   {
@@ -6645,16 +6223,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1157",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "左思的____问世后，豪贵竞相传写，衍生出成语“洛阳纸贵”。",
-    blanks: [["《三都赋》"]],
-    explanation: "答案：《三都赋》。"
-  },
-
-  {
     id: "f1158",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -6682,16 +6250,6 @@ window.QUESTION_BANK = [
     question: "陶渊明又名____。",
     blanks: [["潜"]],
     explanation: "答案：潜。"
-  },
-
-  {
-    id: "f1161",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "陶渊明的字是____。",
-    blanks: [["元亮"]],
-    explanation: "答案：元亮。"
   },
 
   {
@@ -6735,16 +6293,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1165",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "“鞠躬尽瘁，死而后已”形容的是____。",
-    blanks: [["诸葛亮"]],
-    explanation: "答案：诸葛亮。"
-  },
-
-  {
     id: "f1166",
     type: "fill",
     category: "秦汉魏晋文学",
@@ -6762,16 +6310,6 @@ window.QUESTION_BANK = [
     question: "《三国志》的作者陈寿是____人。",
     blanks: [["西晋"]],
     explanation: "答案：西晋。"
-  },
-
-  {
-    id: "f1168",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "《后汉书》的作者是____。",
-    blanks: [["范晔"]],
-    explanation: "答案：范晔。"
   },
 
   {
@@ -6802,16 +6340,6 @@ window.QUESTION_BANK = [
     question: "《搜神记》的作者是____。",
     blanks: [["干宝"]],
     explanation: "答案：干宝。"
-  },
-
-  {
-    id: "f1172",
-    type: "fill",
-    category: "秦汉魏晋文学",
-    level: 2,
-    question: "《搜神记》的作者干宝是____人。",
-    blanks: [["东晋"]],
-    explanation: "答案：东晋。"
   },
 
   {
@@ -7306,28 +6834,6 @@ window.QUESTION_BANK = [
     options: ["怀才不遇","渴求贤才","统一天下","慷慨放达"],
     answer: "B",
     explanation: "\"山不厌高，海不厌深\"二句，比喻招纳贤才，多多益善，袒露了曹操渴求贤才的心迹。"
-  },
-
-  {
-    id: "c1284",
-    type: "choice",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "曹操《短歌行》（其一）中，运用了用典这一修辞手法的诗句是（　）",
-    options: ["呦呦鹿鸣，食野之苹","青青子衿，悠悠我心","对酒当歌，人生几何","周公吐哺，天下归心"],
-    answer: "D",
-    explanation: "曹操《短歌行》（其一）中，\"周公吐哺，天下归心\"两句引用了周公\"一饭三吐哺\"的历史典故，是说自己要以周公\"一饭三吐哺\"的精神虚心对待贤才，就会得到天下人的衷心拥戴，表达了诗人礼贤下士的决心。"
-  },
-
-  {
-    id: "c1285",
-    type: "choice",
-    category: "秦汉魏晋文学",
-    level: 1,
-    question: "曹操《短歌行》（其一）中\"青青子衿，悠悠我心。但为君故，沉吟至今\"是化用古人诗句，化用的诗句出自（　）",
-    options: ["《尚书》","《礼记》","《论语》","《诗经》"],
-    answer: "D",
-    explanation: "曹操《短歌行》（其一）中\"青青子衿，悠悠我心\"两句用《诗经·郑风·子衿》中\"青青子衿，悠悠我心\"的成句，借以表示诗人对贤才的渴慕。"
   },
 
   {
@@ -7855,16 +7361,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f492",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，不教胡马度阴山。（王昌龄《出塞》）",
-    blanks: [["但使龙城飞将在"]],
-    explanation: "借思念名将表达平息边患的愿望。"
-  },
-
-  {
     id: "f493",
     type: "fill",
     category: "隋唐文学",
@@ -7892,16 +7388,6 @@ window.QUESTION_BANK = [
     question: "____代表了晚唐诗歌的最高成就，其诗多写男女爱情相思，语言富丽华艳，常透出无奈与悲哀。",
     blanks: [["李商隐"]],
     explanation: "李商隐以“无题”诗著称，诗风绮丽含蓄。"
-  },
-
-  {
-    id: "f496",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，天下谁人不识君。（高适《别董大》）",
-    blanks: [["莫愁前路无知己"]],
-    explanation: "以豪迈语慰别友人，见盛唐送别诗的气象。"
   },
 
   {
@@ -7952,56 +7438,6 @@ window.QUESTION_BANK = [
     question: "《____》有“孤篇盖全唐”之誉，作者是____。",
     blanks: [["春江花月夜"],["张若虚"]],
     explanation: "张若虚《春江花月夜》以孤篇被推为唐诗的顶峰之作。"
-  },
-
-  {
-    id: "f501",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，清泉石上流。（王维《山居秋暝》）",
-    blanks: [["明月松间照"]],
-    explanation: "《山居秋暝》以月照松林、泉流石上写山居清幽。"
-  },
-
-  {
-    id: "f502",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，皎皎空中孤月轮。（张若虚《春江花月夜》）",
-    blanks: [["江天一色无纤尘"]],
-    explanation: "《春江花月夜》写江天澄澈、孤月当空之境。"
-  },
-
-  {
-    id: "f503",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，秋水共长天一色。（王勃《滕王阁序》）",
-    blanks: [["落霞与孤鹜齐飞"]],
-    explanation: "《滕王阁序》名句，写赣江秋日水天一色的景象。"
-  },
-
-  {
-    id: "f504",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，长河落日圆。（王维《使至塞上》）",
-    blanks: [["大漠孤烟直"]],
-    explanation: "此联以“直”“圆”二字写塞外景象，被王国维称为“千古壮观”。"
-  },
-
-  {
-    id: "f505",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，黄河入海流。欲穷千里目，____。（王之涣《登鹳雀楼》）",
-    blanks: [["白日依山尽"],["更上一层楼"]],
-    explanation: "前两句写景，后两句寓登高望远之理。"
   },
 
   {
@@ -8084,16 +7520,6 @@ window.QUESTION_BANK = [
     question: "元稹《离思》：“曾经沧海难为水，____。”",
     blanks: [["除却巫山不是云"]],
     explanation: "二句以沧海、巫山喻指经历过最好的，其他都不足观。"
-  },
-
-  {
-    id: "f512",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "刘禹锡《陋室铭》中“____，____”两句，写出了居室主人摆脱官场俗务后的轻松自在，两耳清静，又没有繁琐的政务劳累自己的身体。",
-    blanks: [["无丝竹之乱耳"],["无案牍之劳形"]],
-    explanation: "两句以“丝竹”“案牍”反衬陋室生活的清静自在。"
   },
 
   {
@@ -8228,16 +7654,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f522",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "《师说》中提出的择师标准是：“____，道之所存，师之所存也。”",
-    blanks: [["是故无贵无贱，无长无少"]],
-    explanation: "韩愈认为择师应以“道”为标准，不分贵贱长少。"
-  },
-
-  {
     id: "f523",
     type: "fill",
     category: "隋唐文学",
@@ -8321,16 +7737,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f528",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "李商隐《锦瑟》：“____，蓝田日暖玉生烟。此情可待成追忆，____。”",
-    blanks: [["沧海月明珠有泪"],["只是当时已惘然"]],
-    explanation: "诗中连用庄生梦蝶、杜鹃啼血、沧海珠泪、蓝田玉烟等典故。"
-  },
-
-  {
     id: "f529",
     type: "fill",
     category: "隋唐文学",
@@ -8381,16 +7787,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f534",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "李白《蜀道难》中“____，____”两句，通过绵延的山峰、倒挂的松树描绘出蜀道高险、奇绝的景象。",
-    blanks: [["连峰去天不盈尺"],["枯松倒挂倚绝壁"]],
-    explanation: "二句以夸张写山高、以倒挂写松奇，突出蜀道之险。"
-  },
-
-  {
     id: "f535",
     type: "fill",
     category: "隋唐文学",
@@ -8408,16 +7804,6 @@ window.QUESTION_BANK = [
     question: "杜甫，字____，自号____，世称杜拾遗、杜工部，被后人尊为“____”，是唐代伟大的____主义诗人。",
     blanks: [["子美"],["少陵野老"],["诗圣"],["现实"]],
     explanation: "杜甫长期流寓，诗作直面安史之乱前后的社会现实，故称现实主义诗人，被尊为“诗圣”。"
-  },
-
-  {
-    id: "f537",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "杜甫《登高》：“____，不尽长江滚滚来。”",
-    blanks: [["无边落木萧萧下"]],
-    explanation: "以落木、长江写秋日登高所见的壮阔景象。"
   },
 
   {
@@ -8511,16 +7897,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1810",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "王勃的代表作品有《____》（诗歌）和《____》（骈文）。其中一改前人送别诗哀伤、具有昂扬精神面貌的诗句是“____，天涯若比邻”。",
-    blanks: [["送杜少府之任蜀州"],["滕王阁序"],["海内存知己"]],
-    explanation: "《滕王阁序》是骈文名篇，《送杜少府之任蜀州》以“海内存知己”一扫送别诗的悲凉。"
-  },
-
-  {
     id: "f548",
     type: "fill",
     category: "隋唐文学",
@@ -8568,16 +7944,6 @@ window.QUESTION_BANK = [
     question: "《登鹳雀楼》是____的代表作，其中“欲穷千里目，更上一层楼”为千古名句。",
     blanks: [["王之涣"]],
     explanation: "王之涣存诗仅六首，《登鹳雀楼》《凉州词》皆名篇。"
-  },
-
-  {
-    id: "f554",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "白居易响亮地提出了“____，____”的诗歌主张。",
-    blanks: [["文章合为时而著"],["歌诗合为事而作"]],
-    explanation: "语出白居易《与元九书》，强调诗文应反映时事、有补于世。"
   },
 
   {
@@ -8733,16 +8099,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f566",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "陈子昂《登幽州台歌》：“前不见古人，后不见来者。____，____。”",
-    blanks: [["念天地之悠悠"],["独怆然而涕下"]],
-    explanation: "全诗写登台远眺时天地无穷而人生有限的孤独悲慨。"
-  },
-
-  {
     id: "f567",
     type: "fill",
     category: "隋唐文学",
@@ -8873,26 +8229,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f577",
-    type: "fill",
-    category: "隋唐文学",
-    level: 2,
-    question: "____，岁岁年年人不同。（刘希夷《代悲白头吟》）",
-    blanks: [["年年岁岁花相似"]],
-    explanation: "刘希夷此句以花之常开对比人之易老，感慨深沉。"
-  },
-
-  {
-    id: "f578",
-    type: "fill",
-    category: "隋唐文学",
-    level: 2,
-    question: "____，扶摇直上九万里。（李白《上李邕》）",
-    blanks: [["大鹏一日同风起"]],
-    explanation: "李白以大鹏自比，抒豪迈之志。"
-  },
-
-  {
     id: "f579",
     type: "fill",
     category: "隋唐文学",
@@ -8930,16 +8266,6 @@ window.QUESTION_BANK = [
     question: "____编辑的《____》是我国第一部文人词总集。",
     blanks: [["赵崇祚"],["花间集"]],
     explanation: "《花间集》由后蜀赵崇祚编成，是文人词的总集。"
-  },
-
-  {
-    id: "f583",
-    type: "fill",
-    category: "隋唐文学",
-    level: 2,
-    question: "____，美人帐下犹歌舞。（高适《燕歌行》）",
-    blanks: [["战士军前半死生"]],
-    explanation: "以将士生死与主帅享乐对照，讽意鲜明。"
   },
 
   {
@@ -8993,16 +8319,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f589",
-    type: "fill",
-    category: "隋唐文学",
-    level: 2,
-    question: "三顾频繁天下计，____。",
-    blanks: [["两朝开济老臣心"]],
-    explanation: "杜甫《蜀相》颈联，概括诸葛亮一生的功业与忠贞。"
-  },
-
-  {
     id: "f590",
     type: "fill",
     category: "隋唐文学",
@@ -9031,17 +8347,6 @@ window.QUESTION_BANK = [
     question: "五代时后蜀卫尉少卿____选录了温庭筠、韦庄、牛希济等十八家的词为《____》。",
     blanks: [["赵崇祚"],["花间集"]],
     explanation: "《花间集》是我国第一部文人词总集，花间词派因此得名。"
-  },
-
-  {
-    id: "c266",
-    type: "choice",
-    category: "隋唐文学",
-    level: 2,
-    question: "“人生代代无穷已，江月年年只相似”出自唐朝诗人（）",
-    options: ["陶渊明","张若虚","陈子昂","王粲"],
-    answer: "B",
-    explanation: "此句出自张若虚《春江花月夜》。"
   },
 
   {
@@ -9613,16 +8918,6 @@ window.QUESTION_BANK = [
     level: 2,
     question: "王维，字摩诘，号摩诘居士，世称“王右丞”，与孟浩然合称“王孟”，有“____”之称。苏轼评其“味摩诘之诗，诗中有画；观摩诘之画，画中有诗”，诗风清淡自然。",
     blanks: [["诗佛"]],
-    explanation: "王维诗画兼擅，苏轼“诗中有画，画中有诗”之评正指其山水田园诗的意境。"
-  },
-
-  {
-    id: "f1890",
-    type: "fill",
-    category: "隋唐文学",
-    level: 2,
-    question: "王维，字摩诘，号摩诘居士，世称“王右丞”，与孟浩然合称“王孟”，有“诗佛”之称。苏轼评其“味摩诘之诗，____；观摩诘之画，画中有诗”，诗风清淡自然。",
-    blanks: [["诗中有画"]],
     explanation: "王维诗画兼擅，苏轼“诗中有画，画中有诗”之评正指其山水田园诗的意境。"
   },
 
@@ -10920,17 +10215,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1331",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "\"人生代代无穷已，江月年年望相似\"两句出自唐代诗人（　）之手。",
-    options: ["陈子昂","王维","孟浩然","张若虚"],
-    answer: "D",
-    explanation: "\"人生代代无穷已，江月年年望相似\"出自张若虚的《春江花月夜》。"
-  },
-
-  {
     id: "c1332",
     type: "choice",
     category: "隋唐文学",
@@ -10950,17 +10234,6 @@ window.QUESTION_BANK = [
     options: ["王维《山居秋暝》","张若虚《春江花月夜》","李商隐《无题》","陶渊明《饮酒》（其五）"],
     answer: "B",
     explanation: "唐代诗人张若虚的《春江花月夜》素享盛名，诗歌通篇融诗情、画意、哲理为一体，意境空明，想象奇特，语言自然隽永，韵律婉转悠扬，具有极高的审美价值，被清代王闿运誉为\"孤篇横绝\"。"
-  },
-
-  {
-    id: "c1334",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "写下千古名句\"前不见古人，后不见来者。念天地之悠悠，独怆然而涕下\"的作者是（　）",
-    options: ["陈子昂","孟浩然","王之涣","王勃"],
-    answer: "A",
-    explanation: "\"前不见古人，后不见来者。念天地之悠悠，独怆然而涕下\"出自唐代诗人陈子昂的《登幽州台歌》。这是一首伤时不遇的名篇，表达了诗人的政治抱负不能实现，反而受到打击的苦闷心情。"
   },
 
   {
@@ -11118,17 +10391,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1349",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "《山居秋暝》中以动衬静的诗句是（　）",
-    options: ["明月松间照","天气晚来秋","竹喧归浣女","随意春芳歇"],
-    answer: "C",
-    explanation: "\"竹喧归浣女\"写归来的洗衣女的笑声充满了竹林，凸显了竹林的安静。这一动一静，刻画出山间居民的日常生活图景。"
-  },
-
-  {
     id: "c1350",
     type: "choice",
     category: "隋唐文学",
@@ -11192,17 +10454,6 @@ window.QUESTION_BANK = [
     options: ["七言绝句","古体诗","乐府诗","七言律诗"],
     answer: "B",
     explanation: "《宣州谢朓楼饯别校书叔云》属于古体诗，是李白饯别其族叔李云时的即兴之作。"
-  },
-
-  {
-    id: "c1356",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "《宣州谢朓楼饯别校书叔云》中，表现诗人宏伟抱负的诗句是（　）",
-    options: ["长风万里送秋雁，对此可以酣高楼","俱怀逸兴壮思飞，欲上青天览明月","抽刀断水水更流，举杯消愁愁更愁","人生在世不称意，明朝散发弄扁舟"],
-    answer: "B",
-    explanation: "\"俱怀逸兴壮思飞，欲上青天览明月\"两句表现了作者远大的抱负，这两句诗的意思是：\"彼此都怀有豪情逸兴、雄心壮志，酒酣兴发，更是飘然欲飞，想登上青天摘取明月。\""
   },
 
   {
@@ -11294,17 +10545,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1365",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "杜甫《秋兴八首》（其一）的诗句中，所用动词语带双关的是（　）",
-    options: ["玉露凋伤枫树林","江间波浪兼天涌","寒衣处处催刀尺","丛菊两开他日泪"],
-    answer: "D",
-    explanation: "\"丛菊两开他日泪\"中的\"开\"字有双关语义，既指花开，又指引发诗人伤心落泪。"
-  },
-
-  {
     id: "c1366",
     type: "choice",
     category: "隋唐文学",
@@ -11368,17 +10608,6 @@ window.QUESTION_BANK = [
     options: ["七言律诗","七言绝句","七言歌行","乐府旧题诗"],
     answer: "C",
     explanation: "《白雪歌送武判官归京》是一首白雪歌，也是一首送别诗，采用的是七言歌行体，为岑参边塞诗的代表作。"
-  },
-
-  {
-    id: "c1372",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "《白雪歌送武判官归京》一诗中，咏雪的千古名句是（　）",
-    options: ["北风卷地白草折，胡天八月即飞雪","燕山雪花大如席，片片吹落轩辕台","千里黄云白日曛，北风吹雁雪纷纷","忽如一夜春风来，千树万树梨花开"],
-    answer: "D",
-    explanation: "\"忽如一夜春风来，千树万树梨花开\"出自岑参的《白雪歌送武判官归京》，这两句诗反用南朝萧子显《燕歌行》中\"洛阳梨花落如雪\"之喻，且以重叠夸张的手法，传神地描摹出了雪花的洁白、鲜润、明丽、飞动，取喻新颖奇妙，描摹独具风神，是咏雪的千古名句。"
   },
 
   {
@@ -11558,17 +10787,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1389",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "名句\"山不在高，有仙则名。水不在深，有龙则灵\"出自《陋室铭》，其作者是（　）",
-    options: ["李白","刘禹锡","陆游","李商隐"],
-    answer: "B",
-    explanation: "\"山不在高，有仙则名。水不在深，有龙则灵\"出自刘禹锡的《陋室铭》。"
-  },
-
-  {
     id: "c1390",
     type: "choice",
     category: "隋唐文学",
@@ -11665,17 +10883,6 @@ window.QUESTION_BANK = [
     options: ["《汉宫秋》","《长恨歌》","《西厢记》","《桃花扇》"],
     answer: "B",
     explanation: "《长恨歌》是白居易根据唐玄宗和杨贵妃的爱情故事写成的一首长篇叙事诗。"
-  },
-
-  {
-    id: "c1399",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "表现《长恨歌》题旨的诗句是（　）",
-    options: ["遂令天下父母心，不重生男重生女","天长地久有时尽，此恨绵绵无绝期","在天愿作比翼鸟，在地愿为连理枝","悠悠生死别经年，魂魄不曾来入梦"],
-    answer: "B",
-    explanation: "《长恨歌》的末尾，用\"天长地久有时尽，此恨绵绵无绝期\"结笔，表现出作者对唐玄宗、杨贵妃真挚爱情的颂扬与叹惋，照应了\"长恨\"的诗歌主题。"
   },
 
   {
@@ -11899,37 +11106,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1420",
-    type: "choice",
-    category: "隋唐文学",
-    level: 1,
-    question: "南唐后主李煜的《虞美人》（春花秋月何时了）中，将无形之愁比作有形之物的词句是（　）",
-    options: ["春花秋月何时了？往事知多少","小楼昨夜又东风，故国不堪回首月明中","雕栏玉砌应犹在，只是朱颜改","问君能有几多愁？恰似一江春水向东流"],
-    answer: "D",
-    explanation: "\"问君能有几多愁？恰似一江春水向东流\"两句运用比喻的修辞手法，将无形的\"愁\"比作有形的\"一江春水\"，生动形象地写出了\"愁\"之深广、\"愁\"之不尽。"
-  },
-
-  {
-    id: "f2545",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "“____，欲上青天览明月”。（李白《宣州谢朓楼饯别校书叔云》）",
-    blanks: [["俱怀逸兴壮思飞"]],
-    explanation: "出自李白《宣州谢朓楼饯别校书叔云》。"
-  },
-
-  {
-    id: "f2555",
-    type: "fill",
-    category: "隋唐文学",
-    level: 1,
-    question: "____，风烟望五津。（王勃《送杜少府之任蜀州》）",
-    blanks: [["城阙辅三秦"]],
-    explanation: "出自王勃《送杜少府之任蜀州》首联。"
-  },
-
-  {
     id: "f2556",
     type: "fill",
     category: "隋唐文学",
@@ -12141,26 +11317,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f676",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "不畏浮云遮望眼，____。",
-    blanks: [["自缘身在最高层"]],
-    explanation: "出自王安石《登飞来峰》，以登高望远喻变法者的胸襟。"
-  },
-
-  {
-    id: "f677",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "不识庐山真面目，____。",
-    blanks: [["只缘身在此山中"]],
-    explanation: "出自苏轼《题西林壁》，以观山喻认识受立场局限。"
-  },
-
-  {
     id: "f1938",
     type: "fill",
     category: "宋代文学",
@@ -12235,16 +11391,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f681",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "但愿人长久，____。",
-    blanks: [["千里共婵娟"]],
-    explanation: "出自苏轼《水调歌头·明月几时有》，以共赏明月慰离别之思。"
-  },
-
-  {
     id: "f1940",
     type: "fill",
     category: "宋代文学",
@@ -12262,16 +11408,6 @@ window.QUESTION_BANK = [
     question: "“六一居士”是____，他提出“文”“道”并重、“道”先“文”后的观点。",
     blanks: [["欧阳修"]],
     explanation: "欧阳修晚年自号六一居士，是北宋古文运动的领袖。"
-  },
-
-  {
-    id: "f684",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "出师一表真名世，____。",
-    blanks: [["千载谁堪伯仲间"]],
-    explanation: "陆游《书愤》尾联，借《出师表》赞诸葛亮而自伤壮志难酬。"
   },
 
   {
@@ -12305,16 +11441,6 @@ window.QUESTION_BANK = [
     options: ["曾巩","欧阳修","柳宗元","韩愈"],
     answer: "B",
     explanation: "欧阳修号醉翁，又号六一居士，是北宋诗文革新的领袖。"
-  },
-
-  {
-    id: "f685",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "哀吾生之须臾，____。",
-    blanks: [["羡长江之无穷"]],
-    explanation: "出自苏轼《赤壁赋》，以江水无穷反衬人生短暂。"
   },
 
   {
@@ -12572,16 +11698,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f693",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "无可奈何花落去，____。",
-    blanks: [["似曾相识燕归来"]],
-    explanation: "出自晏殊《浣溪沙》，以花落燕归写时光流转的怅惘。"
-  },
-
-  {
     id: "c285",
     type: "choice",
     category: "宋代文学",
@@ -12590,16 +11706,6 @@ window.QUESTION_BANK = [
     options: ["苏东坡","李清照","王安石","辛弃疾"],
     answer: "B",
     explanation: "李清照号易安居士，是宋代婉约词的代表。"
-  },
-
-  {
-    id: "f694",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "春风又绿江南岸，____。",
-    blanks: [["明月何时照我还"]],
-    explanation: "出自王安石《泊船瓜洲》，“绿”字几经修改，为炼字名例。"
   },
 
   {
@@ -12676,26 +11782,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f699",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "爆竹声中一岁除，____。",
-    blanks: [["春风送暖入屠苏"]],
-    explanation: "出自王安石《元日》，写新年除旧布新的气象。"
-  },
-
-  {
-    id: "f700",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "知否，知否？____。",
-    blanks: [["应是绿肥红瘦"]],
-    explanation: "出自李清照《如梦令》，以“绿肥红瘦”写雨后花事。"
-  },
-
-  {
     id: "c289",
     type: "choice",
     category: "宋代文学",
@@ -12704,16 +11790,6 @@ window.QUESTION_BANK = [
     options: ["蔡琰","柳永","晏殊","李清照"],
     answer: "D",
     explanation: "词句出自李清照《如梦令》（昨夜雨疏风骤），为婉约词名句。"
-  },
-
-  {
-    id: "f701",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "稻花香里说丰年，____。",
-    blanks: [["听取蛙声一片"]],
-    explanation: "出自辛弃疾《西江月·夜行黄沙道中》，写夏夜村野之景。"
   },
 
   {
@@ -12848,16 +11924,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f708",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "衣带渐宽终不悔，____。",
-    blanks: [["为伊消得人憔悴"]],
-    explanation: "出自柳永《蝶恋花》（伫倚危楼风细细），写相思之苦。"
-  },
-
-  {
     id: "f709",
     type: "fill",
     category: "宋代文学",
@@ -12898,16 +11964,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f713",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "醉翁之意不在酒，____。",
-    blanks: [["在乎山水之间也"]],
-    explanation: "出自欧阳修《醉翁亭记》，以“山水之乐”写贬谪中的自适。"
-  },
-
-  {
     id: "f714",
     type: "fill",
     category: "宋代文学",
@@ -12915,16 +11971,6 @@ window.QUESTION_BANK = [
     question: "陆游，字____，号____，人称“小李白”，著有《剑南诗稿》，主要作品有《书愤》《示儿》等。他是中国古代最高产的诗人，存诗9000多首，诗歌风格以____为主。",
     blanks: [["务观"],["放翁"],["雄浑豪放"]],
     explanation: "陆游是南宋爱国诗人的代表，诗作多抒恢复中原之志。"
-  },
-
-  {
-    id: "f715",
-    type: "fill",
-    category: "宋代文学",
-    level: 1,
-    question: "青山遮不住，____。",
-    blanks: [["毕竟东流去"]],
-    explanation: "出自辛弃疾《菩萨蛮·书江西造口壁》，以江水东流喻大势不可阻。"
   },
 
   {
@@ -13370,17 +12416,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c303",
-    type: "choice",
-    category: "宋代文学",
-    level: 2,
-    question: "《声声慢》（寻寻觅觅）中体现家破人亡之痛的词句是（）",
-    options: ["三杯两盏淡酒，怎敌他、晚来风急。","雁过也，正伤心，却是旧时相识。","满地黄花堆积，憔悴损，如今有谁堪摘。","梧桐更兼细雨，到黄昏、点点滴滴。"],
-    answer: "B",
-    explanation: "“雁过也，正伤心，却是旧时相识”借旧雁写家破人亡、夫死流离之痛。"
-  },
-
-  {
     id: "f738",
     type: "fill",
     category: "宋代文学",
@@ -13448,16 +12483,6 @@ window.QUESTION_BANK = [
     question: "宋词发展过程中，至____而一变，至____而再变。",
     blanks: [["柳永"],["苏轼"]],
     explanation: "柳永大量创制慢词、变雅为俗，苏轼则以诗为词、开豪放一派，故云“一变”“再变”。"
-  },
-
-  {
-    id: "f745",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "张载世称“____”，其“____，____，____，____”的名言被称作“横渠四句”。",
-    blanks: [["横渠先生"],["为天地立心"],["为生民立命"],["为往圣继绝学"],["为万世开太平"]],
-    explanation: "横渠四句概括了宋代理学家的学术使命，张载为关学创始人。"
   },
 
   {
@@ -13580,16 +12605,6 @@ window.QUESTION_BANK = [
     question: "杨万里的诗新鲜泼辣、想象丰富、意境新颖，自成一家，世称“____”。",
     blanks: [["诚斋体"]],
     explanation: "杨万里号诚斋，其诗多写自然生机，语言活泼，故称“诚斋体”。"
-  },
-
-  {
-    id: "f756",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "林逋是北宋著名隐逸诗人，终生不仕不娶，唯喜植梅养鹤，人称“____”，死后私谥“____”。其《山园小梅》中“____，____”两句被誉为咏梅绝唱。",
-    blanks: [["梅妻鹤子"],["和靖先生"],["疏影横斜水清浅"],["暗香浮动月黄昏"]],
-    explanation: "林逋隐居杭州孤山二十年，“梅妻鹤子”即指其以梅为妻、以鹤为子。"
   },
 
   {
@@ -13829,16 +12844,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f772",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "范仲淹的代表作《岳阳楼记》中，“____，____”两句凸显了其高尚情操和博大胸襟。",
-    blanks: [["先天下之忧而忧"],["后天下之乐而乐"]],
-    explanation: "此二句由写景转入言志，是《岳阳楼记》的点睛之笔。"
-  },
-
-  {
     id: "c313",
     type: "choice",
     category: "宋代文学",
@@ -13867,16 +12872,6 @@ window.QUESTION_BANK = [
     question: "“金风玉露一相逢，____。”（秦观《鹊桥仙》）",
     blanks: [["便胜却人间无数"]],
     explanation: "此词咏七夕牛郎织女相会，以“金风玉露”写秋日相逢之美。"
-  },
-
-  {
-    id: "f775",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "马作的卢飞快，____。",
-    blanks: [["弓如霹雳弦惊"]],
-    explanation: "出自辛弃疾《破阵子·为陈同甫赋壮词以寄之》，写沙场驰骋之势。"
   },
 
   {
@@ -13943,17 +12938,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c317",
-    type: "choice",
-    category: "宋代文学",
-    level: 3,
-    question: "典故运用是辛弃疾《水龙吟·登建康赏心亭》（楚天千里清秋）的一大特色，下列词句中不属于典故的是（）",
-    options: ["红巾翠袖","鲈鱼堪脍","树犹如此","求田问舍"],
-    answer: "A",
-    explanation: "“红巾翠袖”指代歌女，是写实；“鲈鱼堪脍”“树犹如此”“求田问舍”均用典。"
-  },
-
-  {
     id: "c318",
     type: "choice",
     category: "宋代文学",
@@ -13972,17 +12956,6 @@ window.QUESTION_BANK = [
     question: "在宋词发展中起到重要作用，被评“疏隽开子瞻，深婉开少游”的作家是____。",
     blanks: [["欧阳修"]],
     explanation: "“疏隽开子瞻，深婉开少游”是冯煦对欧阳修词的评语。"
-  },
-
-  {
-    id: "c319",
-    type: "choice",
-    category: "宋代文学",
-    level: 3,
-    question: "“大材小用古所叹，管仲萧何实流亚”是陆游的名句，其中“大材小用”形容的是（）。",
-    options: ["韩愈","辛弃疾","庞统","宋玉"],
-    answer: "B",
-    explanation: "诗句出自陆游《送辛幼安殿撰造朝》，以管仲、萧何比辛弃疾，为其才大见屈而慨叹。"
   },
 
   {
@@ -14034,17 +13007,6 @@ window.QUESTION_BANK = [
     question: "江西诗派“一祖三宗”中的“一祖”指的是____。",
     blanks: [["杜甫"]],
     explanation: "江西诗派以杜甫为祖，以黄庭坚、陈师道、陈与义为“三宗”。"
-  },
-
-  {
-    id: "c321",
-    type: "choice",
-    category: "宋代文学",
-    level: 3,
-    question: "王国维《人间词话》称“古今之成大事业、大学问者”必经三种境界，其“第三境界”所引词句“众里寻他千百度，蓦然回首，那人却在，灯火阑珊处”出自（）。",
-    options: ["《蝶恋花》","《凤栖梧》","《青玉案》","《声声慢》"],
-    answer: "C",
-    explanation: "该句出自辛弃疾《青玉案·元夕》；第一、二境界分别取晏殊《蝶恋花》、柳永《凤栖梧》。"
   },
 
   {
@@ -14916,16 +13878,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1343",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "黄庭坚《登快阁》：落木千山天远大，____。",
-    blanks: [["澄江一道月分明"]],
-    explanation: "答案：澄江一道月分明。"
-  },
-
-  {
     id: "f1344",
     type: "fill",
     category: "宋代文学",
@@ -14946,16 +13898,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1346",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "陆游《书愤五首·其一》：楼船夜雪瓜洲渡，____。",
-    blanks: [["铁马秋风大散关"]],
-    explanation: "答案：铁马秋风大散关。"
-  },
-
-  {
     id: "f1347",
     type: "fill",
     category: "宋代文学",
@@ -14973,16 +13915,6 @@ window.QUESTION_BANK = [
     question: "辛弃疾《永遇乐·京口北固亭怀古》：想当年，金戈铁马，____。",
     blanks: [["气吞万里如虎"]],
     explanation: "答案：气吞万里如虎。"
-  },
-
-  {
-    id: "f1349",
-    type: "fill",
-    category: "宋代文学",
-    level: 2,
-    question: "辛弃疾《菩萨蛮·书江西造口壁》：江晚正愁余，____。",
-    blanks: [["山深闻鹧鸪"]],
-    explanation: "答案：山深闻鹧鸪。"
   },
 
   {
@@ -15129,17 +14061,6 @@ window.QUESTION_BANK = [
     question: "宋代____的诗句“纸上得来终觉浅，绝知此事要躬行”说的是实践的重要性。",
     blanks: [["陆游"]],
     explanation: "答案：陆游。"
-  },
-
-  {
-    id: "c998",
-    type: "choice",
-    category: "宋代文学",
-    level: 1,
-    question: "词句\"执手相看泪眼，竟无语凝噎\"的作者是（　）",
-    options: ["柳永","李商隐","杜甫","杜牧"],
-    answer: "A",
-    explanation: "\"执手相看泪眼，竟无语凝噎\"出自柳永的《雨霖铃》（寒蝉凄切）。"
   },
 
   {
@@ -16118,16 +15039,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f796",
-    type: "fill",
-    category: "元明清文学",
-    level: 1,
-    question: "伤心秦汉经行处，____。",
-    blanks: [["宫阙万间都做了土"]],
-    explanation: "张养浩《山坡羊·潼关怀古》。"
-  },
-
-  {
     id: "c331",
     type: "choice",
     category: "元明清文学",
@@ -16453,16 +15364,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f811",
-    type: "fill",
-    category: "元明清文学",
-    level: 1,
-    question: "兴，百姓苦；____。",
-    blanks: [["亡，百姓苦"]],
-    explanation: "张养浩《山坡羊·潼关怀古》。"
-  },
-
-  {
     id: "f812",
     type: "fill",
     category: "元明清文学",
@@ -16531,16 +15432,6 @@ window.QUESTION_BANK = [
     question: "在元曲中，成就更为辉煌的是____，它是中国戏剧成熟的标志，也是元代文学最高峰的标志。",
     blanks: [["元杂剧"]],
     explanation: "元杂剧标志中国戏曲成熟，是元代文学的高峰。"
-  },
-
-  {
-    id: "f818",
-    type: "fill",
-    category: "元明清文学",
-    level: 1,
-    question: "夕阳西下，____。",
-    blanks: [["断肠人在天涯"]],
-    explanation: "马致远《天净沙·秋思》。"
   },
 
   {
@@ -16863,16 +15754,6 @@ window.QUESTION_BANK = [
     options: ["柳梦梅","老夫人","红娘","杜丽娘"],
     answer: "C",
     explanation: "红娘是崔莺莺的侍女，传书递简、促成姻缘，“红娘”由此成为媒人的代称。"
-  },
-
-  {
-    id: "f839",
-    type: "fill",
-    category: "元明清文学",
-    level: 1,
-    question: "《西厢记》中《长亭送别》［端正好］：“碧云天，黄花地，西风紧，北雁南飞。____。”",
-    blanks: [["晓来谁染霜林醉，总是离人泪"]],
-    explanation: "以秋景写离愁，是《长亭送别》的名句。"
   },
 
   {
@@ -17998,16 +16879,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f914",
-    type: "fill",
-    category: "元明清文学",
-    level: 2,
-    question: "汤显祖《牡丹亭》中“____，赏心乐事谁家院”，化用了谢灵运《拟魏太子邺中集诗序》中“天下良辰、美景、赏心、乐事，四者难并”之语。",
-    blanks: [["良辰美景奈何天"]],
-    explanation: "杜丽娘游园伤春，唱词由“四者难并”化出，写青春虚度之叹。"
-  },
-
-  {
     id: "f915",
     type: "fill",
     category: "元明清文学",
@@ -18150,16 +17021,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f2236",
-    type: "fill",
-    category: "元明清文学",
-    level: 2,
-    question: "白朴，字太素，号兰谷，元代著名杂剧作家，代表作有《梧桐雨》《墙头马上》等。《梧桐雨》原名《唐明皇秋夜梧桐雨》，剧名来源于白居易“____，秋雨梧桐叶落时”的诗句，写安史之乱前后唐明皇与杨贵妃爱情的悲欢离合。",
-    blanks: [["春风桃李花开日"]],
-    explanation: "《梧桐雨》取材《长恨歌》，是元杂剧历史剧的代表作。"
-  },
-
-  {
     id: "f926",
     type: "fill",
     category: "元明清文学",
@@ -18167,16 +17028,6 @@ window.QUESTION_BANK = [
     question: "白朴杂剧《墙头马上》素材源于白居易的《____》一诗。",
     blanks: [["井底引银瓶"]],
     explanation: "《墙头马上》本于白居易《井底引银瓶》。"
-  },
-
-  {
-    id: "f927",
-    type: "fill",
-    category: "元明清文学",
-    level: 2,
-    question: "白朴杂剧《梧桐雨》之名源于白居易《长恨歌》中的诗句“____”。",
-    blanks: [["春风桃李花开日，秋雨梧桐叶落时"]],
-    explanation: "剧名即取“秋雨梧桐”之意。"
   },
 
   {
@@ -18535,16 +17386,6 @@ window.QUESTION_BANK = [
     question: "“明代中期三大传奇”是《____》《____》《____》。",
     blanks: [["宝剑记"],["浣纱记"],["鸣凤记"]],
     explanation: "三剧分别写林冲、范蠡西施、严嵩父子事，标志明代传奇的繁荣。"
-  },
-
-  {
-    id: "f959",
-    type: "fill",
-    category: "元明清文学",
-    level: 3,
-    question: "《汉宫秋》第三折［七弟兄］：“说什么大王、不当、恋王嫱，兀良，怎奈她临去也回头望！那堪这____。”",
-    blanks: [["散风雪旌节影悠扬，动关山鼓角声悲壮"]],
-    explanation: "以塞外风雪、鼓角渲染昭君离去的悲凉。"
   },
 
   {
@@ -20886,17 +19727,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c028",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "下列诗句出自《光的赞歌》的是（）。",
-    options: ["我是月的光，我是日的光，我是一切星球的光","世界要是没有光，等于人没有眼睛","黑夜给了我黑色的眼睛，我却用它寻找光明","明月装饰了你的窗子，你装饰了别人的梦"],
-    answer: "B",
-    explanation: "《光的赞歌》是艾青的长诗，诗中通过对光的赞颂表达对光明和理想的追求。"
-  },
-
-  {
     id: "c029",
     type: "choice",
     category: "现当代文学",
@@ -21067,16 +19897,6 @@ window.QUESTION_BANK = [
     question: "被柳亚子誉为“三百年来第一流”的是清代思想家、文学家____。",
     blanks: [["龚自珍"]],
     explanation: "龚自珍是清代思想家、文学家，柳亚子称他为“三百年来第一流”。"
-  },
-
-  {
-    id: "f035",
-    type: "fill",
-    category: "现当代文学",
-    level: 2,
-    question: "我劝天公重抖擞，____。",
-    blanks: [["不拘一格降人才"]],
-    explanation: "诗句出自龚自珍《己亥杂诗》，表达希望人才辈出的愿望。"
   },
 
   {
@@ -22982,17 +21802,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c125",
-    type: "choice",
-    category: "现当代文学",
-    level: 3,
-    question: "“我是月的光，我是日的光”两句出自郭沫若的诗（　）。",
-    options: ["《地球，我的母亲》","《女神》","《天狗》","《凤凰涅槃》"],
-    answer: "C",
-    explanation: "这两句出自郭沫若的代表诗作《天狗》。"
-  },
-
-  {
     id: "c126",
     type: "choice",
     category: "现当代文学",
@@ -24849,17 +23658,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c462",
-    type: "choice",
-    category: "现当代文学",
-    level: 2,
-    question: "“世界要是没有光，等于人没有眼睛”两句诗出自诗歌（）。",
-    options: ["《我用残损的手掌》","《断章》","《我爱这土地》","《光的赞歌》"],
-    answer: "D",
-    explanation: "《光的赞歌》是艾青的长诗，以“光”象征光明、真理与理想。"
-  },
-
-  {
     id: "f1014",
     type: "fill",
     category: "现当代文学",
@@ -25135,17 +23933,6 @@ window.QUESTION_BANK = [
     options: ["《狂人日记》","《女神》","《沉沦》","《呐喊》"],
     answer: "C",
     explanation: "《沉沦》1921年出版，是我国第一部自传体白话短篇小说集。"
-  },
-
-  {
-    id: "c481",
-    type: "choice",
-    category: "现当代文学",
-    level: 2,
-    question: "“我是月底光，我是日底光”两句出自郭沫若的诗（）。",
-    options: ["《立在地球边上放号》","《女神》","《天狗》","《凤凰涅槃》"],
-    answer: "C",
-    explanation: "《天狗》收于郭沫若诗集《女神》，以“我”吞日吞月极写自我扩张的浪漫激情。"
   },
 
   {
@@ -25674,16 +24461,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1049",
-    type: "fill",
-    category: "现当代文学",
-    level: 3,
-    question: "____，而这正是离别的意义。（北岛《白日梦》）",
-    blanks: [["你没有如期归来"]],
-    explanation: "诗句以“没有如期归来”点出离别的怅惘，是北岛诗歌中广为传诵的句子。"
-  },
-
-  {
     id: "c508",
     type: "choice",
     category: "现当代文学",
@@ -26075,17 +24852,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c551",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "下列属于鲁迅先生一生写照的诗句是（）",
-    options: ["忍看朋辈成新鬼，怒向刀丛觅小诗","无情未必真豪杰，怜子如何不丈夫","横眉冷对千夫指，俯首甘为孺子牛","寄意寒星荃不察，我以我血荐轩辕"],
-    answer: "C",
-    explanation: "正确答案是C：横眉冷对千夫指，俯首甘为孺子牛。"
-  },
-
-  {
     id: "c552",
     type: "choice",
     category: "现当代文学",
@@ -26116,17 +24882,6 @@ window.QUESTION_BANK = [
     options: ["《呐喊》","《彷徨》","《朝花夕拾》","《野草》"],
     answer: "C",
     explanation: "正确答案是C：《朝花夕拾》。"
-  },
-
-  {
-    id: "c555",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "下列选项与鲁迅诗句 “寄意寒星荃不察，我以我血荐轩辕” 意蕴相同的是（）",
-    options: ["长风破浪会有时，直挂云帆济沧海。","千磨万击还坚劲，任尔东西南北风。","人生自古谁无死，留取丹心照汗青。","九死南荒吾不恨，兹游奇绝冠平生。"],
-    answer: "C",
-    explanation: "正确答案是C：人生自古谁无死，留取丹心照汗青。。"
   },
 
   {
@@ -27849,17 +26604,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1228",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "下列诗句出自戴望舒的是（　）",
-    options: ["看风景的人在楼上看你","她彷徨在这寂寥的雨巷","我爱这悲哀的国土","我不是归人，是个过客"],
-    answer: "B",
-    explanation: "A项出自卞之琳的《断章》；B项出自戴望舒的《雨巷》；C项出自艾青的《北方》；D项出自郑愁予的《错误》。"
-  },
-
-  {
     id: "c1229",
     type: "choice",
     category: "现当代文学",
@@ -27943,8 +26687,8 @@ window.QUESTION_BANK = [
     level: 1,
     question: "诗歌《北方》的作者是（　）",
     options: ["艾青","吴组缃","季羡林","张洁"],
-    answer: "A",
-    explanation: "《北方》是现当代诗人艾青于1938年2月创作的一首诗。此诗中，\"土地\"是最醒目、最富有象征意义的意象。"
+    answer: "B",
+    explanation: "《北方》是艾青1938年创作的新诗。"
   },
 
   {
@@ -27956,17 +26700,6 @@ window.QUESTION_BANK = [
     options: ["土地","小河","大雁","沙漠"],
     answer: "A",
     explanation: "《北方》一诗写于1938年2月。艾青满怀深情地吟唱对北国大地和人民的悲哀、同情和挚爱；同时也表达了全民族追求进步、渴望光明的理想主义情怀。在诗篇中，\"土地\"是最醒目、最富有象征意义的意象。"
-  },
-
-  {
-    id: "c1238",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "\"为什么我的眼里常含泪水？因为我对这土地爱得深沉……\"出自哪位诗人的作品（　）",
-    options: ["戴望舒","舒婷","艾青","徐志摩"],
-    answer: "C",
-    explanation: "题干中的诗句出自艾青的《我爱这土地》。"
   },
 
   {
@@ -28055,17 +26788,6 @@ window.QUESTION_BANK = [
     options: ["《人·兽·鬼》","《围城》","《随想录》","《官场现形记》"],
     answer: "B",
     explanation: "钱钟书的长篇小说《围城》因揭示了抗战期间中国知识分子的众生相，从多方面展示了传统对于现代中国自我围困的主题，从而成为中国现代杰出的讽刺小说，被誉为\"新《儒林外史》\"。"
-  },
-
-  {
-    id: "c1247",
-    type: "choice",
-    category: "现当代文学",
-    level: 1,
-    question: "\"明月装饰了你的窗子，你装饰了别人的梦\"出自哪位诗人的作品（　）",
-    options: ["卞之琳","顾城","戴望舒","艾青"],
-    answer: "A",
-    explanation: "\"明月装饰了你的窗子，你装饰了别人的梦\"出自卞之琳的诗歌《断章》，诗人将人生哲理与诗歌意象融合起来，表现了自己对宇宙和人生的探求。"
   },
 
   {
@@ -28605,16 +27327,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "f1076",
-    type: "fill",
-    category: "文化常识",
-    level: 2,
-    question: "北魏贾思勰所著、我国现存最早最完整的一部农书是《____》。",
-    blanks: [["齐民要术"]],
-    explanation: "《齐民要术》十卷九十二篇，系统总结了黄河中下游的农牧生产经验。"
-  },
-
-  {
     id: "c531",
     type: "choice",
     category: "文化常识",
@@ -28633,16 +27345,6 @@ window.QUESTION_BANK = [
     question: "唐文宗下诏以____、____、____为“三绝”。",
     blanks: [["李白诗歌"],["裴旻剑舞"],["张旭草书"]],
     explanation: "诏书所定“三绝”即李白歌诗、裴旻剑舞、张旭草书。"
-  },
-
-  {
-    id: "f1078",
-    type: "fill",
-    category: "文化常识",
-    level: 2,
-    question: "《女史箴图》的作者是东晋著名画家____。",
-    blanks: [["顾恺之"]],
-    explanation: "顾恺之善画人物，有“才绝、画绝、痴绝”之称。"
   },
 
   {
@@ -29046,17 +27748,6 @@ window.QUESTION_BANK = [
     options: ["院试","会试","殿试","乡试"],
     answer: "D",
     explanation: "乡试录取者为举人，会试为贡士，殿试为进士。"
-  },
-
-  {
-    id: "c646",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "下列诗句与传统节日对应错误的是（　）。",
-    options: ["“粽包分两髻，艾束著危冠”——端午节","“千门万户曈曈日，总把新桃换旧符”——春节","“遥知兄弟登高处，遍插茱萸少一人”——重阳节","“东风夜放花千树，更吹落、星如雨”——中秋节"],
-    answer: "D",
-    explanation: "“东风夜放花千树”写元宵节，不是中秋节。"
   },
 
   {
@@ -29770,17 +28461,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c738",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "贾岛\"二句三年得，一吟双泪流\"的诗句是？",
-    options: ["独行潭底影，数息树边身","鸟宿池边树，僧敲月下门"],
-    answer: "A",
-    explanation: "正确答案是A：独行潭底影，数息树边身。"
-  },
-
-  {
     id: "c739",
     type: "choice",
     category: "文化常识",
@@ -30298,17 +28978,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c786",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "\"海上升明月，天涯共此时\"是谁的名句？",
-    options: ["王勃","张九龄"],
-    answer: "B",
-    explanation: "正确答案是B：张九龄。"
-  },
-
-  {
     id: "c787",
     type: "choice",
     category: "文化常识",
@@ -30317,17 +28986,6 @@ window.QUESTION_BANK = [
     options: ["初春","暮春","仲夏"],
     answer: "B",
     explanation: "正确答案是B：暮春。"
-  },
-
-  {
-    id: "c788",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "\"机不可失\"的下句是？",
-    options: ["时不再来","失不再来"],
-    answer: "A",
-    explanation: "正确答案是A：时不再来。"
   },
 
   {
@@ -30383,17 +29041,6 @@ window.QUESTION_BANK = [
     options: ["为政清简","平安长春","淡泊名利"],
     answer: "A",
     explanation: "正确答案是A：为政清简。"
-  },
-
-  {
-    id: "c794",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "\"夕阳无限好，只是近黄昏\"是谁的诗句？",
-    options: ["李商隐","骆宾王"],
-    answer: "A",
-    explanation: "正确答案是A：李商隐。"
   },
 
   {
@@ -31794,17 +30441,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1436",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "下列诗句中出自《女神》的是（）",
-    options: ["啊！微风吹动了我的头发，教我如何不想她","轻轻的我走了，正如我轻轻的来","在雨的哀曲里，消了她的颜色，散了她的芬芳","啊！不断的毁坏，不断的创造，不断的努力哟"],
-    answer: "D",
-    explanation: "D项出自郭沫若的诗歌《立在地球边上放号》，收录在诗集《女神》中。这部诗集充满了浪漫主义色彩，表现出强烈的反抗精神和对理想的追求。A项出自刘半农的《教我如何不想她》。B项出自徐志摩的《再别康桥》。C项出自戴望舒的《雨巷》。"
-  },
-
-  {
     id: "c1437",
     type: "choice",
     category: "文化常识",
@@ -31827,17 +30463,6 @@ window.QUESTION_BANK = [
   },
 
   {
-    id: "c1439",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "以下名句出自道家学派的是（）",
-    options: ["知彼知己，百战不殆","大直若屈，大巧若拙","天下兼相爱则治，交相恶则乱","君子周而不比，小人比而不周"],
-    answer: "B",
-    explanation: "“大直若屈，大巧若拙”出自道家经典《老子》（《道德经》）第四十五章，体现了道家的朴素辩证法观点。A项出自《孙子兵法·谋攻篇》；C项出自《墨子·兼爱》，体现了墨家的“兼爱”思想；D项出自《论语·为政》，体现的是儒家思想。"
-  },
-
-  {
     id: "c1440",
     type: "choice",
     category: "文化常识",
@@ -31857,17 +30482,6 @@ window.QUESTION_BANK = [
     options: ["李白","李商隐","李贺","李煜"],
     answer: "B",
     explanation: "晚唐诗人李商隐与温庭筠并称为“温李”，与杜牧合称“小李杜”，李商隐的诗歌对杜甫七律的沉郁顿挫、齐梁诗的华丽浓艳及李贺诗的诡异幻想有所融合，形成了深情、缠绵、绮丽、精巧的风格。"
-  },
-
-  {
-    id: "c1442",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "以下诗句中，描写春天景象的是（）",
-    options: ["桃花细逐杨花落，黄鸟时兼白鸟飞","忽如一夜春风来，千树万树梨花开","月落乌啼霜满天，江枫渔火对愁眠","梅子金黄杏子肥，麦花雪白菜花稀"],
-    answer: "A",
-    explanation: "“桃花细逐杨花落，黄鸟时兼白鸟飞”出自杜甫的《曲江对酒》，是诗人留居长安时于唐肃宗乾元元年（758年）春天所作，诗句描写了花儿相随慢慢飘落，鸟儿相伴高飞的自由欢快的春日景象。B项出自岑参的《白雪歌送武判官归京》，描写塞外八月飞雪的壮丽景色。C项出自张继的《枫桥夜泊》，描写的是泊舟姑苏的秋夜景象。D项出自范成大的《四时田园杂兴》（其二十五），描写的是初夏江南的田园景色。"
   },
 
   {
@@ -31934,17 +30548,6 @@ window.QUESTION_BANK = [
     options: ["孟子","庄子","孔子","墨子"],
     answer: "C",
     explanation: "孔子思想的核心是“仁”，政治上维护“礼治”，伦理上提倡孝、悌，思想、文化学术上主张“和而不同”，首创私人讲学的风气，教育方面提出“有教无类”“因材施教”“温故知新”等见解。"
-  },
-
-  {
-    id: "c1449",
-    type: "choice",
-    category: "文化常识",
-    level: 1,
-    question: "诗句“笔落惊风雨，诗成泣鬼神”称赞的诗人是（）",
-    options: ["杜甫","陆游","辛弃疾","李白"],
-    answer: "D",
-    explanation: "“笔落惊风雨，诗成泣鬼神”出自杜甫的《寄李十二白二十韵》，是杜甫思念李白所作的诗，这两句是称赞李白文采超绝。"
   },
 
   {
@@ -33207,5 +31810,1570 @@ window.QUESTION_BANK = [
     question: "____是意大利杰出的喜剧作家，代表作有《一仆二主》《女店主》《狡猾的寡妇》。",
     blanks: [["哥尔多尼"]],
     explanation: "答案：哥尔多尼。"
+  },
+
+  {
+    id: "f2580",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____有着\"英国诗歌之父\"的美誉，代表作有《坎特伯雷故事集》。",
+    blanks: [["乔叟"]],
+    explanation: "答案：乔叟。"
+  },
+
+  {
+    id: "f2581",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "莫尔是英国的空想社会主义者，代表作有对话体幻想小说《____》。",
+    blanks: [["乌托邦"]],
+    explanation: "答案：乌托邦。"
+  },
+
+  {
+    id: "f2582",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是英国文艺复兴时期的伟大诗人，代表作有长篇史诗《仙后》。",
+    blanks: [["斯宾塞"]],
+    explanation: "答案：斯宾塞。"
+  },
+
+  {
+    id: "f2583",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "莎士比亚\"四大悲剧\"是：____、____、____、____。",
+    blanks: [["《哈姆雷特》"],["《奥赛罗》"],["《李尔王》"],["《麦克白》"]],
+    explanation: "答案：《哈姆雷特》《奥赛罗》《李尔王》《麦克白》。"
+  },
+
+  {
+    id: "f2584",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "莎士比亚\"四大喜剧\"是：____、____、____、____。",
+    blanks: [["《威尼斯商人》"],["《仲夏夜之梦》"],["《皆大欢喜》"],["《第十二夜》"]],
+    explanation: "答案：《威尼斯商人》《仲夏夜之梦》《皆大欢喜》《第十二夜》。"
+  },
+
+  {
+    id: "f2585",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《____》讲述了丹麦王子复仇的故事。",
+    blanks: [["哈姆雷特"]],
+    explanation: "答案：哈姆雷特。"
+  },
+
+  {
+    id: "f2586",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "法国作家____代表作是《巨人传》，写的是巨人卡冈都亚与他儿子庞大固埃的故事。",
+    blanks: [["拉伯雷"]],
+    explanation: "答案：拉伯雷。"
+  },
+
+  {
+    id: "f2587",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "16世纪最著名的流浪汉小说是《____》。",
+    blanks: [["小癞子"]],
+    explanation: "答案：小癞子。"
+  },
+
+  {
+    id: "f2588",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"欧洲文学史上第一部现代小说\"是____（国家）的____（人名）写的《____》。",
+    blanks: [["西班牙"],["塞万提斯"],["堂吉诃德"]],
+    explanation: "答案：西班牙；2. 塞万提斯；3. 堂吉诃德。"
+  },
+
+  {
+    id: "f2589",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "西方文学\"三大不朽典型形象\"是____、____、____。",
+    blanks: [["堂吉诃德"],["哈姆雷特"],["浮士德"]],
+    explanation: "答案：堂吉诃德；2. 哈姆雷特；3. 浮士德。"
+  },
+
+  {
+    id: "f2590",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是文艺复兴时期西班牙最为杰出的剧作家，享有\"西班牙民族戏剧之父\"的美誉，代表作有《羊泉村》。",
+    blanks: [["维加"]],
+    explanation: "答案：维加。"
+  },
+
+  {
+    id: "f2591",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是17世纪英国清教徒文学的代表人物，代表作有长诗《失乐园》《复乐园》和诗剧《力士参孙》。",
+    blanks: [["弥尔顿"]],
+    explanation: "答案：弥尔顿。"
+  },
+
+  {
+    id: "f2592",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是法国古典主义悲剧的代表作家，法国古典主义戏剧的奠基人，创作了轰动巴黎的悲剧《熙德》。",
+    blanks: [["高乃依"]],
+    explanation: "答案：高乃依。"
+  },
+
+  {
+    id: "f2593",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "被戏剧界誉为\"舞台上最全面的竞技者\"的是____（国家）的____（人名），代表作有《伪君子》《悭吝人》（《吝啬鬼》）、《唐璜》。",
+    blanks: [["法国"],["莫里哀"]],
+    explanation: "答案：法国；2. 莫里哀。"
+  },
+
+  {
+    id: "f2594",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "欧洲文学史上的四大吝啬鬼是（写出国家、作者、作品名、人物名）：（注意国别与人名对应，前后顺序可修改。）____、____、____、____。",
+    blanks: [["法国莫里哀《悭吝人》阿巴贡"],["英国莎士比亚《威尼斯商人》夏洛克"],["法国巴尔扎克《欧也妮·葛朗台》葛朗台"],["俄国果戈理《死魂灵》泼留希金"]],
+    explanation: "答案：法国莫里哀《悭吝人》阿巴贡；2. 英国莎士比亚《威尼斯商人》夏洛克；3. 法国巴尔扎克《欧也妮·葛朗台》葛朗台；4. 俄国果戈理《死魂灵》泼留希金。"
+  },
+
+  {
+    id: "f2595",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____，法国古典主义悲剧代表作家，代表作品有《昂朵马格》《费德尔》《阿达莉》。",
+    blanks: [["拉辛"]],
+    explanation: "答案：拉辛。"
+  },
+
+  {
+    id: "f2596",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "世界三大寓言：《____》《____》《____》。",
+    blanks: [["伊索寓言"],["克雷洛夫寓言"],["拉·封丹寓言"]],
+    explanation: "答案：伊索寓言；2. 克雷洛夫寓言；3. 拉·封丹寓言。"
+  },
+
+  {
+    id: "f2597",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《鲁滨逊漂流记》的作者是____（国家）的____（人名），他被称为\"英国和欧洲小说之父\"。",
+    blanks: [["英国"],["笛福"]],
+    explanation: "答案：英国；2. 笛福。"
+  },
+
+  {
+    id: "f2598",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被称为\"法兰西思想之王\"\"法兰西最优秀的诗人\"\"欧洲的良心\"，著有《老实人》《天真汉》。",
+    blanks: [["伏尔泰"]],
+    explanation: "答案：伏尔泰。"
+  },
+
+  {
+    id: "f2599",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是法国启蒙思想家，提出\"天赋人权\"的学说，他在《____》中提出\"人生而自由，却无往不在枷锁之中\"。其代表作还有自传体小说《____》、长篇教育小说《____》。",
+    blanks: [["卢梭"],["社会契约论"],["忏悔录"],["爱弥儿"]],
+    explanation: "答案：卢梭；2. 社会契约论；3. 忏悔录；4. 爱弥儿。"
+  },
+
+  {
+    id: "f2600",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "狄德罗的《____》被恩格斯称为\"辩证法的杰作\"。",
+    blanks: [["拉摩的侄儿"]],
+    explanation: "答案：拉摩的侄儿。"
+  },
+
+  {
+    id: "f2601",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "费加罗三部曲：《____》《____》《____》。",
+    blanks: [["塞维勒的理发师"],["费加罗的婚礼"],["有罪的母亲"]],
+    explanation: "答案：塞维勒的理发师；2. 费加罗的婚礼；3. 有罪的母亲。"
+  },
+
+  {
+    id: "f2602",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的代表作品有美学著作《拉奥孔》、戏剧理论名著《汉堡剧评》。",
+    blanks: [["莱辛"]],
+    explanation: "答案：莱辛。"
+  },
+
+  {
+    id: "f2603",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "恩格斯称他为\"天才的诗人\"，海涅称他为\"世界的一面镜子\"，他是____（国家）的____（人名），其代表作有书信体小说《____》，诗剧《____》等。",
+    blanks: [["德国"],["歌德"],["少年维特之烦恼"],["浮士德"]],
+    explanation: "答案：德国；2. 歌德；3. 少年维特之烦恼；4. 浮士德。"
+  },
+
+  {
+    id: "f2604",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《____》被恩格斯誉为\"德国第一部有政治倾向的戏剧\"，作者是____。",
+    blanks: [["阴谋与爱情"],["席勒"]],
+    explanation: "答案：阴谋与爱情；2. 席勒。"
+  },
+
+  {
+    id: "f2605",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是19世纪初英国伟大的浪漫主义诗人，代表作有长篇叙事诗《____》，抒情叙事长诗《恰尔德·哈洛尔德游记》，讽刺诗《审判的幻景》。",
+    blanks: [["拜伦"],["唐璜"]],
+    explanation: "答案：拜伦；2. 唐璜。"
+  },
+
+  {
+    id: "c1517",
+    type: "choice",
+    category: "文化常识",
+    level: 1,
+    question: "纪录片《何以中国》讲述了多元一体中华民族的形成和中华文明创生的故事。下列哪句解说词不可能出现在《秦汉》一集中（　）",
+    options: ["他登峄山，攀泰山，上琅琊，经之罘，过东观，临碣石，至会稽，巡行之处皆刊石勒铭","武丁左手扶住卜骨，右手持炭棒，灼烧着钻槽，通红的棒头神秘地闪烁，不久后，裂缝在钻槽边绽开，发出脆响","从长安出发时，车马辚辚百余人，回程路上，只有两人，一十三年间，有利益相诱，有武力相胁，温柔乡、囹圄境，却从未丢失身为汉使的旌节，从未磨灭此行的初心","龙首原上，长乐、未央两宫东西并峙，于高处制御全城，桂宫、北宫、明光宫横列两宫之北"],
+    answer: "B",
+    explanation: "武丁是商朝君主，不属于秦汉时期，因此其解说词不可能出现在《秦汉》一集中。"
+  },
+
+  {
+    id: "c1518",
+    type: "choice",
+    category: "宋代文学",
+    level: 1,
+    question: "宋代理学是我国儒学发展的一大高峰，\"北宋五子\"中被称为\"横渠先生\"的是（　）",
+    options: ["周敦颐","张载","程颢","朱熹"],
+    answer: "B",
+    explanation: "张载，字子厚，凤翔郿县（今陕西眉县）横渠镇人，世称\"横渠先生\"。\"北宋五子\"指周敦颐、程颢、程颐、张载、邵雍。"
+  },
+
+  {
+    id: "c1519",
+    type: "choice",
+    category: "文化常识",
+    level: 1,
+    question: "如果华佗死后，曹操还想找一位名医，他会找（　）",
+    options: ["孙思邈","张仲景","董丰","杜康"],
+    answer: "B",
+    explanation: "张仲景是东汉末年名医，与华佗同时代。孙思邈是唐代人，杜康是酿酒鼻祖。"
+  },
+
+  {
+    id: "c1520",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列有关文学研究会的说法，有误的一项是（　）",
+    options: ["文学研究会是我国现代文学史上创立最早、影响最大的文学社团之一","文学研究会倡导\"为人生而艺术\"的创作观，倾向于浪漫主义文学创作","文学研究会的代表作家有郑振铎、茅盾、叶圣陶、许地山、周作人等人","文学研究会以\"研究介绍世界文学，整理中国旧文学，创造新文学\"为宗旨"],
+    answer: "B",
+    explanation: "文学研究会倡导\"为人生而艺术\"，倾向于现实主义而非浪漫主义。"
+  },
+
+  {
+    id: "c1521",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "沈雁冰第一次使用\"茅盾\"的笔名所发表的作品是（　）",
+    options: ["《子夜》","《幻灭》","《春蚕》","《林家铺子》"],
+    answer: "B",
+    explanation: "茅盾第一次使用\"茅盾\"笔名发表的作品是《幻灭》。"
+  },
+
+  {
+    id: "c1522",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "2025年是抗战胜利八十周年，以下作品是以\"抗日战争\"为创作背景的是（　）",
+    options: ["《保卫延安》","《小兵张嘎》","《红日》","《山乡巨变》"],
+    answer: "B",
+    explanation: "《小兵张嘎》以抗日战争为背景。《保卫延安》《红日》以解放战争为背景，《山乡巨变》以农业合作化为背景。"
+  },
+
+  {
+    id: "c1523",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品的主人公是知识分子的是（　）",
+    options: ["《废都》","《活着》","《三里湾》","《尘埃落定》"],
+    answer: "A",
+    explanation: "《废都》的主人公庄之蝶是作家（知识分子）。《活着》的主人公福贵是农民，《三里湾》写的是农村互助组，《尘埃落定》的主人公是藏族土司的儿子。"
+  },
+
+  {
+    id: "c1524",
+    type: "choice",
+    category: "外国文学",
+    level: 1,
+    question: "下列关于外国文学知识的说法，有误的一项是（　）",
+    options: ["意大利作家彼特拉克，他的成就主要体现在诗歌方面，被誉为\"桂冠诗人\"","法国作家拉伯雷的《巨人传》中的德廉美修道院，体现了人文主义的教育思想","西班牙作家塞万提斯塑造了一位疾恶如仇、扶弱抑强的贫苦农民形象堂吉诃德","英国作家乔叟的《坎特伯雷故事集》为英国文艺复兴文学定下了基调"],
+    answer: "C",
+    explanation: "堂吉诃德是西班牙没落贵族，不是贫苦农民。"
+  },
+
+  {
+    id: "f2606",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "英国诗歌之父代表作品是《坎特伯雷故事集》的是____。",
+    blanks: [["乔叟"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2607",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"俄国诗歌的太阳\"是____。",
+    blanks: [["普希金"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2608",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是\"俄国社会民主党的先驱\"\"唯一真正伟大的俄国著作家\"。",
+    blanks: [["高尔基"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2609",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "司汤达的《红与黑》中写的____生活经历为线索。",
+    blanks: [["于连"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2610",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "俄国文学史上第一个\"多余人\"形象是____。",
+    blanks: [["奥涅金"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2611",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "古希腊三大悲剧家分别是《____》《俄狄浦斯王》《美狄亚》。",
+    blanks: [["被缚的普罗米修斯"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2612",
+    type: "fill",
+    category: "文化常识",
+    level: 1,
+    question: "成语\"沧海一粟\"中的\"粟\"指的是____。",
+    blanks: [["米粒"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2613",
+    type: "fill",
+    category: "元明清文学",
+    level: 1,
+    question: "《水浒传》中，____在街上卖刀，因泼皮牛二的百般刁难，手刃牛二。",
+    blanks: [["杨志"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2614",
+    type: "fill",
+    category: "现当代文学",
+    level: 1,
+    question: "老舍的《____》是一个巡警对自己一辈子坎坷经历的自述，反映了旧社会城市小市民生活的苦难。",
+    blanks: [["我这一辈子"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2615",
+    type: "fill",
+    category: "现当代文学",
+    level: 1,
+    question: "巴金先生的《____》被誉为\"二十世纪中国文学的良心\"。",
+    blanks: [["随想录"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2616",
+    type: "fill",
+    category: "现当代文学",
+    level: 1,
+    question: "科幻作家郝景芳的《____》获得了第74届雨果奖最佳中短篇小说奖。",
+    blanks: [["北京折叠"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2617",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "歌德的作品《____》与《荷马史诗》《神曲》《哈姆雷特》并称欧洲四大名著。",
+    blanks: [["浮士德"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2618",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "肖洛霍夫的《____》被称为哥萨克社会历史上的一面镜子。",
+    blanks: [["静静的顿河"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2619",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《一千零一夜》又名《____》，是____（国家）著名的民间故事集。",
+    blanks: [["天方夜谭"],["2. 阿拉伯"]],
+    explanation: "—"
+  },
+
+  {
+    id: "f2620",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是美国著名作家，1946年诺贝尔文学奖获得者，代表作品有《喧哗与骚动》。",
+    blanks: [["福克纳"]],
+    explanation: "—"
+  },
+
+  {
+    id: "c1525",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品，属于沈从文的是（ ）",
+    options: ["《钓台的春昼》","《箱子岩》","《雨中登泰山》","《听听那冷雨》"],
+    answer: "B",
+    explanation: "《钓鱼台的春昼》郁达夫、《箱子岩》沈从文、《雨中登泰山》李健吾、《听听那冷雨》余光中。"
+  },
+
+  {
+    id: "c1526",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "中国现代文学史上第一篇白话小说（ ）",
+    options: ["《阿Q正传》","《狂人日记》","《沉沦》","《伤逝》"],
+    answer: "B",
+    explanation: "鲁迅的《狂人日记》是我国第一部白话文小说。"
+  },
+
+  {
+    id: "c1527",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅《灯下漫笔》中所谓的\"第三样时代\"是（ ）",
+    options: ["汉族发达时期","人民当家作主的时代","想做奴隶而不得的时代","暂时坐稳了奴隶的时代"],
+    answer: "B",
+    explanation: "文章是在揭露封建历史和现实社会的本质，并否定了\"想做奴隶而不得\"与\"暂时坐稳了奴隶\"这样两个时代以后提出问题的，所以第三样时代指不同于这两个时代的新时代，即人民当家作主而非为奴隶的时代。"
+  },
+
+  {
+    id: "c1528",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在新诗创作中，提出\"三美\"主张的是（ ）",
+    options: ["冯至","刘半农","胡适","闻一多"],
+    answer: "D",
+    explanation: "闻一多在新诗创作方面提出了三美主张。"
+  },
+
+  {
+    id: "c1529",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "以下属于文学研究会的作家是（ ）",
+    options: ["徐志摩","朱自清","丁玲","巴金"],
+    answer: "B",
+    explanation: "文学研究会的成员有：周作人、茅盾、朱自清等。"
+  },
+
+  {
+    id: "c1530",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列诗人属于\"新月派\"的是（ ）",
+    options: ["艾青","徐志摩","郭沫若","田间"],
+    answer: "B",
+    explanation: "徐志摩为新月派代表人物之一。"
+  },
+
+  {
+    id: "c1531",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "从作品的风格和表现手法上看，《炉中煤》是一首（ ）",
+    options: ["颂歌","战歌","牧歌","恋歌"],
+    answer: "D",
+    explanation: "\"五四\"以后的中国，在我的心目中就和我的爱人一样。\"眷恋祖国的情绪\"的《炉中煤》便是我对于他的恋歌。"
+  },
+
+  {
+    id: "c1532",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在《我愿是一条急流》的五组对应意象中，与\"急流\"相对应的意象是（ ）",
+    options: ["小鱼","小鸟","烈火","太阳"],
+    answer: "A",
+    explanation: "急流和小鱼是一对意象。"
+  },
+
+  {
+    id: "c1533",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "沈从文的中篇小说代表作是（ ）",
+    options: ["《萧萧》","《湘西》","《边城》","《长河》"],
+    answer: "C",
+    explanation: "沈从文的中篇小说代表作为《边城》。"
+  },
+
+  {
+    id: "c1534",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列选项中不属于梁启超倡导的\"三界革命\"的是（ ）",
+    options: ["诗界革命","小说界革命","文界革命","艺术界革命"],
+    answer: "D",
+    explanation: "\"三界革命\"是指：诗界革命、文界革命和小说界革命。"
+  },
+
+  {
+    id: "c1535",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《祖国啊，我亲爱的祖国》中不是象征着历史中国负重缓行的意象是（ ）",
+    options: ["雪被下古莲的胚芽","破旧的老水车","干瘪的稻穗","淤滩上的驳船"],
+    answer: "A",
+    explanation: "胚芽象征着新生。"
+  },
+
+  {
+    id: "c1536",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "1951年荣获\"人民艺术家\"称号的是（ ）",
+    options: ["巴金","茅盾","老舍","赵树理"],
+    answer: "C",
+    explanation: "老舍凭借《龙须沟》获得此殊荣。"
+  },
+
+  {
+    id: "c1537",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "\"我劝天公重抖擞，不拘一格降人才\"的作者是（ ）",
+    options: ["梁启超","秋瑾","龚自珍","林则徐"],
+    answer: "C",
+    explanation: "—"
+  },
+
+  {
+    id: "c1538",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《炉中煤》用煤的燃烧来歌颂无私奉献精神，其表现方法是（ ）",
+    options: ["托物言志","拟人手法","象征暗示","侧面烘托"],
+    answer: "A",
+    explanation: "用托物言志的手法表达了无私奉献的精神。"
+  },
+
+  {
+    id: "c1539",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《断魂枪》刻画人物性格的主要手法是（ ）",
+    options: ["类比","对比","铺垫","烘托"],
+    answer: "B",
+    explanation: "描写手法：一是白描；二是对比烘托，主要指通过对王三胜、孙老者的描写，凸现、衬托主要人物沙子龙的性格、心理。"
+  },
+
+  {
+    id: "c1540",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《我与地坛》中说\"一旦有一天我不得不长久地离开它，我会怎样想念它\"，是因为地坛（ ）",
+    options: ["让作者融进自然","引导作者考察民俗风情","启发作者思考人生","使作者熟悉古迹"],
+    answer: "C",
+    explanation: "《我与地坛》作者主要描述了对母亲的怀念及对生命的感悟。"
+  },
+
+  {
+    id: "c1541",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《祖国啊，我亲爱的祖国》的作者是（ ）",
+    options: ["戴望舒","顾城","北岛","舒婷"],
+    answer: "D",
+    explanation: "—"
+  },
+
+  {
+    id: "c1542",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《拣麦穗》表现出作者所向往的是（ ）",
+    options: ["美好的爱情","丰收的年景","人间纯真的感情","优美的田园生活"],
+    answer: "C",
+    explanation: "作者张洁主要以孩童视角描绘对人间纯真感情的歌颂。"
+  },
+
+  {
+    id: "c1543",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在《故都的秋》中，作者曾提到\"欧阳子的《秋声》\"与苏东坡的《赤壁赋》，这是为了阐发（ ）",
+    options: ["北京秋天的\"色彩浓\"","北京秋天的\"回味永\"","南国之秋的\"色淡\"","南国之秋的\"味浅\""],
+    answer: "B",
+    explanation: "故都的秋提及到欧阳修的秋声赋不仅为作品情感的抒发垫上了一层台阶，使作品的情感站得更高，而且也为读者增加了了解古今中外文人诗人对\"秋\"的一些共同感情的了解，\"增加了语言的情趣\"。"
+  },
+
+  {
+    id: "c1544",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "朱光潜的《咬文嚼字》主要是说明（ ）",
+    options: ["文字的运用一定要有创新精神","在阅读作品时要严肃而挑剔","要有一字不肯放松的谨严精神","文学的文字更注重联想意义"],
+    answer: "C",
+    explanation: "咬文嚼字的中心论点是在文学，无论阅读或写作，我们必须有一字不肯放松的谨严。"
+  },
+
+  {
+    id: "c1545",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《我用残损的手掌》中\"那辽远的一角\"指的是（ ）",
+    options: ["诗人的残损手掌","诗人的监狱生活","诗人的破碎之心","共产党领导的解放区"],
+    answer: "D",
+    explanation: "那辽远的一角代指解放区，表达了诗人对解放区的深情向往和歌颂。"
+  },
+
+  {
+    id: "c1546",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《日出》中重点描写刻画的女性人物是（ ）",
+    options: ["四凤","陈白露","沈凤喜","白流苏"],
+    answer: "B",
+    explanation: "《日出》以抗战前的天津社会为背景，以交际花陈白露为中心人物。"
+  },
+
+  {
+    id: "c1547",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《谈时间》的语言风格是（ ）",
+    options: ["典雅平和","婉约优雅","幽默机智","言简意赅"],
+    answer: "A",
+    explanation: "《谈时间》主要运用了旁征博引的写作手法和典雅平和的语言风格。"
+  },
+
+  {
+    id: "c1548",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《咬文嚼字》要求我们（ ）",
+    options: ["阅读作品时要仔细阅读","阅读时要严肃","不要过于苛求别的创作","在阅读和写作时要有一字不肯放松的谨严"],
+    answer: "D",
+    explanation: "咬文嚼字的中心论点是在文学，无论阅读或写作，我们必须有一字不肯放松的谨严。"
+  },
+
+  {
+    id: "c1549",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "在一篇文章中，记叙两件同时发生的事情的叙述方式是（ ）",
+    options: ["顺叙","倒叙","插叙","平叙"],
+    answer: "D",
+    explanation: "平叙又叫\"花开两朵，各表一枝\"的方式。"
+  },
+
+  {
+    id: "c1550",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《我与地坛》在表现手法上的显著特点是（ ）",
+    options: ["白描","夹叙夹议","象征","侧面描写"],
+    answer: "C",
+    explanation: "《我与地坛》象征意蕴：地坛景物是\"我\"思想情感的意象特征。"
+  },
+
+  {
+    id: "c1551",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《拣麦穗》一文的主旨是（ ）",
+    options: ["回忆美好童年","对纯真情谊的赞美","对爱情的追求","对幸福婚姻的憧憬"],
+    answer: "B",
+    explanation: "作者张洁主要以孩童视角描绘对人间纯真感情的歌颂。"
+  },
+
+  {
+    id: "c1552",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《断魂枪》里思想没落保守、性格孤傲执着的人物是（ ）",
+    options: ["王三胜","沙子龙","孙老者","二麻子"],
+    answer: "B",
+    explanation: "沙子龙是《断魂枪》里的人物，他爱憎分明，大义凛然，内心孤傲。"
+  },
+
+  {
+    id: "c1553",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《爱尔克的灯光》中，作者关于人生道路的思索的主要触发物是（ ）",
+    options: ["故居","\"长宜子孙\"四个字","亡姐","大门内微弱的灯光"],
+    answer: "B",
+    explanation: "《爱尔克的灯光》中，引发作者对人生道路进行思索的是故居照壁上\"长宜子孙\"四个字。"
+  },
+
+  {
+    id: "c1554",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅《风波》的背景是（ ）",
+    options: ["张勋复辟","辛亥革命","五四运动","二次革命"],
+    answer: "A",
+    explanation: "《风波》描绘了辛亥革命之后的中国农村的面貌，背景事件是张勋复辟。"
+  },
+
+  {
+    id: "c1555",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《雨巷》中象征理想的意象是（ ）",
+    options: ["油纸伞","雨巷","篱墙","丁香姑娘"],
+    answer: "D",
+    explanation: "我希望逢着一个丁香一样的姑娘。"
+  },
+
+  {
+    id: "c1556",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "《拣麦穗》中作者向往的是（ ）",
+    options: ["丰收的年景","美好的爱情","人间纯真的感情","美丽的梦想"],
+    answer: "C",
+    explanation: "作者张洁主要以孩童视角描绘对人间纯真感情的歌颂。"
+  },
+
+  {
+    id: "c1557",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "\"花开两朵，各表一枝\"的叙述方式是（ ）",
+    options: ["顺叙","倒叙","插叙","平叙"],
+    answer: "D",
+    explanation: "平叙又叫\"花开两朵，各表一枝\"的方式。"
+  },
+
+  {
+    id: "c1558",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "鲁迅哪篇小说具有\"出走—返乡—再出走\"的深层结构（ ）",
+    options: ["《狂人日记》","《阿Q正传》","《故乡》","《药》"],
+    answer: "C",
+    explanation: "《故乡》中的叙述模式为\"出走-返乡-再出走\"。"
+  },
+
+  {
+    id: "c1559",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "郭沫若\"五四\"时期具有\"狂飙突进\"风格的作品是（ ）",
+    options: ["《屈原》","《蔡文姬》","《瓶》","《女神》"],
+    answer: "D",
+    explanation: "郭沫若的浪漫主义诗集《女神》，它具有彻底反帝反封建和反抗一切旧势力的革命精神，展示了对光明的向往，最强烈地体现了五四狂飙突进的时代精神。"
+  },
+
+  {
+    id: "c1560",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "巴金反思\"文革\"的作品是（ ）",
+    options: ["《家》","《憩园》","《寒夜》","《随想录》"],
+    answer: "D",
+    explanation: "巴金的《随想录》是反思文革的代表作。"
+  },
+
+  {
+    id: "c1561",
+    type: "choice",
+    category: "现当代文学",
+    level: 1,
+    question: "下列作品哪篇不是海子的（ ）",
+    options: ["《面朝大海，春暖花开》","《坠落的声音》","《五月的麦地》","《亚洲铜》"],
+    answer: "B",
+    explanation: "《坠落的声音》是于坚的朗诵诗作。"
+  },
+
+  {
+    id: "f2621",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"冬天来了，春天还会远吗？\"出自于____（国家）的____（人名）写的《____》。",
+    blanks: [["英国"],["2. 雪莱"],["3. 西风颂"]],
+    explanation: "答案：英国；2. 雪莱；3. 西风颂。"
+  },
+
+  {
+    id: "f2622",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____代表作有《夜莺颂》《咏和平》《忧郁颂》。",
+    blanks: [["济慈"]],
+    explanation: "答案：济慈。"
+  },
+
+  {
+    id: "f2623",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "格林兄弟收集编成了《____》。",
+    blanks: [["格林童话"]],
+    explanation: "答案：格林童话。"
+  },
+
+  {
+    id: "f2624",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"德国古典文学的最后一位代表\"是____。",
+    blanks: [["海涅"]],
+    explanation: "答案：海涅。"
+  },
+
+  {
+    id: "f2625",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"法兰西的莎士比亚\"是____（国家）的____（人名），其代表作有《巴黎圣母院》《悲惨世界》等。",
+    blanks: [["法国"],["2. 雨果"]],
+    explanation: "答案：法国；2. 雨果。"
+  },
+
+  {
+    id: "f2626",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《基督山伯爵》的作者是____（国家）的____（人名）。《茶花女》的作者是____（国家）的____（人名）。",
+    blanks: [["法国"],["2. 大仲马"],["3. 法国"],["4. 小仲马"]],
+    explanation: "答案：法国；2. 大仲马；3. 法国；4. 小仲马。"
+  },
+
+  {
+    id: "f2627",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"科学幻想小说之父\"是____（国家）的____（人名），代表作有《格兰特船长的儿女》《海底两万里》《八十天环游地球》《神秘岛》。",
+    blanks: [["法国"],["2. 凡尔纳"]],
+    explanation: "答案：法国；2. 凡尔纳。"
+  },
+
+  {
+    id: "f2628",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "被高尔基称为俄国文学之父，被后人赞誉为俄罗斯诗歌的太阳是____。",
+    blanks: [["普希金"]],
+    explanation: "答案：普希金。"
+  },
+
+  {
+    id: "f2629",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____笔下的____是俄国文学史上第一个\"多余人\"的形象。",
+    blanks: [["普希金"],["2. 奥涅金"]],
+    explanation: "答案：普希金；2. 奥涅金。"
+  },
+
+  {
+    id: "f2630",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "美国的\"诗歌之父\"是____，其代表作品都收录在《____》中。",
+    blanks: [["惠特曼"],["2. 草叶集"]],
+    explanation: "答案：惠特曼；2. 草叶集。"
+  },
+
+  {
+    id: "f2631",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "林肯总统评价____（国家）的____（人名）是\"写了一本书，酿成一场大战的小妇人\"，这本书叫《____》。",
+    blanks: [["美国"],["2. 哈丽叶特·比切·斯托（斯托夫人）"],["3. 汤姆叔叔的小屋"]],
+    explanation: "答案：美国；2. 哈丽叶特·比切·斯托（斯托夫人）；3. 汤姆叔叔的小屋。"
+  },
+
+  {
+    id: "f2632",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《红与黑》的作者是____（国家）的____（人名），男主人公叫____。",
+    blanks: [["法国"],["2. 司汤达"],["3. 于连"]],
+    explanation: "答案：法国；2. 司汤达；3. 于连。"
+  },
+
+  {
+    id: "f2633",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "法国作家巴尔扎克的作品《____》被誉为\"资本主义社会的百科全书\"。",
+    blanks: [["人间喜剧"]],
+    explanation: "答案：人间喜剧。"
+  },
+
+  {
+    id: "f2634",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被誉为\"自然主义文学的鼻祖\"，代表作品有《包法利夫人》（成名作）、《情感教育》、《萨朗波》。",
+    blanks: [["福楼拜"]],
+    explanation: "答案：福楼拜。"
+  },
+
+  {
+    id: "f2635",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是大仲马的儿子，代表作有小说《茶花女》。",
+    blanks: [["小仲马"]],
+    explanation: "答案：小仲马。"
+  },
+
+  {
+    id: "f2636",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"世界三大短篇小说巨匠\"是____（国家）的____（人名），____（国家）的____（人名），____（国家）的____（人名）。",
+    blanks: [["法国"],["2. 莫泊桑"],["3. 美国"],["4. 欧·亨利"],["5. 俄国"],["6. 契诃夫"]],
+    explanation: "答案：法国；2. 莫泊桑；3. 美国；4. 欧·亨利；5. 俄国；6. 契诃夫。"
+  },
+
+  {
+    id: "f2637",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____代表作有《羊脂球》《项链》《我的叔叔于勒》《俊友》。",
+    blanks: [["莫泊桑"]],
+    explanation: "答案：莫泊桑。"
+  },
+
+  {
+    id: "f2638",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是英国著名女作家，代表作品有《傲慢与偏见》，主人公为达西与伊丽莎白。",
+    blanks: [["简·奥斯汀"]],
+    explanation: "答案：简·奥斯汀。"
+  },
+
+  {
+    id: "f2639",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《双城记》的作者是____（国家）的____（人名），\"双城\"是____和____。",
+    blanks: [["英国"],["2. 狄更斯"],["3. 伦敦"],["4. 巴黎"]],
+    explanation: "答案：英国；2. 狄更斯；3. 伦敦；4. 巴黎。"
+  },
+
+  {
+    id: "f2640",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "勃朗特三姐妹：____、____、____。",
+    blanks: [["夏洛蒂·勃朗特"],["2. 艾米莉·勃朗特"],["3. 安妮·勃朗特"]],
+    explanation: "答案：夏洛蒂·勃朗特；2. 艾米莉·勃朗特；3. 安妮·勃朗特。"
+  },
+
+  {
+    id: "f2641",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的代表作是《简·爱》，艾米莉·勃朗特的代表作是《____》，安妮·勃朗特代表作是《____》。",
+    blanks: [["夏洛蒂·勃朗特"],["2. 呼啸山庄"],["3. 艾格尼斯·格雷"]],
+    explanation: "答案：夏洛蒂·勃朗特；2. 呼啸山庄；3. 艾格尼斯·格雷。"
+  },
+
+  {
+    id: "f2642",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是英国杰出的批判现实主义小说家，代表作《德伯家的苔丝》《无名的裘德》。",
+    blanks: [["哈代"]],
+    explanation: "答案：哈代。"
+  },
+
+  {
+    id: "f2643",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被誉为\"俄国散文之父\"，代表作有长篇小说《死魂灵》，讽刺喜剧《钦差大臣》；____是俄国的\"诗歌之父\"。",
+    blanks: [["果戈理"],["2. 普希金"]],
+    explanation: "答案：果戈理；2. 普希金。"
+  },
+
+  {
+    id: "f2644",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被列宁称为\"俄国社会民主党的先驱\"\"唯一真正伟大的俄国著作家\"。",
+    blanks: [["车尔尼雪夫斯基"]],
+    explanation: "答案：车尔尼雪夫斯基。"
+  },
+
+  {
+    id: "f2645",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的作品享有\"艺术编年史\"的美称，代表作有《猎人笔记》《罗亭》《父与子》。",
+    blanks: [["屠格涅夫"]],
+    explanation: "答案：屠格涅夫。"
+  },
+
+  {
+    id: "f2646",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "《前夜》中的____是俄国文学史上第一个\"新人\"形象。",
+    blanks: [["英沙罗夫"]],
+    explanation: "答案：英沙罗夫。"
+  },
+
+  {
+    id: "f2647",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"俄国革命的一面镜子\"是____。",
+    blanks: [["托尔斯泰"]],
+    explanation: "答案：托尔斯泰。"
+  },
+
+  {
+    id: "f2648",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"幸福的家庭都是相似的，不幸的家庭各有各的不幸\"出自《____》。",
+    blanks: [["安娜·卡列尼娜"]],
+    explanation: "答案：安娜·卡列尼娜。"
+  },
+
+  {
+    id: "f2649",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "虚伪逢迎的巡警奥楚蔑洛夫这个形象出自于____（国家）的____（人名）写的《____》。",
+    blanks: [["俄国"],["2. 契诃夫"],["3. 变色龙"]],
+    explanation: "答案：俄国；2. 契诃夫；3. 变色龙。"
+  },
+
+  {
+    id: "f2650",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是19世纪丹麦作家，被誉为\"现代童话之父\"，代表作有《皇帝的新装》《夜莺》《丑小鸭》《卖火柴的小女孩》。",
+    blanks: [["安徒生"]],
+    explanation: "答案：安徒生。"
+  },
+
+  {
+    id: "f2651",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的代表作有四大社会问题剧《____》《社会支柱》《____》《____》。",
+    blanks: [["易卜生"],["2. 玩偶之家"],["3. 人民公敌"],["4. 群鬼"]],
+    explanation: "答案：易卜生；2. 玩偶之家；3. 人民公敌；4. 群鬼。"
+  },
+
+  {
+    id: "f2652",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是爱尔兰著名剧作家，1925年获得诺贝尔文学奖，代表作有《华伦夫人的职业》《圣女贞德》。",
+    blanks: [["萧伯纳"]],
+    explanation: "答案：萧伯纳。"
+  },
+
+  {
+    id: "f2653",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "裴多菲的代表作《____》：生命诚可贵，爱情价更高。若为自由故，二者皆可抛。",
+    blanks: [["自由与爱情"]],
+    explanation: "答案：自由与爱情。"
+  },
+
+  {
+    id: "f2654",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "短篇小说《变形记》是____（国家）的____（人名）的作品。",
+    blanks: [["奥地利"],["2. 卡夫卡"]],
+    explanation: "答案：奥地利；2. 卡夫卡。"
+  },
+
+  {
+    id: "f2655",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的作品有\"美国生活的幽默百科全书\"之称。",
+    blanks: [["欧·亨利"]],
+    explanation: "答案：欧·亨利。"
+  },
+
+  {
+    id: "f2656",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"短篇小说大师\"\"美国文学之父\"\"文学中的林肯\"是____。",
+    blanks: [["马克·吐温"]],
+    explanation: "答案：马克·吐温。"
+  },
+
+  {
+    id: "f2657",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是19世纪后半期自然主义文学的主要倡导者，代表作有《萌芽》《崩溃》《四福音书》。",
+    blanks: [["左拉"]],
+    explanation: "答案：左拉。"
+  },
+
+  {
+    id: "f2658",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是象征派诗歌的先驱，代表有《恶之花》。",
+    blanks: [["波德莱尔"]],
+    explanation: "答案：波德莱尔。"
+  },
+
+  {
+    id: "f2659",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "英国作家____主张\"为艺术而艺术\"，唯美主义艺术运动的倡导者，代表作有《道林·格雷的画像》，《温德米尔夫人的扇子》。",
+    blanks: [["王尔德"]],
+    explanation: "答案：王尔德。"
+  },
+
+  {
+    id: "f2660",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "梭罗的《____》成为了超验主义的经典作品。",
+    blanks: [["瓦尔登湖"]],
+    explanation: "答案：瓦尔登湖。"
+  },
+
+  {
+    id: "f2661",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____代表作有《青鸟》《盲人》，1911年获得了诺贝尔文学奖。",
+    blanks: [["梅特林克"]],
+    explanation: "答案：梅特林克。"
+  },
+
+  {
+    id: "f2662",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被誉为\"俄罗斯的语言大师\"，代表作有小说《苦难历程》《伏尔加河左岸》。",
+    blanks: [["阿·托尔斯泰"]],
+    explanation: "答案：阿·托尔斯泰。"
+  },
+
+  {
+    id: "f2663",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____代表作《青年近卫军》。",
+    blanks: [["法捷耶夫"]],
+    explanation: "答案：法捷耶夫。"
+  },
+
+  {
+    id: "f2664",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "高尔基的自传体三部曲是____。",
+    blanks: [["《童年》《在人间》《我的大学》"]],
+    explanation: "答案：《童年》《在人间》《我的大学》。"
+  },
+
+  {
+    id: "f2665",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____（国家）的____（人名）写的《____》被誉为\"哥萨克社会历史上的一面镜子\"。",
+    blanks: [["苏联"],["2. 肖洛霍夫"],["3. 静静的顿河"]],
+    explanation: "答案：苏联；2. 肖洛霍夫；3. 静静的顿河。"
+  },
+
+  {
+    id: "f2666",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "保尔·柯察金出自于____（国家）的____（人名）写的《____》。",
+    blanks: [["苏联"],["2. 奥斯特洛夫斯基"],["3. 钢铁是怎样炼成的"]],
+    explanation: "答案：苏联；2. 奥斯特洛夫斯基；3. 钢铁是怎样炼成的。"
+  },
+
+  {
+    id: "f2667",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的创作被人归纳为\"用音乐写小说\"，其代表作有《约翰·克利斯朵夫》，并凭借该小说获得诺贝尔文学奖。",
+    blanks: [["罗曼·罗兰"]],
+    explanation: "答案：罗曼·罗兰。"
+  },
+
+  {
+    id: "f2668",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "意识流小说的开山之作是____（国家）的____（人名）写的《____》。",
+    blanks: [["法国"],["2. 普鲁斯特"],["3. 追忆似水年华"]],
+    explanation: "答案：法国；2. 普鲁斯特；3. 追忆似水年华。"
+  },
+
+  {
+    id: "f2669",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是法国哲学家、文学家，西方存在主义文学的代表作家，代表作有《苍蝇》《禁闭》《肮脏的手》《恶心》《存在与虚无》。",
+    blanks: [["萨特"]],
+    explanation: "答案：萨特。"
+  },
+
+  {
+    id: "f2670",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是法国小说家、哲学家、戏剧家、评论家，代表作有《局外人》《鼠疫》。",
+    blanks: [["加缪"]],
+    explanation: "答案：加缪。"
+  },
+
+  {
+    id: "f2671",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是法国荒诞派戏剧的奠基人，代表作有《秃头歌女》《犀牛》《椅子》。",
+    blanks: [["尤涅斯库"]],
+    explanation: "答案：尤涅斯库。"
+  },
+
+  {
+    id: "f2672",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____被誉为\"最后会讲故事的作家\"，代表作有《月亮与六便士》《人生的枷锁》。",
+    blanks: [["毛姆"]],
+    explanation: "答案：毛姆。"
+  },
+
+  {
+    id: "f2673",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____有\"推理小说女王\"的美誉，代表作有《东方快车谋杀案》《尼罗河上的惨案》。",
+    blanks: [["阿加莎·克里斯蒂"]],
+    explanation: "答案：阿加莎·克里斯蒂。"
+  },
+
+  {
+    id: "f2674",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是英国著名作家，代表作品有《1984》《动物庄园》。",
+    blanks: [["乔治·奥威尔"]],
+    explanation: "答案：乔治·奥威尔。"
+  },
+
+  {
+    id: "f2675",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "艾略特的《____》被誉为\"现代诗歌的里程碑\"。",
+    blanks: [["荒原"]],
+    explanation: "答案：荒原。"
+  },
+
+  {
+    id: "f2676",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____，英国女作家，代表作有《墙上的斑点》《达罗威夫人》《到灯塔去》。",
+    blanks: [["弗吉尼亚·伍尔夫"]],
+    explanation: "答案：弗吉尼亚·伍尔夫。"
+  },
+
+  {
+    id: "f2677",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "布莱希特创立了\"史诗戏剧\"理论和\"____\"表演方法。",
+    blanks: [["间离效果"]],
+    explanation: "答案：间离效果。"
+  },
+
+  {
+    id: "f2678",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是20世纪德国著名小说家，主要作品是《西线无战事》。",
+    blanks: [["雷马克"]],
+    explanation: "答案：雷马克。"
+  },
+
+  {
+    id: "f2679",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "君特·格拉斯代表作有\"但泽三部曲\"《____》《____》《____》。",
+    blanks: [["铁皮鼓"],["2. 猫与鼠"],["3. 狗年月"]],
+    explanation: "答案：铁皮鼓；2. 猫与鼠；3. 狗年月。"
+  },
+
+  {
+    id: "f2680",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是美国第一位获得诺贝尔文学奖的作家。",
+    blanks: [["辛克莱·刘易斯"]],
+    explanation: "答案：辛克莱·刘易斯。"
+  },
+
+  {
+    id: "f2681",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "塞林格的代表作是《____》，讲述了中学生霍尔顿·考尔菲德离开学校到纽约游荡的三天之间内的内心世界。",
+    blanks: [["麦田里的守望者"]],
+    explanation: "答案：麦田里的守望者。"
+  },
+
+  {
+    id: "f2682",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "玛格丽特·米切尔是美国著名女作家，代表作长篇小说《____》，后被改编为电影《乱世佳人》。",
+    blanks: [["飘"]],
+    explanation: "答案：飘。"
+  },
+
+  {
+    id: "f2683",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "\"新闻体\"小说的创始人、提出\"冰山文体\"的____（国家）的____（人名）。",
+    blanks: [["美国"],["2. 海明威"]],
+    explanation: "答案：美国；2. 海明威。"
+  },
+
+  {
+    id: "f2684",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____代表作有《热爱生命》《野性的呼唤》。",
+    blanks: [["杰克·伦敦"]],
+    explanation: "答案：杰克·伦敦。"
+  },
+
+  {
+    id: "f2685",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____的代表作品有长篇小说《嘉莉妹妹》《珍妮姑娘》《美国的悲剧》。",
+    blanks: [["德莱塞"]],
+    explanation: "答案：德莱塞。"
+  },
+
+  {
+    id: "f2686",
+    type: "fill",
+    category: "外国文学",
+    level: 1,
+    question: "____是美国著名诗人，意象派诗歌的主要发起人，代表作有《在地铁车站》。",
+    blanks: [["埃兹拉·庞德"]],
+    explanation: "答案：埃兹拉·庞德。"
   }
 ];
